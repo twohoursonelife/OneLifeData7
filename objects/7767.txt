@@ -29,9 +29,10 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
+slotsNoSwap=0
 numSprites=2
-spriteID=100806
-pos=3.000000,-33.000000
+spriteID=111068
+pos=-1.000000,-29.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
