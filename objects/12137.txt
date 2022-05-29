@@ -18,7 +18,7 @@ floor=0
 floorHugging=0
 foodValue=0
 speedMult=1.000000
-heldOffset=30.000000,11.000000
+heldOffset=24.000000,11.000000
 clothing=n
 clothingOffset=8.000000,55.000000
 deadlyDistance=0
@@ -41,7 +41,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=110993
-pos=-8.000008,-30.000000
+pos=-7.000008,-30.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -50,7 +50,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=110993
-pos=-11.000008,-26.000000
+pos=-8.000008,-26.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -59,7 +59,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=110993
-pos=-13.000008,-22.000000
+pos=-9.000008,-22.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
