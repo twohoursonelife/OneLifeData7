@@ -1,15 +1,15 @@
-id=12301
-Dye-Ready Ribbon with Bow
+id=12354
+Dye-Ready Jacket
 containable=1
-containSize=1.000000,vertSlotRot=-0.500000
+containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
-heldInHand=1
+heldInHand=0
 blocksWalking=0,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=0
 mapChance=0.000000#biomes_0
 heatValue=0
-rValue=0.360000
+rValue=1.030000
 person=0,noSpawn=0
 male=0
 deathMarker=0
@@ -18,12 +18,12 @@ floor=0
 floorHugging=0
 foodValue=0
 speedMult=1.000000
-heldOffset=6.000000,-4.000000
-clothing=h
-clothingOffset=4.000000,67.999992
+heldOffset=17.000000,18.000000
+clothing=t
+clothingOffset=1.000000,54.000000
 deadlyDistance=0
 useDistance=1
-sounds=153:0.225000,286:0.101010,-1:0.0,-1:0.0
+sounds=941:0.250000,286:0.101010,-1:0.0,-1:0.0
 creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
@@ -31,8 +31,8 @@ slotSize=1.000000
 slotsLocked=0
 slotsNoSwap=0
 numSprites=2
-spriteID=111098
-pos=-1.000000,-32.000000
+spriteID=111164
+pos=-3.000000,-21.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -40,9 +40,9 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=2,behindSlots=0
 invisCont=0
-spriteID=111150
-pos=0.000000,-41.000000
-rot=0.000000
+spriteID=2689
+pos=3.000000,-31.000000
+rot=0.005000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
@@ -56,4 +56,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=0
+pixHeight=16
