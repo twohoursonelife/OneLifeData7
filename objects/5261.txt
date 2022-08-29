@@ -29,6 +29,7 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
+slotsNoSwap=0
 numSprites=8
 spriteID=319
 pos=-30.000000,-28.000000
@@ -38,6 +39,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=547
 pos=42.000000,-30.000000
 rot=0.000000
@@ -46,7 +48,8 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
-spriteID=100162
+invisCont=0
+spriteID=111031
 pos=32.000000,-20.000000
 rot=0.000000
 hFlip=0
@@ -54,7 +57,8 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
-spriteID=100162
+invisCont=0
+spriteID=111031
 pos=32.000000,-10.000000
 rot=0.000000
 hFlip=0
@@ -62,7 +66,8 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=2
 invisHolding=0,invisWorn=0,behindSlots=0
-spriteID=100162
+invisCont=0
+spriteID=111031
 pos=32.000000,-2.000000
 rot=0.000000
 hFlip=0
@@ -70,6 +75,16 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=3
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=111031
+pos=32.000000,7.000000
+rot=0.000000
+hFlip=0
+color=1.000000,1.000000,1.000000
+ageRange=-1.000000,-1.000000
+parent=4
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=1007
 pos=-10.000000,-16.000000
 rot=0.000000
@@ -78,14 +93,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
-spriteID=100162
-pos=32.000000,7.000000
-rot=0.000000
-hFlip=0
-color=1.000000,1.000000,1.000000
-ageRange=-1.000000,-1.000000
-parent=4
-invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=944
 pos=-3.000000,-28.000000
 rot=0.000000
@@ -94,6 +102,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
@@ -101,4 +110,4 @@ frontFootIndex=-1
 numUses=0,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=19
+pixHeight=16
