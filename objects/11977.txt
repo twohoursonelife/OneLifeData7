@@ -50,7 +50,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=110993
-pos=3.999992,-26.999996
+pos=5.999992,-37.999996
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -59,7 +59,7 @@ parent=3
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=110993
-pos=1.999992,-22.999996
+pos=4.999992,-33.999996
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
