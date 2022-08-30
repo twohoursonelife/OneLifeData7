@@ -1,7 +1,7 @@
 id=12136
 Bolts of Wool Blend Cloth
-containable=0
-containSize=1.000000,vertSlotRot=0.000000
+containable=1
+containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
@@ -71,7 +71,7 @@ headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
 frontFootIndex=-1
-numUses=3,1.000000
-useVanishIndex=1,2,3
+numUses=2,1.000000
+useVanishIndex=2,3
 useAppearIndex=-1
 pixHeight=3
