@@ -1,4 +1,4 @@
-id=12424
+id=12425
 @ Bowlable Seed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
