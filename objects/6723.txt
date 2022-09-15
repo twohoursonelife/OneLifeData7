@@ -9,7 +9,7 @@ heldInHand=0
 blocksWalking=0,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=0
 mapChance=0.000000#biomes_0
 heatValue=0
-rValue=0.400000
+rValue=0.000000
 person=0,noSpawn=0
 male=0
 deathMarker=0
@@ -29,6 +29,7 @@ creationSoundForce=0
 numSlots=3#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
+slotsNoSwap=0
 slotPos=-6.999999,-5.000000,vert=1,parent=-1
 slotPos=1.000001,-4.000002,vert=1,parent=-1
 slotPos=11.000000,-3.000004,vert=1,parent=-1
