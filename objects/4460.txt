@@ -30,10 +30,10 @@ numSlots=4#timeStretch=1.000000
 slotSize=3.000000
 slotsLocked=0
 slotsNoSwap=0
-slotPos=-85.000000,126.000000,vert=111,parent=-1
-slotPos=-63.000000,126.000000,vert=98,parent=-1
-slotPos=-42.000000,126.000000,vert=106,parent=-1
-slotPos=-21.000000,127.000000,vert=101,parent=-1
+slotPos=-85.000000,126.000000,vert=0,parent=-1
+slotPos=-63.000000,126.000000,vert=0,parent=-1
+slotPos=-42.000000,126.000000,vert=0,parent=-1
+slotPos=-21.000000,127.000000,vert=0,parent=-1
 numSprites=18
 spriteID=72
 pos=-10.000000,-23.000000
