@@ -1,5 +1,5 @@
-id=12304
-Dye-Ready Slipper with Bow
+id=12432
+Dye-Ready Slipper
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -20,7 +20,7 @@ foodValue=0
 speedMult=1.000000
 heldOffset=4.000000,-5.000000
 clothing=s
-clothingOffset=3.000000,30.000000
+clothingOffset=7.000000,35.000000
 deadlyDistance=0
 useDistance=1
 sounds=153:0.225000,286:0.101010,-1:0.0,-1:0.0
@@ -31,7 +31,7 @@ slotSize=1.000000
 slotsLocked=0
 slotsNoSwap=0
 numSprites=1
-spriteID=111126
+spriteID=111157
 pos=0.000000,-31.000000
 rot=0.000000
 hFlip=0
