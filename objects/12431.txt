@@ -31,7 +31,7 @@ slotSize=1.000000
 slotsLocked=0
 slotsNoSwap=0
 numSprites=2
-spriteID=979
+spriteID=111183
 pos=-1.000000,-33.000000
 rot=0.000000
 hFlip=0
@@ -40,7 +40,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=979
+spriteID=111183
 pos=4.000000,-35.000000
 rot=0.000000
 hFlip=0
