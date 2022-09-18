@@ -32,7 +32,7 @@ slotsLocked=0
 slotsNoSwap=0
 numSprites=2
 spriteID=111132
-pos=5.000000,-31.000000
+pos=0.000000,-31.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -41,7 +41,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=111132
-pos=10.000000,-34.000000
+pos=5.000000,-34.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
