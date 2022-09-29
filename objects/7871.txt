@@ -1,5 +1,5 @@
 id=7871
-Copper Pipe #corner SE just installed
+Copper Pipe #SE just installed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
