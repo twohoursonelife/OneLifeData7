@@ -1,5 +1,5 @@
-id=7224
-Copper Pipe #C
+id=12442
+Copper Pipe #C off
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -31,8 +31,8 @@ slotSize=1.000000
 slotsLocked=0
 slotsNoSwap=0
 numSprites=1
-spriteID=100598
-pos=0.000000,0.000000
+spriteID=111184
+pos=0.000000,12.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
