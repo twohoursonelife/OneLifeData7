@@ -1,5 +1,5 @@
 id=2293
-Hot Rod in Wooden Tongs
+Hot Steel Rod in Wooden Tongs
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -29,6 +29,7 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
+slotsNoSwap=0
 numSprites=5
 spriteID=536
 pos=3.000000,-35.000000
@@ -38,6 +39,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=2190
 pos=23.000000,-29.000000
 rot=-0.250000
@@ -46,6 +48,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=3
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=2191
 pos=23.000000,-29.000000
 rot=-0.250000
@@ -54,6 +57,7 @@ color=1.000000,0.360000,0.000000
 ageRange=-1.000000,-1.000000
 parent=3
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=2191
 pos=23.000000,-29.000000
 rot=-0.250000
@@ -62,6 +66,7 @@ color=1.000000,0.398592,0.140845
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=537
 pos=0.000000,-33.000000
 rot=0.000000
@@ -70,6 +75,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
