@@ -29,6 +29,7 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
+slotsNoSwap=0
 numSprites=42
 spriteID=2138
 pos=3.000000,58.000000
@@ -117,16 +118,7 @@ rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=11
-invisHolding=0,invisWorn=0,behindSlots=0
-invisCont=0
-spriteID=100601
-pos=-3.000000,94.000000
-rot=0.000000
-hFlip=0
-color=1.000000,1.000000,1.000000
-ageRange=-1.000000,-1.000000
-parent=-1
+parent=10
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2216
@@ -135,7 +127,7 @@ rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=13
+parent=12
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2217
@@ -144,7 +136,7 @@ rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=13
+parent=12
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2216
@@ -162,7 +154,7 @@ rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=23
+parent=22
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2218
@@ -189,7 +181,7 @@ rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=11
+parent=10
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2226
@@ -198,7 +190,7 @@ rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=22
+parent=21
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2223
@@ -207,7 +199,7 @@ rot=0.000000
 hFlip=1
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=11
+parent=10
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2223
@@ -216,7 +208,7 @@ rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=13
+parent=12
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2223
@@ -225,7 +217,7 @@ rot=0.000000
 hFlip=1
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=13
+parent=12
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2224
@@ -234,7 +226,7 @@ rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=11
+parent=10
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2224
@@ -243,7 +235,7 @@ rot=0.000000
 hFlip=1
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=13
+parent=12
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2220
@@ -252,7 +244,7 @@ rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=15
+parent=14
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2220
@@ -261,7 +253,7 @@ rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=15
+parent=14
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2220
@@ -270,7 +262,7 @@ rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=15
+parent=14
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2220
@@ -279,7 +271,7 @@ rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=15
+parent=14
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2220
@@ -288,7 +280,7 @@ rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=15
+parent=14
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2227
@@ -306,16 +298,7 @@ rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=15
-invisHolding=0,invisWorn=0,behindSlots=0
-invisCont=0
-spriteID=100608
-pos=-4.000000,34.000000
-rot=-1.000000
-hFlip=0
-color=1.000000,1.000000,1.000000
-ageRange=-1.000000,-1.000000
-parent=-1
+parent=14
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2173
@@ -369,7 +352,7 @@ rot=-0.250000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=33
+parent=31
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2174
@@ -378,7 +361,7 @@ rot=-0.250000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=32
+parent=30
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2181
@@ -387,7 +370,7 @@ rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=34
+parent=32
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2181
@@ -396,7 +379,7 @@ rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=35
+parent=33
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2137
@@ -408,7 +391,24 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spritesDrawnBehind=10
+spriteID=100608
+pos=-1.000000,-33.000000
+rot=0.500000
+hFlip=1
+color=1.000000,1.000000,1.000000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=100812
+pos=-1.000000,-5.000000
+rot=0.000000
+hFlip=0
+color=1.000000,1.000000,1.000000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
@@ -416,4 +416,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=138
+pixHeight=120
