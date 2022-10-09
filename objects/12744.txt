@@ -1,5 +1,5 @@
 id=12744
-Oil Rig #derrick #pumping
+Oil Rig #derrick #pumping +tapoutTrigger,1,1,1,1
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -980,7 +980,7 @@ headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
 frontFootIndex=-1
-numUses=1,1.000000
+numUses=60,1.000000
 useVanishIndex=101,102,103
 useAppearIndex=-1
 pixHeight=363
