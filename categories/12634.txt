@@ -1,6 +1,8 @@
 parentID=12634
 pattern
-numObjects=3
+numObjects=5
+7222
+7224
 12639
 12645
 12648
