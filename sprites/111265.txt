@@ -1,0 +1,1 @@
+AncientBrickHalfWall 0 13 -23
