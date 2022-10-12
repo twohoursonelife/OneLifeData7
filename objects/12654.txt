@@ -1,5 +1,5 @@
 id=12654
-@ Wall with Copper Pipe #NS
+@ Wall with Copper Pipe
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -50,7 +50,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=711
-pos=0.000000,30.000000
+pos=0.000000,50.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000

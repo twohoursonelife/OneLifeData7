@@ -1,5 +1,5 @@
 id=12706
-Maine Coon Cat #pouncing +tapoutTrigger,1,1,3,3
+Maine Coon Cat #pouncing
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -95,21 +95,21 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=110672
-pos=-5.703907,7.742772
-rot=0.020000
-hFlip=0
-color=1.000000,1.000000,1.000000
-ageRange=-1.000000,-1.000000
-parent=6
-invisHolding=0,invisWorn=0,behindSlots=0
-invisCont=0
-spriteID=110673
-pos=24.041454,49.872347
+pos=24.000000,50.000000
 rot=-0.335000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=6
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=110673
+pos=-7.000000,8.000000
+rot=0.020000
+hFlip=0
+color=1.000000,1.000000,1.000000
+ageRange=-1.000000,-1.000000
+parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 headIndex=-1

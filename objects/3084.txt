@@ -1,5 +1,5 @@
 id=3084
-Exhausted Oil Pumpjack# 1
+Dismantled Oil Pumpjack# 1
 containable=0
 containSize=1.000000,vertSlotRot=-0.195000
 permanent=1,minPickupAge=3
@@ -29,6 +29,7 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
+slotsNoSwap=0
 numSprites=24
 spriteID=2141
 pos=151.000000,114.000000
