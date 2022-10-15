@@ -1,5 +1,5 @@
 id=12448
-Copper Sprinkler #NS N spraying
+Copper Sprinkler #NS #waterN spraying
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
