@@ -1,5 +1,5 @@
-id=3760
-Track #NE +tapoutTrigger,1,1,1,1
+id=12919
+Track #NW #check +tapoutTrigger,1,1,1,1
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -31,8 +31,8 @@ slotSize=1.000000
 slotsLocked=0
 slotsNoSwap=0
 numSprites=1
-spriteID=3095
-pos=15.000000,14.000000
+spriteID=3096
+pos=-14.000000,16.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
