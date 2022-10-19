@@ -1,5 +1,5 @@
 id=3795
-South East Track with Cart# moving East
+Track #SE #cartE
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -29,6 +29,7 @@ creationSoundForce=0
 numSlots=8#timeStretch=1.000000
 slotSize=2.000000
 slotsLocked=0
+slotsNoSwap=0
 slotPos=-18.000000,58.000000,vert=1,parent=-1
 slotPos=-6.000000,58.000000,vert=1,parent=-1
 slotPos=8.000000,58.000000,vert=1,parent=-1
@@ -36,7 +37,7 @@ slotPos=17.000000,58.000000,vert=1,parent=-1
 slotPos=-18.000000,48.000000,vert=1,parent=-1
 slotPos=-6.000000,48.000000,vert=1,parent=-1
 slotPos=8.000000,48.000000,vert=1,parent=-1
-slotPos=17.000000,48.000000,vert=1,parent=
+slotPos=17.000000,48.000000,vert=1,parent=-1
 numSprites=8
 spriteID=3092
 pos=16.000000,-16.000000
