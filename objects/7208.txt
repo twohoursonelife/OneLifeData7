@@ -15,7 +15,7 @@ male=0
 deathMarker=0
 homeMarker=0
 floor=0
-floorHugging=0
+floorHugging=1
 foodValue=0
 speedMult=1.000000
 heldOffset=9.000000,13.000000
@@ -29,6 +29,7 @@ creationSoundForce=0
 numSlots=14#timeStretch=1.000000
 slotSize=0.500000
 slotsLocked=1
+slotsNoSwap=0
 slotPos=-61.000000,17.000000,vert=0,parent=4
 slotPos=-42.000000,17.000000,vert=0,parent=4
 slotPos=-22.000000,17.000000,vert=0,parent=4
