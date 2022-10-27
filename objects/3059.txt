@@ -23,13 +23,14 @@ clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
 useDistance=1
-sounds=69:0.250000,-1:0.0,-1:0.0,-1:0.0
+sounds=896:0.250000,-1:0.0,-1:0.0,-1:0.0
 creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=8
+slotsNoSwap=0
+numSprites=9
 spriteID=789
 pos=2.000000,-30.000000
 rot=0.000000
@@ -38,6 +39,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=785
 pos=11.000000,-36.000000
 rot=0.000000
@@ -46,6 +48,16 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=2637
+pos=-21.000000,-29.000000
+rot=0.000000
+hFlip=0
+color=1.000000,1.000000,1.000000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=1335
 pos=-13.000000,-33.000000
 rot=0.000000
@@ -54,6 +66,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=1335
 pos=-4.000000,-33.000000
 rot=0.000000
@@ -62,6 +75,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=1335
 pos=4.000000,-33.000000
 rot=0.000000
@@ -70,6 +84,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=1335
 pos=14.000000,-33.000000
 rot=0.000000
@@ -78,6 +93,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=1335
 pos=22.000000,-33.000000
 rot=0.000000
@@ -86,6 +102,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=350
 pos=8.000000,-39.000000
 rot=0.000000
@@ -94,11 +111,12 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
 frontFootIndex=-1
-numUses=5,1.000000
-useVanishIndex=2,3,4,5,6
+numUses=6,1.000000
+useVanishIndex=2,3,4,5,6,7
 useAppearIndex=-1
 pixHeight=0
