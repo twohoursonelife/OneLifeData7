@@ -29,10 +29,9 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=6
 spriteID=100354
-pos=4.000000,-32.000000
+pos=4.000000,-8.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -41,7 +40,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=100350
-pos=0.000000,0.000000
+pos=0.000000,24.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -50,7 +49,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=477
-pos=19.000000,43.000000
+pos=19.000000,67.000000
 rot=0.200000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -59,7 +58,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=100353
-pos=20.000000,35.000000
+pos=20.000000,59.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -68,7 +67,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=100355
-pos=-30.000000,7.000000
+pos=-30.000000,31.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -77,7 +76,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=1353
-pos=-7.000001,22.000000
+pos=-7.000001,46.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -92,4 +91,4 @@ frontFootIndex=-1
 numUses=6,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=61
+pixHeight=85
