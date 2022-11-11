@@ -28,12 +28,12 @@ creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=4#timeStretch=1.000000
 slotSize=3.000000
+slotStyle=1
 slotsLocked=0
-slotsNoSwap=0
-slotPos=47.000010,38.999992,vert=0,parent=-1
-slotPos=10.000010,38.999992,vert=0,parent=-1
-slotPos=-26.999990,38.999992,vert=0,parent=-1
-slotPos=-63.999990,38.999992,vert=0,parent=-1
+slotPos=47.000010,18.999992,vert=0,parent=-1
+slotPos=10.000010,18.999992,vert=0,parent=-1
+slotPos=-26.999990,18.999992,vert=0,parent=-1
+slotPos=-63.999990,18.999992,vert=0,parent=-1
 numSprites=10
 spriteID=110785
 pos=50.000014,39.999990
