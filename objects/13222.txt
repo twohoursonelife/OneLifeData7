@@ -1,5 +1,5 @@
-id=8330
-Brick Floor
+id=13222
+Brick Floor #NE
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -31,11 +31,11 @@ slotSize=1.000000
 slotStyle=0
 slotsLocked=0
 numSprites=1
-spriteID=101009
-pos=-1.000000,10.000000
+spriteID=111356
+pos=1.000000,9.000000
 rot=0.000000
 hFlip=0
-color=0.661972,0.661972,0.661972
+color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0

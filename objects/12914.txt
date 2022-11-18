@@ -1,5 +1,5 @@
 id=12914
-South West Track Stakes
+South West Stakes
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -28,8 +28,8 @@ creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
+slotStyle=0
 slotsLocked=0
-slotsNoSwap=0
 numSprites=6
 spriteID=354
 pos=57.000000,-50.000000

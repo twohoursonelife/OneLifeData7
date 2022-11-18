@@ -1,11 +1,11 @@
-id=8330
-Brick Floor
+id=13217
+Brick Road #NW
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
-heldInHand=0
+heldInHand=2
 blocksWalking=0,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=0
 mapChance=0.000000#biomes_0
 heatValue=0
@@ -17,7 +17,7 @@ homeMarker=0
 floor=1
 floorHugging=0
 foodValue=0
-speedMult=1.000000
+speedMult=1.500000
 heldOffset=0.000000,0.000000
 clothing=n
 clothingOffset=0.000000,0.000000
@@ -31,11 +31,11 @@ slotSize=1.000000
 slotStyle=0
 slotsLocked=0
 numSprites=1
-spriteID=101009
-pos=-1.000000,10.000000
+spriteID=111357
+pos=0.000000,12.000000
 rot=0.000000
 hFlip=0
-color=0.661972,0.661972,0.661972
+color=0.591549,0.591549,0.591549
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
