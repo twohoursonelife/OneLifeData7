@@ -15,6 +15,7 @@ male=0
 deathMarker=0
 homeMarker=0
 floor=1
+partialFloor=1
 floorHugging=0
 foodValue=0
 speedMult=1.500000
@@ -28,7 +29,6 @@ creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
-slotStyle=0
 slotsLocked=0
 numSprites=1
 spriteID=111357
