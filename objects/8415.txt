@@ -16,6 +16,7 @@ deathMarker=0
 homeMarker=0
 floor=0
 floorHugging=1
+wallLayer=1
 foodValue=0
 speedMult=1.000000
 heldOffset=0.000000,0.000000
@@ -36,7 +37,7 @@ slotPos=-20.000000,-13.000000,vert=0,parent=-1
 slotPos=22.000000,-14.000000,vert=0,parent=-1
 numSprites=3
 spriteID=101008
-pos=-1.000000,10.000000
+pos=0.000000,7.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -69,4 +70,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=83
+pixHeight=80
