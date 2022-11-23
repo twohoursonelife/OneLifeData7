@@ -16,6 +16,7 @@ deathMarker=0
 homeMarker=0
 floor=0
 floorHugging=1
+wallLayer=1
 foodValue=0
 speedMult=1.000000
 heldOffset=0.000000,0.000000
@@ -28,9 +29,10 @@ creationSoundInitialOnly=1
 creationSoundForce=0
 numSlots=2#timeStretch=1.000000
 slotSize=2.000000
+slotStyle=1
 slotsLocked=0
-slotPos=-18.000000,12.000000,vert=0,parent=-1
-slotPos=23.000000,12.000000,vert=0,parent=-1
+slotPos=-19.000000,12.000000,vert=0,parent=-1
+slotPos=22.000000,12.000000,vert=0,parent=-1
 numSprites=2
 spriteID=100880
 pos=1.000000,5.000000
@@ -42,7 +44,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=1
 invisCont=0
 spriteID=100471
-pos=1.000000,7.000000
+pos=0.000000,7.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000

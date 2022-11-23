@@ -6,7 +6,7 @@ permanent=1,minPickupAge=3
 noFlip=0
 sideAccess=0
 heldInHand=0
-blocksWalking=1,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=1
+blocksWalking=1,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=0
 mapChance=0.000000#biomes_0
 heatValue=0
 rValue=0.900000
@@ -16,6 +16,7 @@ deathMarker=0
 homeMarker=0
 floor=0
 floorHugging=1
+wallLayer=1
 foodValue=0
 speedMult=1.000000
 heldOffset=0.000000,0.000000
@@ -31,7 +32,7 @@ slotSize=1.000000
 slotsLocked=0
 numSprites=2
 spriteID=101008
-pos=-1.000000,10.000000
+pos=0.000000,7.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -55,4 +56,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=83
+pixHeight=80
