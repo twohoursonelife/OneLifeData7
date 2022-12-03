@@ -1,5 +1,5 @@
-id=8856
-Ant Mound#ants
+id=13272
+Ant Mound#ants #justBite
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -21,10 +21,10 @@ speedMult=1.000000
 heldOffset=19.000000,20.000000
 clothing=n
 clothingOffset=0.000000,0.000000
-deadlyDistance=1
+deadlyDistance=0
 useDistance=1
 sounds=770:0.141667,-1:0.0,-1:0.0,-1:0.0
-creationSoundInitialOnly=1
+creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
