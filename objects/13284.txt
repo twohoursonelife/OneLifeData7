@@ -1,5 +1,5 @@
-id=4527
-Firing Distillery
+id=13284
+Firing Distillery#closed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -165,8 +165,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=111394
-pos=60.000000,83.000000
+spriteID=111373
+pos=47.000000,63.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
