@@ -1,5 +1,5 @@
-id=13285
-Granite Floor
+id=13290
+Gravel Floor
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -30,7 +30,7 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=1
-spriteID=111398
+spriteID=111400
 pos=1.000000,11.000000
 rot=0.000000
 hFlip=0
