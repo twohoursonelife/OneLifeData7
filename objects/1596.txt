@@ -3,8 +3,6 @@ Stone Road
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
-noFlip=0
-sideAccess=0
 heldInHand=2
 blocksWalking=0,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=0
 mapChance=0.000000#biomes_0
@@ -15,7 +13,6 @@ male=0
 deathMarker=0
 homeMarker=0
 floor=1
-partialFloor=1
 floorHugging=0
 foodValue=0
 speedMult=1.500000
@@ -26,7 +23,6 @@ deadlyDistance=0
 useDistance=1
 sounds=198:0.250000,1050:0.080000#1051:0.080000#1053:0.080000#1055:0.080000,-1:0.0,-1:0.0
 creationSoundInitialOnly=0
-creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
@@ -39,7 +35,6 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
-invisCont=0
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
