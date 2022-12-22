@@ -1,5 +1,5 @@
 id=10211
-Marble Hill#dynamite lit
+Rocky Hill#dynamite lit
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
