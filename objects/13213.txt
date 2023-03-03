@@ -15,7 +15,6 @@ male=0
 deathMarker=0
 homeMarker=0
 floor=1
-partialFloor=1
 floorHugging=0
 foodValue=0
 speedMult=1.500000

@@ -5,7 +5,7 @@ containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
-heldInHand=1
+heldInHand=0
 blocksWalking=0,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=0
 mapChance=0.000000#biomes_0
 heatValue=0
@@ -16,7 +16,7 @@ deathMarker=0
 homeMarker=0
 floor=0
 floorHugging=0
-foodValue=9
+foodValue=1,16
 speedMult=1.000000
 heldOffset=18.999998,4.999996
 clothing=n
@@ -31,7 +31,7 @@ slotSize=1.000000
 slotsLocked=0
 numSprites=9
 spriteID=514
-pos=1.999999,-34.000000
+pos=-0.000001,-34.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -40,7 +40,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2591
-pos=12.000001,-26.000004
+pos=10.000001,-26.000004
 rot=0.250000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -49,7 +49,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=110412
-pos=15.000001,-25.000004
+pos=13.000001,-25.000004
 rot=0.250000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -58,7 +58,7 @@ parent=1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2590
-pos=6.000000,-30.999996
+pos=4.000000,-30.999996
 rot=0.250000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -67,7 +67,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=110411
-pos=6.000000,-31.999996
+pos=4.000000,-31.999996
 rot=0.250000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -76,7 +76,7 @@ parent=3
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2589
-pos=-3.000000,-30.000008
+pos=-5.000000,-30.000008
 rot=0.250000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -85,7 +85,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=110410
-pos=-2.000000,-31.000008
+pos=-4.000000,-31.000008
 rot=0.250000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -94,7 +94,7 @@ parent=5
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2588
-pos=-11.000000,-26.000008
+pos=-13.000000,-26.000008
 rot=0.250000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -103,7 +103,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=110409
-pos=-9.999999,-25.000004
+pos=-11.999999,-25.000004
 rot=0.250000
 hFlip=0
 color=1.000000,1.000000,1.000000
