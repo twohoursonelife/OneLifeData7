@@ -1,7 +1,7 @@
 id=12362
 Black Long Skirt on Hanger
-containable=1
-containSize=2.000000,vertSlotRot=-0.250000
+containable=0
+containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
@@ -29,7 +29,6 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=5
 spriteID=111083
 pos=1.000001,18.999999
