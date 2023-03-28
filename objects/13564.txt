@@ -34,7 +34,7 @@ spriteID=111589
 pos=0.000000,-32.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=0.845070,0.757898,0.749851
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -43,7 +43,7 @@ spriteID=111589
 pos=27.000000,-32.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=0.845070,0.757898,0.749851
 ageRange=-1.000000,-1.000000
 parent=0
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -52,7 +52,7 @@ spriteID=111589
 pos=-25.000000,-32.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=0.845070,0.757898,0.749851
 ageRange=-1.000000,-1.000000
 parent=0
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -61,7 +61,7 @@ spriteID=111589
 pos=-12.000000,-20.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=0.845070,0.757898,0.749851
 ageRange=-1.000000,-1.000000
 parent=0
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -70,7 +70,7 @@ spriteID=111589
 pos=16.000000,-20.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=0.845070,0.757898,0.749851
 ageRange=-1.000000,-1.000000
 parent=0
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -79,7 +79,7 @@ spriteID=111589
 pos=0.000000,-7.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=0.845070,0.757898,0.749851
 ageRange=-1.000000,-1.000000
 parent=0
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -89,6 +89,6 @@ bodyIndex=-1
 backFootIndex=-1
 frontFootIndex=-1
 numUses=5,1.000000
-useVanishIndex=3,4,5
+useVanishIndex=1,2,3,4,5
 useAppearIndex=-1
 pixHeight=7
