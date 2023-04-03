@@ -1,5 +1,5 @@
-id=622
-Pit Stakes
+id=13619
+Pit Stakes with Mixed Cut Stones
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -23,13 +23,13 @@ clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
 useDistance=1
-sounds=69:0.250000,-1:0.0,-1:0.0,-1:0.0
-creationSoundInitialOnly=1
+sounds=45:0.250000,-1:0.0,-1:0.0,-1:0.0
+creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=5
+numSprites=7
 spriteID=354
 pos=18.000000,18.000000
 rot=0.000000
@@ -66,6 +66,24 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
+spriteID=1185
+pos=0.000000,2.000000
+rot=0.000000
+hFlip=0
+color=1.000000,1.000000,1.000000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=100520
+pos=14.000000,-17.000000
+rot=0.000000
+hFlip=0
+color=1.000000,1.000000,1.000000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=351
 pos=0.000000,-27.000000
 rot=0.000000
@@ -82,4 +100,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=30
+pixHeight=32
