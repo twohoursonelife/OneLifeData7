@@ -1,5 +1,5 @@
 id=13370
-Camping Stove with Warm Milk #hot
+Camping Stove with Warm Milk
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=9075
-Stove Frame on Ashes
+Camping Stove Frame on Ashes
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

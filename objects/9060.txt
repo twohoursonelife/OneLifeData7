@@ -1,5 +1,5 @@
 id=9060
-Camping Stove with Carrot and Onions #hot
+Camping Stove with Carrot and Onions#hot
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
