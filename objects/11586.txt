@@ -1,5 +1,5 @@
 id=11586
-Hot Bronze Froe Head on Flat Rock
+Hot Bronze Froe Head#Flat Rock
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

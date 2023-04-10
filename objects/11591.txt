@@ -1,5 +1,5 @@
 id=11591
-Bronze Pick Head on Flat Rock
+Bronze Pick Head#Flat Rock
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
