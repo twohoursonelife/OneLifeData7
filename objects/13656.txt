@@ -1,5 +1,5 @@
 id=13656
-Ladle Cart
+Ladle of Molten Pig Iron
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=12
@@ -29,7 +29,7 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=10
+numSprites=13
 spriteID=111644
 pos=54.599386,-33.501795
 rot=0.005000
@@ -120,12 +120,39 @@ ageRange=-1.000000,-1.000000
 parent=4
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
+spriteID=2197
+pos=-3.000000,-27.000000
+rot=-0.500000
+hFlip=0
+color=1.000000,1.000000,1.000000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=111722
+pos=-2.000000,-28.000000
+rot=-0.500000
+hFlip=0
+color=1.000000,1.000000,1.000000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=100812
+pos=-2.000000,-21.000000
+rot=0.000000
+hFlip=0
+color=1.000000,1.000000,1.000000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spritesAdditiveBlend=9
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
 frontFootIndex=-1
-numUses=0,1.000000
+numUses=12,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
 pixHeight=76
