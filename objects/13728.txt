@@ -1,8 +1,8 @@
-id=13687
-Cylinder Mold Filled with Molten Cast Iron
+id=13728
+Mold with Cast Iron Cylinder
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
-permanent=1,minPickupAge=3
+permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
 heldInHand=0
@@ -48,20 +48,20 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=111730
+spriteID=111731
 pos=-2.000000,-26.000000
 rot=0.000000
 hFlip=0
-color=1.000000,0.398592,0.140845
+color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=111730
-pos=-2.000000,-26.000000
-rot=0.000000
+spriteID=2201
+pos=-3.000000,-30.000000
+rot=-0.250000
 hFlip=0
-color=1.000000,0.814521,0.225352
+color=0.661972,0.661972,0.661972
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -75,7 +75,6 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spritesAdditiveBlend=3
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
