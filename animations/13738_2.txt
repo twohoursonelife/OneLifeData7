@@ -1,5 +1,5 @@
-id=13736
-type=5,randStartPhase=0
+id=13738
+type=2,randStartPhase=0
 forceZeroStart=0
 numSounds=0
 numSprites=60
