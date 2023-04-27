@@ -1,5 +1,5 @@
 id=11543
-Mining Pit
+Mining Pit (old)
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -29,7 +29,6 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=2
 spriteID=110852
 pos=0.999992,70.000000
