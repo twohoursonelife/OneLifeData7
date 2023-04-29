@@ -1,5 +1,5 @@
 id=13775
-Tundra Mining Pit with Iron Ore
+Tundra Mine with Iron Ore #2 #exploratory
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

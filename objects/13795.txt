@@ -1,5 +1,5 @@
 id=13795
-Tundra Mine Shaft with Native Copper #copperDeposit
+Tundra Copper Mine with Native Copper #3
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

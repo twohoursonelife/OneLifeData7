@@ -1,5 +1,5 @@
 id=11599
-Mine Shaft with Cassiterite #2
+Mine with Cassiterite #2
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

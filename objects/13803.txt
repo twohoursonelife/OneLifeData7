@@ -1,5 +1,5 @@
 id=13803
-Mine Shaft with Niter #2
+Mine with Niter #2
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
