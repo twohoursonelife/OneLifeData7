@@ -1,5 +1,5 @@
 id=13806
-Mine with Stanchion Kit #2 #exhausted #dismantled
+Mine with Stanchion Kit #2 #exhausted
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

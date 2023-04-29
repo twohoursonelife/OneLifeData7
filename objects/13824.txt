@@ -1,5 +1,5 @@
-id=13788
-Tundra Mine with Two Steel Beams #2
+id=13824
+Mine with Two Steel Beams #2
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -30,8 +30,8 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=3
-spriteID=110851
-pos=-9.000000,77.000002
+spriteID=110852
+pos=1.000000,70.000002
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -64,4 +64,4 @@ frontFootIndex=-1
 numUses=0,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=152
+pixHeight=148

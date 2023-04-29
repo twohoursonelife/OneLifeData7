@@ -1,5 +1,5 @@
 id=11701
-Mining Pit #exhausted explosion 2
+Mine #2 #exhausted #explosion
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
