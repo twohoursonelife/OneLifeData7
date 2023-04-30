@@ -1,5 +1,5 @@
-id=13822
-Limestone Mine #3
+id=13840
+Mine #3 #exhausted
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -52,7 +52,7 @@ headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
 frontFootIndex=-1
-numUses=10,0.200000
+numUses=0,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
 pixHeight=148
