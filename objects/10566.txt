@@ -1,5 +1,5 @@
 id=10566
-Iron Griddle with Butter
+Hot Cast Iron Pan with Butter
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -28,11 +28,10 @@ creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
-slotStyle=0
 slotsLocked=0
 numSprites=3
 spriteID=111321
-pos=0.000000,-20.000000
+pos=-18.000000,-24.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -41,7 +40,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=1647
-pos=19.000000,-20.999994
+pos=1.000000,-24.999994
 rot=0.500000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -50,7 +49,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=111341
-pos=19.000000,-27.000000
+pos=1.000000,-31.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
