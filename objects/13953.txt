@@ -1,12 +1,12 @@
-id=797
-Stab Wound
+id=13953
+Ban Hammer#Mod Tool #deadly
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
-permanent=1,minPickupAge=3
+permanent=0,minPickupAge=0
 noFlip=0
 sideAccess=0
-heldInHand=0
-blocksWalking=0,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=0
+heldInHand=1
+blocksWalking=1,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=0
 mapChance=0.000000#biomes_0
 heatValue=0
 rValue=0.000000
@@ -17,12 +17,12 @@ homeMarker=0
 floor=0
 floorHugging=0
 foodValue=0
-speedMult=0.750000
-heldOffset=6.000000,52.000000
+speedMult=4.000000
+heldOffset=27.000000,14.000004
 clothing=n
-clothingOffset=0.000000,0.000000
-deadlyDistance=0
-useDistance=1
+clothingOffset=19.000000,28.000000
+deadlyDistance=8
+useDistance=8
 sounds=-1:0.0,-1:0.0,-1:0.0,-1:0.0
 creationSoundInitialOnly=0
 creationSoundForce=0
@@ -30,8 +30,8 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=2
-spriteID=1116
-pos=0.000000,-32.000000
+spriteID=111815
+pos=0.000000,0.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -39,13 +39,13 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=1592
-pos=2.000000,-22.000000
-rot=0.000000
+spriteID=100071
+pos=66.000000,52.000000
+rot=-0.125000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=1.000000,0.000000,0.000000
 ageRange=-1.000000,-1.000000
-parent=-1
+parent=0
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 headIndex=-1
@@ -55,4 +55,4 @@ frontFootIndex=-1
 numUses=0,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=0
+pixHeight=108
