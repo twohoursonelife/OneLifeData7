@@ -5,7 +5,7 @@ containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
-heldInHand=1
+heldInHand=0
 blocksWalking=0,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=0
 mapChance=0.000000#biomes_0
 heatValue=0
@@ -18,7 +18,7 @@ floor=0
 floorHugging=0
 foodValue=0
 speedMult=1.000000
-heldOffset=30.000000,-12.000000
+heldOffset=33.000000,8.000000
 clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
@@ -31,7 +31,7 @@ slotSize=1.000000
 slotsLocked=0
 numSprites=5
 spriteID=111321
-pos=-18.000000,-24.000000
+pos=0.000000,-20.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -40,7 +40,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=100487
-pos=9.000000,-26.000004
+pos=27.000000,-22.000004
 rot=0.000000
 hFlip=0
 color=0.830986,0.673229,0.444753
@@ -49,7 +49,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=101452
-pos=-3.000000,-27.000000
+pos=15.000000,-23.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -58,7 +58,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2652
-pos=1.999996,-29.000002
+pos=19.999996,-25.000002
 rot=0.000000
 hFlip=0
 color=0.788732,0.773868,0.577663
@@ -67,7 +67,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=111341
-pos=1.000000,-31.000000
+pos=19.000000,-27.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000

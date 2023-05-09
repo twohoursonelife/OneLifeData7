@@ -5,7 +5,7 @@ containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
-heldInHand=1
+heldInHand=0
 blocksWalking=0,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=0
 mapChance=0.000000#biomes_0
 heatValue=0
@@ -18,7 +18,7 @@ floor=0
 floorHugging=0
 foodValue=0
 speedMult=1.000000
-heldOffset=32.000000,-14.000002
+heldOffset=33.000000,8.000000
 clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
@@ -29,9 +29,10 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
+slotsNoSwap=0
 numSprites=8
 spriteID=111321
-pos=-18.000000,-24.000000
+pos=0.000000,-20.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -40,7 +41,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2591
-pos=-2.000000,-26.999998
+pos=16.000000,-22.999998
 rot=2.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -49,7 +50,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2591
-pos=6.000002,-23.000000
+pos=24.000002,-19.000000
 rot=0.250000
 hFlip=1
 color=1.000000,1.000000,1.000000
@@ -58,7 +59,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2589
-pos=-8.000000,-28.000000
+pos=10.000000,-24.000000
 rot=-0.250000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -67,7 +68,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2590
-pos=15.000000,-25.999998
+pos=33.000000,-21.999998
 rot=0.250000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -76,7 +77,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=111341
-pos=1.000000,-31.000000
+pos=19.000000,-27.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -85,7 +86,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=110406
-pos=-7.000000,-23.000000
+pos=11.000000,-19.000000
 rot=-0.250000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -94,7 +95,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=110407
-pos=12.000000,-23.000000
+pos=30.000000,-19.000000
 rot=-0.250000
 hFlip=0
 color=1.000000,1.000000,1.000000
