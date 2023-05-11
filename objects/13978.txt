@@ -1,5 +1,5 @@
-id=10571
-Hot Cast Iron Pan with Seasoned Shrimp
+id=13978
+Hot Cast Iron Pan with Cooked Shrimp
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -23,13 +23,13 @@ clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
 useDistance=1
-sounds=2053:0.250000,-1:0.0,-1:0.0,-1:0.0
+sounds=270:0.070707,-1:0.0,-1:0.0,-1:0.0
 creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=9
+numSprites=6
 spriteID=111321
 pos=0.000000,-20.000000
 rot=0.000000
@@ -39,8 +39,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=2587
-pos=13.000000,-20.999998
+spriteID=2591
+pos=16.000000,-22.999998
 rot=2.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -48,7 +48,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=2587
+spriteID=2591
 pos=24.000002,-19.000000
 rot=0.250000
 hFlip=1
@@ -57,7 +57,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=2587
+spriteID=2589
 pos=10.000000,-24.000000
 rot=-0.250000
 hFlip=0
@@ -66,18 +66,9 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=2585
+spriteID=2590
 pos=33.000000,-21.999998
 rot=0.250000
-hFlip=0
-color=1.000000,1.000000,1.000000
-ageRange=-1.000000,-1.000000
-parent=-1
-invisHolding=0,invisWorn=0,behindSlots=0
-invisCont=0
-spriteID=1647
-pos=22.000000,-23.000010
-rot=0.500000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
@@ -87,24 +78,6 @@ invisCont=0
 spriteID=111341
 pos=19.000000,-27.000000
 rot=0.000000
-hFlip=0
-color=1.000000,1.000000,1.000000
-ageRange=-1.000000,-1.000000
-parent=-1
-invisHolding=0,invisWorn=0,behindSlots=0
-invisCont=0
-spriteID=110406
-pos=11.000000,-19.000000
-rot=-0.250000
-hFlip=0
-color=1.000000,1.000000,1.000000
-ageRange=-1.000000,-1.000000
-parent=-1
-invisHolding=0,invisWorn=0,behindSlots=0
-invisCont=0
-spriteID=110407
-pos=30.000000,-19.000000
-rot=-0.250000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000

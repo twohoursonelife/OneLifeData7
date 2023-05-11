@@ -1,5 +1,5 @@
-id=10571
-Hot Cast Iron Pan with Seasoned Shrimp
+id=13977
+Hot Cast Iron Pan with Shrimp
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -29,7 +29,7 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=9
+numSprites=6
 spriteID=111321
 pos=0.000000,-20.000000
 rot=0.000000
@@ -40,7 +40,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2587
-pos=13.000000,-20.999998
+pos=16.000000,-22.999998
 rot=2.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -75,36 +75,9 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=1647
-pos=22.000000,-23.000010
-rot=0.500000
-hFlip=0
-color=1.000000,1.000000,1.000000
-ageRange=-1.000000,-1.000000
-parent=-1
-invisHolding=0,invisWorn=0,behindSlots=0
-invisCont=0
 spriteID=111341
 pos=19.000000,-27.000000
 rot=0.000000
-hFlip=0
-color=1.000000,1.000000,1.000000
-ageRange=-1.000000,-1.000000
-parent=-1
-invisHolding=0,invisWorn=0,behindSlots=0
-invisCont=0
-spriteID=110406
-pos=11.000000,-19.000000
-rot=-0.250000
-hFlip=0
-color=1.000000,1.000000,1.000000
-ageRange=-1.000000,-1.000000
-parent=-1
-invisHolding=0,invisWorn=0,behindSlots=0
-invisCont=0
-spriteID=110407
-pos=30.000000,-19.000000
-rot=-0.250000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
