@@ -1,5 +1,5 @@
 id=10576
-Hot Cast Iron Pan with Bass
+Hot Cast Iron Pan with Seasoned Bass Fillet
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -28,7 +28,6 @@ creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
-slotStyle=0
 slotsLocked=0
 numSprites=8
 spriteID=111321
