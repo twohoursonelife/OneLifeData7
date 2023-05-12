@@ -1,5 +1,5 @@
-id=11516
-Hot Cast Iron Pan with Cooked Seasoned Pike Fillet
+id=14000
+Hot Cast Iron Pan with Cooked Pike Fillet
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -29,7 +29,7 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=9
+numSprites=6
 spriteID=111321
 pos=0.000000,-20.000000
 rot=0.000000
@@ -75,36 +75,9 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=110406
-pos=9.000001,-22.000000
-rot=-0.250000
-hFlip=0
-color=1.000000,1.000000,1.000000
-ageRange=-1.000000,-1.000000
-parent=-1
-invisHolding=0,invisWorn=0,behindSlots=0
-invisCont=0
 spriteID=111341
 pos=19.000000,-27.000000
 rot=0.000000
-hFlip=0
-color=1.000000,1.000000,1.000000
-ageRange=-1.000000,-1.000000
-parent=-1
-invisHolding=0,invisWorn=0,behindSlots=0
-invisCont=0
-spriteID=110407
-pos=33.000000,-20.999996
-rot=-0.250000
-hFlip=0
-color=1.000000,1.000000,1.000000
-ageRange=-1.000000,-1.000000
-parent=-1
-invisHolding=0,invisWorn=0,behindSlots=0
-invisCont=0
-spriteID=110412
-pos=21.000002,-20.000004
-rot=-0.250000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
