@@ -7,7 +7,7 @@ noFlip=0
 sideAccess=0
 heldInHand=0
 blocksWalking=1,leftBlockingRadius=1,rightBlockingRadius=1,drawBehindPlayer=1
-mapChance=0.050000#biomes_3
+mapChance=0.000000#biomes_3
 heatValue=0
 rValue=0.000000
 person=0,noSpawn=0
@@ -29,7 +29,6 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=11
 spriteID=698
 pos=-74.000000,453.000000
