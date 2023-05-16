@@ -1,5 +1,5 @@
-id=13923
-Beam Mold
+id=14016
+Pan Mold
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -48,8 +48,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=111808
-pos=-3.000000,-31.000000
+spriteID=111829
+pos=-3.000000,-22.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000

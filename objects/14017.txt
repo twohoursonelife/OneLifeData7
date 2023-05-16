@@ -1,8 +1,8 @@
-id=13923
-Beam Mold
+id=14017
+Pan Mold Filled with Molten Cast Iron
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
-permanent=0,minPickupAge=3
+permanent=1,minPickupAge=3
 noFlip=0
 sideAccess=0
 heldInHand=0
@@ -23,13 +23,13 @@ clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
 useDistance=1
-sounds=290:0.250000,-1:0.0,-1:0.0,-1:0.0
-creationSoundInitialOnly=1
+sounds=-1:0.0,-1:0.0,-1:0.0,-1:0.0
+creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=4
+numSprites=5
 spriteID=100633
 pos=-3.000000,-25.000000
 rot=0.000000
@@ -48,11 +48,20 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=111808
-pos=-3.000000,-31.000000
+spriteID=111830
+pos=-3.000000,-26.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=1.000000,0.398700,0.141000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=111830
+pos=-3.000000,-26.000000
+rot=0.000000
+hFlip=0
+color=1.000000,0.398700,0.141000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -66,6 +75,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
+spritesAdditiveBlend=3
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
