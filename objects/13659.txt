@@ -1,7 +1,7 @@
 id=13659
 Dried Seaweed
-containable=0
-containSize=1.000000,vertSlotRot=0.000000
+containable=1
+containSize=1.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
@@ -29,12 +29,21 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=1
+numSprites=2
 spriteID=111655
 pos=-2.000000,-30.000000
 rot=0.000000
 hFlip=0
 color=0.352113,0.352113,0.352113
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=2638
+pos=-5.000000,-43.000000
+rot=0.000000
+hFlip=0
+color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
