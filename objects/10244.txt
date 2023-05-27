@@ -1,5 +1,5 @@
 id=10244
-Stove Pot #wooden tongs
+Lined Copper Pot with Tin Ingot in Tongs
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -23,7 +23,7 @@ clothing=n
 clothingOffset=-27.000000,72.000000
 deadlyDistance=0
 useDistance=1
-sounds=341:0.250000,-1:0.0,-1:0.0,-1:0.0
+sounds=388:0.250000,-1:0.0,-1:0.0,-1:0.0
 creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
@@ -39,11 +39,11 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=100076
-pos=11.000000,-26.000000
+spriteID=111821
+pos=19.000000,-26.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=0.802817,0.802817,0.802817
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
