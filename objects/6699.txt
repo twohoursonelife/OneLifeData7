@@ -1,5 +1,5 @@
 id=6699
-Bear Skin Rug#ancient stone groundOnly
+Bear Skin Rug#mossy stone groundOnly
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -23,7 +23,7 @@ clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
 useDistance=1
-sounds=-1:0.0,-1:0.0,-1:0.0,-1:0.0
+sounds=870:0.250000,898:0.008333#899:0.008333#900:0.016667#901:0.008333,-1:0.0,-1:0.0
 creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000

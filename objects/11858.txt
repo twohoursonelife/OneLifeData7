@@ -16,7 +16,7 @@ deathMarker=0
 homeMarker=0
 floor=0
 floorHugging=0
-foodValue=7
+foodValue=1,13
 speedMult=1.000000
 heldOffset=13.000000,26.000004
 clothing=n
@@ -30,7 +30,7 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 slotsNoSwap=0
-numSprites=8
+numSprites=9
 spriteID=110342
 pos=6.000000,-11.999998
 rot=-0.250000
@@ -103,6 +103,16 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
+spriteID=111254
+pos=1.000000,-17.000000
+rot=0.000000
+hFlip=0
+color=0.000000,0.072565,0.092000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spritesAdditiveBlend=8
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1

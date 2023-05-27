@@ -1,12 +1,12 @@
 id=10213
-Marble Cave Rubble#full
+Quarry Cave Rubble#full
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
 noFlip=0
 sideAccess=0
 heldInHand=0
-blocksWalking=1,leftBlockingRadius=1,rightBlockingRadius=1,drawBehindPlayer=1
+blocksWalking=0,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=1
 mapChance=0.000000#biomes_0
 heatValue=0
 rValue=0.000000
@@ -70,7 +70,7 @@ spriteID=101762
 pos=74.000000,39.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=0.760563,0.760563,0.760563
 ageRange=-1.000000,-1.000000
 parent=2
 invisHolding=0,invisWorn=0,behindSlots=0

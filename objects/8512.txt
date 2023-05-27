@@ -1,6 +1,6 @@
 id=8512
 Roast Pig Dinner on Plate
-containable=1
+containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
 noFlip=0
@@ -16,7 +16,7 @@ deathMarker=0
 homeMarker=0
 floor=0
 floorHugging=0
-foodValue=15
+foodValue=2,15
 speedMult=1.000000
 heldOffset=14.000000,15.000000
 clothing=n

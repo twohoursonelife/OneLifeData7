@@ -1,5 +1,5 @@
 id=7182
-Stone Furnace with Charcoal
+Stone Kiln with Charcoal
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -29,7 +29,6 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=11
 spriteID=100580
 pos=1.000000,-12.000000
@@ -134,7 +133,7 @@ headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
 frontFootIndex=-1
-numUses=6,1.000000
+numUses=5,1.000000
 useVanishIndex=1,2,3,5,6,7
 useAppearIndex=-1
 pixHeight=111

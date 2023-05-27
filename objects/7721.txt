@@ -1,5 +1,5 @@
 id=7721
-Stone Furnace with Kindling Tinder
+Stone Kiln with Kindling Tinder
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

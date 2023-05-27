@@ -1,11 +1,11 @@
 id=10575
-Iron Griddle with Char
+Hot Cast Iron Pan with Seasoned Char Fillet
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
-heldInHand=1
+heldInHand=0
 blocksWalking=0,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=0
 mapChance=0.000000#biomes_0
 heatValue=0
@@ -18,23 +18,23 @@ floor=0
 floorHugging=0
 foodValue=0
 speedMult=1.000000
-heldOffset=32.000000,-14.000002
+heldOffset=33.000000,8.000000
 clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
 useDistance=1
-sounds=352:0.250000,-1:0.0,-1:0.0,-1:0.0
+sounds=2053:0.250000,-1:0.0,-1:0.0,-1:0.0
 creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=8
-spriteID=100090
+spriteID=111321
 pos=0.000000,-20.000000
 rot=0.000000
 hFlip=0
-color=0.338028,0.338028,0.338028
+color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -75,11 +75,11 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=110413
-pos=22.000000,-30.000000
+spriteID=111341
+pos=19.000000,-27.000000
 rot=0.000000
 hFlip=0
-color=0.338000,0.338000,0.338000
+color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0

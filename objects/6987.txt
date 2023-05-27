@@ -1,5 +1,5 @@
 id=6987
-Cage
+Cage#Mod Tool # sick
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -16,7 +16,7 @@ deathMarker=0
 homeMarker=0
 floor=0
 floorHugging=0
-foodValue=100
+foodValue=0,100
 speedMult=0.000000
 heldOffset=8.000000,29.000000
 clothing=n

@@ -16,7 +16,7 @@ deathMarker=0
 homeMarker=0
 floor=0
 floorHugging=0
-foodValue=9
+foodValue=1,16
 speedMult=1.000000
 heldOffset=14.000000,15.000000
 clothing=n
@@ -40,7 +40,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=100845
-pos=-2.000000,-26.000000
+pos=-2.000000,-27.000000
 rot=0.000000
 hFlip=0
 color=0.971831,0.821266,0.821266
@@ -49,7 +49,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=100847
-pos=-4.000000,-27.000004
+pos=-4.000000,-28.000004
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -58,7 +58,7 @@ parent=1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=100846
-pos=8.000000,-30.000000
+pos=8.000000,-31.000000
 rot=0.000000
 hFlip=0
 color=0.971831,0.821266,0.821266
@@ -67,7 +67,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=110407
-pos=0.000000,-26.999992
+pos=0.000000,-27.999992
 rot=0.500000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -76,7 +76,7 @@ parent=2
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=100848
-pos=7.000000,-29.000004
+pos=7.000000,-30.000004
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -85,7 +85,7 @@ parent=3
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=110409
-pos=8.000000,-31.000000
+pos=8.000000,-32.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -94,7 +94,7 @@ parent=5
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=110411
-pos=-10.000000,-31.000000
+pos=-10.000000,-32.000000
 rot=0.000000
 hFlip=1
 color=1.000000,1.000000,1.000000

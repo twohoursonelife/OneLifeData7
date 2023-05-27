@@ -1,5 +1,5 @@
 id=3068
-Red Cross Apron with Sterile Pads
+Medical Apron with Sterile Pads
 containable=1
 containSize=2.000000,vertSlotRot=-0.500000
 permanent=0,minPickupAge=3
@@ -29,7 +29,6 @@ creationSoundForce=0
 numSlots=1#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 slotPos=0.000000,-27.000000,vert=1,parent=-1
 numSprites=9
 spriteID=1549
@@ -50,20 +49,20 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=1,behindSlots=1
 invisCont=0
-spriteID=1590
+spriteID=2521
 pos=2.000000,-3.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=0.802817,0.000000,0.000000
 ageRange=-1.000000,-1.000000
 parent=0
 invisHolding=0,invisWorn=2,behindSlots=1
 invisCont=0
-spriteID=1590
-pos=-1.000000,-21.000000
+spriteID=2521
+pos=-1.000000,-23.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=0.802817,0.000000,0.000000
 ageRange=-1.000000,-1.000000
 parent=0
 invisHolding=0,invisWorn=1,behindSlots=1

@@ -57,9 +57,9 @@ for (let i = 0; i < objectFileNames.length; i++) {
   fs.writeFileSync(`objects/${objectFileNames[i]}`, objectFileContents[i]);
 }
 if (process.argv[3]) {
-  fs.writeFileSync(`objects/nextObjectNumber.txt`, highestId + 1);
+  fs.writeFileSync(`objects/nextObjectNumber.txt`, String(highestId + 1));
 } else {
-  fs.writeFileSync(`objects/nextObjectNumber.txt`, sourceNumber);
+  fs.writeFileSync(`objects/nextObjectNumber.txt`, String(sourceNumber));
 }
 
 console.log('Reading category files');

@@ -9,7 +9,7 @@ heldInHand=0
 blocksWalking=0,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=0
 mapChance=0.000000#biomes_0
 heatValue=0
-rValue=0.180000
+rValue=0.090000
 person=0,noSpawn=0
 male=0
 deathMarker=0
@@ -20,7 +20,7 @@ foodValue=0
 speedMult=1.000000
 heldOffset=29.000000,22.000000
 clothing=p
-clothingOffset=-19.000000,68.000000
+clothingOffset=-21.000000,65.000000
 deadlyDistance=0
 useDistance=1
 sounds=153:0.250000,286:0.101010,-1:0.0,-1:0.0
@@ -29,7 +29,6 @@ creationSoundForce=0
 numSlots=3#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 slotPos=-9.000000,-6.000000,vert=-8,parent=-1
 slotPos=-5.000000,-6.000000,vert=-8,parent=-1
 slotPos=-1.000000,-6.000000,vert=-8,parent=-1
