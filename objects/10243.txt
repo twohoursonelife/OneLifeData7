@@ -1,5 +1,5 @@
 id=10243
-Hot Stove Pot #wooden tongs
+Hot Stove Pot #wooden tongs (old)
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -39,11 +39,11 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=100076
+spriteID=111821
 pos=11.000001,-26.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=0.802817,0.802817,0.802817
 ageRange=-1.000000,-1.000000
 parent=2
 invisHolding=0,invisWorn=0,behindSlots=0

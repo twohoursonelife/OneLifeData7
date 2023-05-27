@@ -1,5 +1,5 @@
 id=5279
-Camping Stove #cold stew ashes veggie
+Camping Stove #cold stew ashes veggie (old)
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

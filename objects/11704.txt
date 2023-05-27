@@ -1,5 +1,5 @@
 id=11704
-Excavated Mine Shaft
+Excavated Mine Shaft (old)
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -29,7 +29,6 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=2
 spriteID=110852
 pos=1.000000,70.000000

@@ -1,6 +1,6 @@
 id=13373
 Pot of Warm Milk with Rennet Added
-containable=1
+containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
 noFlip=0
@@ -30,11 +30,11 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=2
-spriteID=100076
+spriteID=111821
 pos=0.000000,-20.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=0.802817,0.802817,0.802817
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -55,4 +55,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=2
+pixHeight=52
