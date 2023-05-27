@@ -1,5 +1,5 @@
-id=13643
-Springy Open Light Wooden Door# left installed +blocksMoving
+id=14044
+Springy Open Dark Wooden Door# left installed +blocksMoving
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -50,8 +50,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=100933
-pos=88.000000,-24.000000
+spriteID=100934
+pos=91.000000,-25.000000
 rot=0.000000
 hFlip=1
 color=1.000000,1.000000,1.000000
