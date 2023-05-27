@@ -1,5 +1,5 @@
 id=11636
-Bronze Shovel Head#Flat Rock
+Bronze Shovel Head on Flat Rock
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

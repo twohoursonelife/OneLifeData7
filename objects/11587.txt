@@ -1,5 +1,5 @@
 id=11587
-Hot Bronze Hoe Head#Flat Rock
+Hot Bronze Hoe Head on Flat Rock
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
