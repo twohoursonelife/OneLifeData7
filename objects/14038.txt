@@ -1,5 +1,5 @@
-id=25000
-@ Shears with Cutting
+id=14038
+@ Shears with Cutting (from source)
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -29,7 +29,16 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=6
+numSprites=7
+spriteID=101784
+pos=-10.000000,115.000004
+rot=0.000000
+hFlip=0
+color=0.000000,0.000000,0.000000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=711
 pos=-3.000000,-1.000000
 rot=0.000000
@@ -91,4 +100,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=49
+pixHeight=197
