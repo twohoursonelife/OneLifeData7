@@ -1,5 +1,5 @@
 id=11602
-Mine Shaft #exhausted iron 2
+Mine with Iron #2 #exhausted
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -29,7 +29,6 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=3
 spriteID=110852
 pos=1.000000,70.000000
@@ -40,7 +39,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=100192
+spriteID=100191
 pos=4.000000,76.000000
 rot=0.000000
 hFlip=0

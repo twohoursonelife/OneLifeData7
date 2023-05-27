@@ -1,6 +1,6 @@
 id=13613
-Rice Ball
-containable=0
+Onigiri
+containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
 noFlip=0
@@ -16,21 +16,21 @@ deathMarker=0
 homeMarker=0
 floor=0
 floorHugging=0
-foodValue=0
+foodValue=3,5
 speedMult=1.000000
 heldOffset=0.000000,0.000000
 clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
 useDistance=1
-sounds=-1:0.0,-1:0.0,-1:0.0,-1:0.0
+sounds=149:0.250000,-1:0.0,1257:0.108333,-1:0.0
 creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=1
-spriteID=111616
+spriteID=111665
 pos=0.000000,0.000000
 rot=0.000000
 hFlip=0
@@ -46,4 +46,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=9
+pixHeight=8

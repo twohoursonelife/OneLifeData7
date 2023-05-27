@@ -1,5 +1,5 @@
 id=11626
-Mine Shaft with Diamond #exhausted desert
+Mine Shaft with Diamond #exhausted desert (old)
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -29,7 +29,6 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=3
 spriteID=110817
 pos=-3.000000,94.000004
