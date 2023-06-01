@@ -1,8 +1,8 @@
 id=14046
-writing set
-containable=0
+Writing Set
+containable=1
 containSize=1.000000,vertSlotRot=-0.250000
-permanent=1,minPickupAge=3
+permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
 heldInHand=0
@@ -24,7 +24,7 @@ clothingOffset=8.000000,55.000000
 deadlyDistance=0
 useDistance=1
 sounds=1467:0.016667,-1:0.0,-1:0.0,-1:0.0
-creationSoundInitialOnly=1
+creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
