@@ -25,7 +25,7 @@ deadlyDistance=0
 useDistance=1
 sounds=388:0.250000,-1:0.0,-1:0.0,-1:0.0
 creationSoundInitialOnly=0
-creationSoundForce=0
+creationSoundForce=1
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
