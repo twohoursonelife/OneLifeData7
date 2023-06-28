@@ -1,5 +1,5 @@
-id=14121
-@ +contTableExceptionsPot
+id=14129
+@ Hot Pot Food - good cooked
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
