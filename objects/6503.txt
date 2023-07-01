@@ -18,7 +18,7 @@ floor=0
 floorHugging=0
 foodValue=6
 speedMult=1.000000
-heldOffset=13.000000,-5.000000
+heldOffset=2.000000,-6.000000
 clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
@@ -30,11 +30,11 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=1
-spriteID=100229
+spriteID=111909
 pos=-1.000000,-30.000000
 rot=0.000000
 hFlip=0
-color=0.887324,0.801073,0.712359
+color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
