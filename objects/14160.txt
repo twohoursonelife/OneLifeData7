@@ -1,5 +1,5 @@
-id=4652
-Grizzly Bear Hat (old)
+id=14160
+Grizzly Bear Hat
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3
@@ -20,7 +20,7 @@ foodValue=0
 speedMult=1.000000
 heldOffset=10.000000,24.000000
 clothing=h
-clothingOffset=-16.000000,24.999992
+clothingOffset=-16.000000,7.999992
 deadlyDistance=0
 useDistance=1
 sounds=941:0.250000,286:0.101010,-1:0.0,-1:0.0
@@ -30,11 +30,11 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=1
-spriteID=100053
+spriteID=111925
 pos=14.000000,16.000000
-rot=-0.035000
-hFlip=1
-color=1.000000,1.000000,1.000000
+rot=0.000000
+hFlip=0
+color=0.788732,0.788732,0.788732
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -46,4 +46,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=57
+pixHeight=55
