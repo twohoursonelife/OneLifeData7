@@ -1,7 +1,7 @@
 id=11844
 Bowl of Cocoa Beans with Pulp
 containable=1
-containSize=1.000000,vertSlotRot=0.000000
+containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
@@ -29,7 +29,6 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=10
 spriteID=525
 pos=0.000000,-25.000000
@@ -125,7 +124,7 @@ headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
 frontFootIndex=-1
-numUses=3,1.000000
+numUses=0,1.000000
 useVanishIndex=1,2,3
 useAppearIndex=-1
 pixHeight=0
