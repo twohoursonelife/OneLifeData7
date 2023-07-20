@@ -1,5 +1,5 @@
 id=14224
-Copper Pipe #SW +tapoutTrigger,1,1,1,1 #justGone
+Copper Pipe #SW #justGone
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
