@@ -1,5 +1,5 @@
 id=12808
-Copper Pipe #SW #oilW +tapoutTrigger,1,1,1,1
+Copper Pipe #SW #oilW
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

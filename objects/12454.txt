@@ -1,5 +1,5 @@
 id=12454
-Diesel Water Pump with Dry Water Tank #+tapoutTrigger,1,1,1,1
+Diesel Water Pump with Dry Water Tank
 containable=0
 containSize=1.000000,vertSlotRot=-0.195000
 permanent=1,minPickupAge=3

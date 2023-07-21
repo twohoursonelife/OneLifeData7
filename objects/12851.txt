@@ -1,5 +1,5 @@
 id=12851
-Copper Pipe #TW #SW #waterS +tapoutTrigger,1,1,1,1
+Copper Pipe #TW #SW #waterS
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
