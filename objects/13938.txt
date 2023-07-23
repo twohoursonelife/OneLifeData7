@@ -28,12 +28,13 @@ creationSoundInitialOnly=1
 creationSoundForce=0
 numSlots=1#timeStretch=1.000000
 slotSize=0.000000
+slotStyle=1
 slotsLocked=0
 slotsNoSwap=1
-slotPos=-1.000000,73.000000,vert=0,parent=-1
+slotPos=-1.000000,66.000000,vert=0,parent=-1
 numSprites=7
 spriteID=363
-pos=0.000000,-2.000000
+pos=0.000000,-9.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -42,7 +43,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=1
 invisCont=0
 spriteID=111756
-pos=17.000000,32.000000
+pos=17.000000,25.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -51,7 +52,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=1
 invisCont=0
 spriteID=265
-pos=17.000000,17.000000
+pos=17.000000,10.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -60,7 +61,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=1
 invisCont=0
 spriteID=266
-pos=26.000000,21.000000
+pos=26.000000,14.000000
 rot=0.000000
 hFlip=1
 color=1.000000,1.000000,1.000000
@@ -69,7 +70,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=1
 invisCont=0
 spriteID=267
-pos=13.000000,19.000000
+pos=13.000000,12.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -78,7 +79,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=1
 invisCont=0
 spriteID=111761
-pos=9.000000,112.000000
+pos=9.000000,105.000000
 rot=0.000000
 hFlip=0
 color=0.112676,0.112676,0.112676
@@ -87,7 +88,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=1
 invisCont=0
 spriteID=111761
-pos=9.000000,112.000000
+pos=9.000000,105.000000
 rot=0.000000
 hFlip=0
 color=0.507042,0.507042,0.507042
@@ -103,4 +104,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=234
+pixHeight=227
