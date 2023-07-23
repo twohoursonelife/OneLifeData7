@@ -1,5 +1,5 @@
-id=14244
-Chair
+id=14252
+Chair#pulled
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -22,7 +22,7 @@ heldOffset=-9.000000,60.000000
 clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
-useDistance=1
+useDistance=0
 sounds=-1:0.0,-1:0.0,-1:0.0,-1:0.0
 creationSoundInitialOnly=0
 creationSoundForce=0

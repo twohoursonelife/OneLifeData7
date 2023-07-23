@@ -1,5 +1,5 @@
-id=14244
-Chair
+id=14247
+Chair#left
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -31,9 +31,9 @@ slotSize=1.000000
 slotsLocked=0
 numSprites=1
 spriteID=111976
-pos=-3.000000,40.000000
+pos=3.000000,40.000000
 rot=0.000000
-hFlip=0
+hFlip=1
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
