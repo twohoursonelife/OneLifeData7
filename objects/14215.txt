@@ -28,7 +28,6 @@ creationSoundInitialOnly=1
 creationSoundForce=0
 numSlots=1#timeStretch=1.000000
 slotSize=2.000000
-slotStyle=1
 slotsLocked=0
 slotPos=-1.000000,58.000000,vert=0,parent=-1
 numSprites=3
@@ -51,7 +50,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=1
 invisCont=0
 spriteID=111966
-pos=-2.000000,38.000000
+pos=-2.000000,37.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -66,4 +65,4 @@ frontFootIndex=-1
 numUses=0,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=68
+pixHeight=67
