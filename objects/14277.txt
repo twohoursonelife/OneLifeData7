@@ -1,5 +1,5 @@
-id=12204
-Thin Steel Pipe on Work Bench
+id=14277
+Steel Wire on Work Bench
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -66,8 +66,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=2425
-pos=-8.000000,49.000001
+spriteID=2404
+pos=-8.000000,59.000001
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -82,4 +82,4 @@ frontFootIndex=-1
 numUses=0,0.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=67
+pixHeight=91
