@@ -1,5 +1,5 @@
 id=14281
-Bike Wheel without Rubber Tire on Work Bench
+Bicycle Wheel without Rubber Tire on Work Bench
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

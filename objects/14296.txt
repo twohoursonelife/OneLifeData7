@@ -1,5 +1,5 @@
 id=14296
-Bike Trailor without Tires
+Bicycle Trailor without Tires
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
