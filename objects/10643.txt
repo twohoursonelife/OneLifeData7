@@ -1,5 +1,5 @@
 id=10643
-Stone Oven #lit, steak and onion pie
+(old) Stone Oven #lit, steak and onion pie
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
