@@ -1,5 +1,5 @@
 id=13938
-type=5,randStartPhase=0
+type=6,randStartPhase=0
 forceZeroStart=0
 numSounds=0
 numSprites=12
