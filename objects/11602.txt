@@ -1,5 +1,5 @@
 id=11602
-Mine with Iron #2 #exhausted (old)
+(outdated) Mine with Iron #2 #exhausted
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

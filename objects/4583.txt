@@ -1,5 +1,5 @@
 id=4583
-(old) Indigo Silk Roll
+(outdated) Indigo Silk Roll
 containable=1
 containSize=1,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

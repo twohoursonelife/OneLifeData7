@@ -1,5 +1,5 @@
 id=6881
-(old) Cheese Wheel Pile
+(outdated) Cheese Wheel Pile
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

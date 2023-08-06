@@ -1,5 +1,5 @@
 id=4627
-(old) Blue Silk Roll Tied #blue
+(outdated) Blue Silk Roll Tied #blue
 containable=1
 containSize=1,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

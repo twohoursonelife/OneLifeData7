@@ -1,5 +1,5 @@
 id=11604
-Mine Shaft with Lapis Lazuli #desert (old)
+(outdated) Mine Shaft with Lapis Lazuli #desert
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

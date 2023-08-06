@@ -1,5 +1,5 @@
 id=11627
-Mine Shaft with Diamond #exhausted precious (old)
+(outdated) Mine Shaft with Diamond #exhausted precious
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
