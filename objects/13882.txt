@@ -30,7 +30,7 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=3
-spriteID=3338
+spriteID=112013
 pos=1.000000,-37.000000
 rot=0.000000
 hFlip=0
@@ -39,7 +39,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=3338
+spriteID=112013
 pos=13.000000,-18.000000
 rot=0.000000
 hFlip=0
