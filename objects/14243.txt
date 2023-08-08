@@ -2,7 +2,7 @@ id=14243
 Bicycle#riding
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
-permanent=1,minPickupAge=3
+permanent=1,minPickupAge=13
 noFlip=0
 sideAccess=0
 heldInHand=2
@@ -29,7 +29,6 @@ creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
-slotStyle=1
 slotsLocked=0
 numSprites=4
 spriteID=111973
