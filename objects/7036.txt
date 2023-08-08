@@ -1,5 +1,5 @@
 id=7036
-Water Can on Work Bench
+Watering Can on Work Bench
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -82,4 +82,4 @@ frontFootIndex=-1
 numUses=0,0.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=82
+pixHeight=92
