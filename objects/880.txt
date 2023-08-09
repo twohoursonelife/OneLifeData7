@@ -1,7 +1,7 @@
 id=880
 Big Stack of Boards
-containable=0
-containSize=1.000000,vertSlotRot=0.000000
+containable=1
+containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
@@ -17,8 +17,8 @@ homeMarker=0
 floor=0
 floorHugging=0
 foodValue=0
-speedMult=0.500000
-heldOffset=6.000000,21.000000
+speedMult=1.000000
+heldOffset=8.000000,21.000000
 clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
@@ -29,7 +29,6 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=2
 spriteID=789
 pos=2.000000,-30.000000
