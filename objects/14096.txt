@@ -2,7 +2,7 @@ id=14096
 Steel Wheelbarrow of Cement and Gravel
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
-permanent=0,minPickupAge=3
+permanent=0,minPickupAge=12
 noFlip=0
 sideAccess=0
 heldInHand=0

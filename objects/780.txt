@@ -1,5 +1,5 @@
 id=780
-Escaped Horse-Drawn Cart
+(outdated) Escaped Horse-Drawn Cart
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=13

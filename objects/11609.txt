@@ -1,5 +1,5 @@
 id=11609
-Mine Shaft with Gold #precious (old)
+(outdated) Mine Shaft with Gold #precious
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=11606
-Mine Shaft with Alum #desert (old)
+(outdated) Mine Shaft with Alum #desert
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

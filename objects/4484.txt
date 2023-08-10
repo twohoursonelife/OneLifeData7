@@ -1,5 +1,5 @@
 id=4484
-Ripe Cheese Wheel #3
+(outdated) Ripe Cheese Wheel #3
 containable=0
 containSize=1,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

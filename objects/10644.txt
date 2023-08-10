@@ -1,5 +1,5 @@
 id=10644
-Stone Oven #hot, steak and onion pie
+(outdated) Stone Oven #hot, steak and onion pie
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

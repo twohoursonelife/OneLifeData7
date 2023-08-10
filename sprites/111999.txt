@@ -1,0 +1,1 @@
+bike2_frameNoSaddle 0 0 0
