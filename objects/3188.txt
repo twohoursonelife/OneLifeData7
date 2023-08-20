@@ -1,7 +1,7 @@
 id=3188
-Stack of Blank Maps
-containable=0
-containSize=1.000000,vertSlotRot=0.000000
+Stack of Blue Dyed Paper
+containable=1
+containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
