@@ -1,5 +1,5 @@
 id=13644
-Firepit with Smoldering Tinder
+Firepit with Smoldering Tinder #eveHomeMarker
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -13,7 +13,7 @@ rValue=0.000000
 person=0,noSpawn=0
 male=0
 deathMarker=0
-homeMarker=0
+homeMarker=1
 floor=0
 floorHugging=0
 foodValue=0
