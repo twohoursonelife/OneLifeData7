@@ -1,5 +1,5 @@
 id=13699
-Wood-filled Cast Iron Stove #+useOnContained
+Wood-filled Cast Iron Stove# +useOnContained
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
