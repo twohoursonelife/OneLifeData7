@@ -1,5 +1,5 @@
 id=13894
-@ Mine Results - #4 - malachiteCassiteriteDeposit
+Random Mine Results# #4 - malachiteCassiteriteDeposit
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
