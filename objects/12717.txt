@@ -1,5 +1,5 @@
 id=12717
-@ Perhaps Fed Calico Cat Outcome
+Perhaps Fed Calico Cat Outcome
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

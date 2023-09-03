@@ -1,5 +1,5 @@
 id=12522
-@ Perhaps sprayed Planted Milkweed Seed
+Perhaps sprayed Planted Milkweed Seed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
