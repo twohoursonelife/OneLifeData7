@@ -1,5 +1,5 @@
 id=6624
-Stone Wall Home#llama eveHomeMarker
+Stone Wall#llama
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -13,7 +13,7 @@ rValue=0.900000
 person=0,noSpawn=0
 male=0
 deathMarker=0
-homeMarker=1
+homeMarker=0
 floor=0
 floorHugging=1
 foodValue=0

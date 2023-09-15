@@ -1,5 +1,5 @@
 id=13953
-Ban Hammer#Mod Tool #deadly
+Ban Hammer #modTool #deadly
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=0
@@ -16,7 +16,7 @@ deathMarker=0
 homeMarker=0
 floor=0
 floorHugging=0
-foodValue=0
+foodValue=0,100
 speedMult=4.000000
 heldOffset=27.000000,14.000004
 clothing=n

@@ -1,5 +1,5 @@
 id=12570
-@ Perhaps sprayed Jelutong Sapling Cutting
+Perhaps sprayed Jelutong Sapling Cutting
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

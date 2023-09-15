@@ -1,5 +1,5 @@
 id=13646
-Firepit with Burning Tinder
+Firepit with Burning Tinder #eveHomeMarker
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -13,7 +13,7 @@ rValue=0.000000
 person=0,noSpawn=0
 male=0
 deathMarker=0
-homeMarker=0
+homeMarker=1
 floor=0
 floorHugging=0
 foodValue=0
@@ -31,7 +31,7 @@ slotSize=1.000000
 slotsLocked=0
 numSprites=17
 spriteID=111840
-pos=1.000000,7.000000
+pos=1.000000,-27.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -40,7 +40,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=263
-pos=10.000000,-2.000000
+pos=10.000000,-36.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -49,7 +49,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=263
-pos=-10.000000,-2.000000
+pos=-10.000000,-36.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -58,7 +58,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=272
-pos=2.000000,5.000000
+pos=2.000000,-29.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -67,7 +67,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=255
-pos=2.000000,5.000000
+pos=2.000000,-29.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -76,7 +76,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=289
-pos=2.000000,8.000000
+pos=2.000000,-26.000000
 rot=0.000000
 hFlip=0
 color=0.000000,0.000000,0.000000
@@ -85,7 +85,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=289
-pos=6.000000,7.000000
+pos=6.000000,-27.000000
 rot=0.000000
 hFlip=0
 color=0.000000,0.000000,0.000000
@@ -94,7 +94,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=289
-pos=-1.000000,7.000000
+pos=-1.000000,-27.000000
 rot=0.000000
 hFlip=0
 color=0.000000,0.000000,0.000000
@@ -103,7 +103,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=291
-pos=3.000000,77.000000
+pos=3.000000,43.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -112,7 +112,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=292
-pos=1.000000,77.000000
+pos=1.000000,43.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -121,7 +121,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=293
-pos=3.000000,83.000000
+pos=3.000000,49.000000
 rot=0.000000
 hFlip=1
 color=1.000000,1.000000,1.000000
@@ -130,7 +130,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=294
-pos=2.000000,83.000000
+pos=2.000000,49.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -139,7 +139,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=295
-pos=2.000000,79.000000
+pos=2.000000,45.000000
 rot=0.500000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -148,7 +148,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=268
-pos=-1.000000,10.000000
+pos=-1.000000,-24.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -157,7 +157,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=269
-pos=5.000000,8.000000
+pos=5.000000,-26.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -166,7 +166,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=269
-pos=2.000000,8.000000
+pos=2.000000,-26.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -175,7 +175,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=111634
-pos=2.000000,-2.000000
+pos=2.000000,-36.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000

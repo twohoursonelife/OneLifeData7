@@ -1,5 +1,5 @@
 id=12616
-@ Perhaps sprayed Planted Snake Plant
+Perhaps sprayed Planted Snake Plant
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

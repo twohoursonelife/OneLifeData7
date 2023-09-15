@@ -29,13 +29,12 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=1
 spriteID=1687
 pos=-1.000000,-31.000000
 rot=0.000000
 hFlip=0
-color=0.352113,0.534616,1.000000
+color=0.990875,0.352113,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0

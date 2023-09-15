@@ -145,7 +145,7 @@ ageRange=-1.000000,-1.000000
 parent=9
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spritesDrawnBehind=4
+spritesDrawnBehind=1,4,5,6,7,8
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1

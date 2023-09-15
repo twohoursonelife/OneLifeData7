@@ -23,13 +23,12 @@ clothing=n
 clothingOffset=6.000000,45.000000
 deadlyDistance=0
 useDistance=1
-sounds=1654:0.091667,-1:0.0,-1:0.0,-1:0.0
-creationSoundInitialOnly=1
+sounds=-1:0.0,-1:0.0,-1:0.0,-1:0.0
+creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=2
 spriteID=100978
 pos=-2.000000,-32.999996

@@ -1,5 +1,5 @@
 id=12592
-@ Perhaps sprayed Planted Morning Glory
+Perhaps sprayed Planted Morning Glory
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

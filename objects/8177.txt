@@ -1,5 +1,5 @@
 id=8177
-Garland Stone Fireplace with Smoldering Tinder#stocking
+Garland Stone Fireplace with Smoldering Tinder#stocking #eveHomeMarker
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -13,7 +13,7 @@ rValue=0.750000
 person=0,noSpawn=0
 male=0
 deathMarker=0
-homeMarker=0
+homeMarker=1
 floor=0
 floorHugging=0
 wallLayer=1

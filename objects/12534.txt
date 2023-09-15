@@ -1,5 +1,5 @@
 id=12534
-@ Perhaps sprayed Planted Wild Onion
+Perhaps sprayed Planted Wild Onion
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
