@@ -1,5 +1,5 @@
 id=4598
-Bee Box Comb
+Honey Comb
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3
@@ -29,7 +29,6 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=1
 spriteID=79881
 pos=0.000000,-30.000000
