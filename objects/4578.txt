@@ -1,5 +1,5 @@
 id=4578
-Domestic Hive #3B
+(outdated) Domestic Hive #3B
 containable=0
 containSize=1,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

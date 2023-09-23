@@ -1,5 +1,5 @@
 id=4607
-Domestic Hive #3A swarm
+(outdated) Domestic Hive #3A swarm
 containable=0
 containSize=1,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
