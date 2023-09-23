@@ -1,5 +1,5 @@
 id=4600
-Wild Honey Comb
+Wild Honeycomb
 containable=1
 containSize=1.000000,vertSlotRot=0.250000
 permanent=0,minPickupAge=3
