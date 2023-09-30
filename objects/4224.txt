@@ -1,5 +1,5 @@
-id=10435
-(outdated) Cucumber Seeds
+id=4224
+Cucumber Seeds
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
