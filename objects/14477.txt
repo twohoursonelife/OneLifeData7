@@ -1,11 +1,11 @@
-id=12300
-Wool Blend Sheet #1
-containable=0
-containSize=1.000000,vertSlotRot=-0.250000
-permanent=1,minPickupAge=3
+id=14477
+Wool Blend Sheet #1 #held
+containable=1
+containSize=2.000000,vertSlotRot=0.000000
+permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
-heldInHand=0
+heldInHand=1
 blocksWalking=0,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=0
 mapChance=0.000000#biomes_0
 heatValue=0
@@ -18,23 +18,23 @@ floor=0
 floorHugging=0
 foodValue=0
 speedMult=1.000000
-heldOffset=24.000000,11.000000
+heldOffset=0.999992,-29.999996
 clothing=n
 clothingOffset=8.000000,55.000000
 deadlyDistance=0
 useDistance=1
 sounds=286:0.101010,-1:0.0,-1:0.0,-1:0.0
-creationSoundInitialOnly=1
+creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=1
-spriteID=2689
-pos=2.999992,-31.000000
+spriteID=112116
+pos=-10.000000,-20.000000
 rot=0.000000
 hFlip=0
-color=1.000000,0.962904,0.845070
+color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -46,4 +46,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=0
+pixHeight=13
