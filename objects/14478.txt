@@ -1,5 +1,5 @@
-id=14473
-Small Ball of Linen Yarn
+id=14478
+Big Ball of Linen Yarn
 containable=1
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3
@@ -30,7 +30,7 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=1
-spriteID=973
+spriteID=974
 pos=6.000000,-30.000000
 rot=0.000000
 hFlip=0

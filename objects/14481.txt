@@ -1,5 +1,5 @@
-id=14421
-Warp Weighted Loom with Linen Warp
+id=14481
+Warp Weighted Loom with Linen Cloth
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -29,7 +29,7 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=22
+numSprites=23
 spriteID=396
 pos=36.000000,27.000000
 rot=-0.255000
@@ -120,7 +120,7 @@ ageRange=-1.000000,-1.000000
 parent=3
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=112028
+spriteID=112121
 pos=-2.000000,48.000000
 rot=0.000000
 hFlip=0
@@ -129,7 +129,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=112028
+spriteID=112121
 pos=-2.000000,8.000000
 rot=0.000000
 hFlip=0
@@ -221,6 +221,15 @@ invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=144
 pos=24.000000,-19.000000
+rot=0.000000
+hFlip=0
+color=1.000000,1.000000,1.000000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=112120
+pos=-3.000000,29.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
