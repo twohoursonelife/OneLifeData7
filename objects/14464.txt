@@ -2,7 +2,7 @@ id=14464
 Retted Flax
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
-permanent=1,minPickupAge=3
+permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
 heldInHand=1
@@ -30,7 +30,7 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=1
-spriteID=112107
+spriteID=112123
 pos=2.000000,-26.000000
 rot=0.250000
 hFlip=0
@@ -46,4 +46,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=21
+pixHeight=22
