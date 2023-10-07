@@ -1,5 +1,5 @@
 id=10413
-Bottle of Wine #stopper
+Sealed Wine Bottle
 containable=1
 containSize=2.000000,vertSlotRot=0.750000
 permanent=0,minPickupAge=3

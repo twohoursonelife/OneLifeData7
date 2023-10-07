@@ -1,5 +1,5 @@
 id=10401
-Bottle of Vinegar #funnel
+(outdated) Bottle of Vinegar #funnel
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

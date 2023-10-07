@@ -1,5 +1,5 @@
 id=10527
-Full Bowl of Ground Pepper
+(outdated) Full Bowl of Ground Pepper
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

@@ -1,5 +1,5 @@
 id=10424
-Bottle of Cream #stopper
+(outdated) Bottle of Cream #stopper
 containable=1
 containSize=2.000000,vertSlotRot=0.750000
 permanent=0,minPickupAge=3
