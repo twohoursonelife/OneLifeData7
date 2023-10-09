@@ -1,5 +1,5 @@
 id=14503
-Mug of Orange Juice# +noFeeding +emotEat-6_10 +alcohol5
+Mug of Orange Juice
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

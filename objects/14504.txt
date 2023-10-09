@@ -1,5 +1,5 @@
 id=14504
-Mug of Lemonade# +noFeeding +emotEat-6_10 +alcohol5
+Mug of Lemonade
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
