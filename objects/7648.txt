@@ -1,5 +1,5 @@
 id=7648
-Sack of Bone Meal
+Sack of Bone Meal #1
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3
@@ -18,7 +18,7 @@ floor=0
 floorHugging=0
 foodValue=0
 speedMult=1.000000
-heldOffset=27.000000,17.000000
+heldOffset=29.000000,21.000000
 clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
@@ -93,6 +93,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
+spritesAdditiveBlend=6
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
