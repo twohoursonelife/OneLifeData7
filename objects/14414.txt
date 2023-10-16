@@ -1,5 +1,5 @@
 id=14414
-Bowl of Dirty Bee Wax
+Bowl of Cooled Dirty Bee Wax
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
