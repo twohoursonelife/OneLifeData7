@@ -1,5 +1,5 @@
 id=7327
-Bee Hive #2 bee leaving
+Bee Hive #2 #honey2 #bee
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -169,7 +169,7 @@ headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
 frontFootIndex=-1
-numUses=2,1.000000
+numUses=1
 useVanishIndex=3,8
 useAppearIndex=-1
 pixHeight=34

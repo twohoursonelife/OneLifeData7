@@ -1,5 +1,5 @@
 id=10547
-Full Bowl of Dry Rub
+(outdated) Full Bowl of Dry Rub
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

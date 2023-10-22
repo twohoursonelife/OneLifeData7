@@ -1,5 +1,5 @@
 id=6889
-Blowpipe With Hot Glass Bottle
+Blowpipe with Hot Wine Bottle
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -29,7 +29,6 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=3
 spriteID=2425
 pos=-4.000000,-33.000000

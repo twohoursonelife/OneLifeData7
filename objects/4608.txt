@@ -1,5 +1,5 @@
 id=4608
-Mason Jar of Honeycomb
+(outdated) Mason Jar of Honeycomb
 containable=1
 containSize=1.000000,vertSlotRot=0.750000
 permanent=0,minPickupAge=3
@@ -29,7 +29,6 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=9
 spriteID=79883
 pos=-6.000000,-22.000000

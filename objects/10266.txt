@@ -1,5 +1,5 @@
 id=10266
-Glass of Orange Juice
+(outdated) Glass of Orange Juice
 containable=0
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3
@@ -29,7 +29,6 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=4
 spriteID=111279
 pos=1.000000,-9.000000

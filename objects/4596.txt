@@ -1,5 +1,5 @@
 id=4596
-Domestic Hive #3B spawn
+(outdated) Domestic Hive #3B spawn
 containable=0
 containSize=1,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
