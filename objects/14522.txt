@@ -1,5 +1,5 @@
 id=14522
-Witch Hat
+Pink Witch Hat
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -18,7 +18,7 @@ floor=0
 floorHugging=0
 foodValue=0
 speedMult=1.000000
-heldOffset=24.000000,29.000000
+heldOffset=1.000000,16.000000
 clothing=h
 clothingOffset=-9.000000,49.000000
 deadlyDistance=0
@@ -29,9 +29,36 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=1
-spriteID=112131
+numSprites=4
+spriteID=112144
+pos=23.000000,-35.000000
+rot=0.000000
+hFlip=0
+color=1.000000,0.591549,0.591549
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=1,behindSlots=0
+invisCont=0
+spriteID=112142
 pos=-9.000000,-27.000000
+rot=0.000000
+hFlip=0
+color=1.000000,0.591549,0.591549
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=1,behindSlots=0
+invisCont=0
+spriteID=112146
+pos=-9.000000,-27.000000
+rot=0.000000
+hFlip=0
+color=1.000000,0.591549,0.591549
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=2,behindSlots=0
+invisCont=0
+spriteID=112143
+pos=9.000000,-12.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -46,4 +73,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=6
+pixHeight=7
