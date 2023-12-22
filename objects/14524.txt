@@ -1,7 +1,7 @@
 id=14524
 Full Bundle of Harvested Flax
-containable=0
-containSize=1.000000,vertSlotRot=0.000000
+containable=1
+containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
@@ -31,7 +31,7 @@ slotSize=1.000000
 slotsLocked=0
 numSprites=1
 spriteID=112136
-pos=0.000000,0.000000
+pos=0.000000,-26.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000

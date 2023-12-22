@@ -1,7 +1,7 @@
 id=13368
 Hoop with Cheesecloth
-containable=0
-containSize=1.000000,vertSlotRot=0.000000
+containable=1
+containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
@@ -43,7 +43,7 @@ spriteID=111435
 pos=-1.000000,-17.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=0.999000,0.999000,0.999000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
