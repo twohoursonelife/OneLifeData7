@@ -1,5 +1,5 @@
 id=12723
-White Cat #readyToPounce
+Hunting White Cat #readyToPounce
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -29,7 +29,6 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=9
 spriteID=71
 pos=0.000000,-20.000000
@@ -119,4 +118,4 @@ frontFootIndex=-1
 numUses=8,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=54
+pixHeight=34
