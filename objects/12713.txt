@@ -1,5 +1,5 @@
 id=12713
-White Cat #hunting +tapoutTrigger,1,1,3,3
+Hunting White Cat #+tapoutTrigger,1,1,3,3
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -118,4 +118,4 @@ frontFootIndex=-1
 numUses=6,0.002500
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=54
+pixHeight=34

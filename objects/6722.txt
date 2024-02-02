@@ -1,7 +1,7 @@
 id=6722
 Head Wrap#basket
-containable=1
-containSize=2.000000,vertSlotRot=0.000000
+containable=0
+containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
@@ -23,13 +23,12 @@ clothing=h
 clothingOffset=-13.000000,65.000000
 deadlyDistance=0
 useDistance=1
-sounds=496:0.250000,286:0.101010,-1:0.0,-1:0.0
-creationSoundInitialOnly=0
+sounds=286:0.101010,286:0.101010,-1:0.0,-1:0.0
+creationSoundInitialOnly=1
 creationSoundForce=0
 numSlots=3#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 slotPos=-6.999999,-5.000000,vert=1,parent=-1
 slotPos=1.000001,-4.000002,vert=1,parent=-1
 slotPos=11.000000,-3.000004,vert=1,parent=-1
