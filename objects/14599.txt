@@ -1,7 +1,7 @@
-id=14574
-Bamboo Backpack with Yew Bow
-containable=1
-containSize=2.000000,vertSlotRot=-0.250000
+id=14599
+Bamboo Backpack with Firewood
+containable=0
+containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
@@ -23,8 +23,8 @@ clothing=p
 clothingOffset=-21.000000,65.000000
 deadlyDistance=0
 useDistance=1
-sounds=153:0.250000,286:0.101010,-1:0.0,-1:0.0
-creationSoundInitialOnly=1
+sounds=34:0.250000,286:0.101010,-1:0.0,-1:0.0
+creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=4#timeStretch=1.000000
 slotSize=1.000000
@@ -61,11 +61,11 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=2,behindSlots=0
 invisCont=0
-spriteID=418
-pos=-12.000000,-16.000000
-rot=1.785000
+spriteID=572
+pos=-14.000000,-38.000000
+rot=0.000000
 hFlip=0
-color=0.999000,0.999000,0.999000
+color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
