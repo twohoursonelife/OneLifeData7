@@ -1,5 +1,5 @@
-id=14614
-Cast Iron Fence
+id=14651
+Cast Iron Fence Gate
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -40,8 +40,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=1
 invisCont=0
-spriteID=112239
-pos=0.000000,12.000000
+spriteID=112247
+pos=-4.000000,12.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000

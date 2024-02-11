@@ -1,5 +1,5 @@
-id=13724
-Cast Iron Sheet
+id=14647
+Cast Iron Ornate Panel
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -30,8 +30,8 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=1
-spriteID=111781
-pos=11.000000,-34.000000
+spriteID=112230
+pos=11.000000,-35.000000
 rot=0.000000
 hFlip=0
 color=0.535211,0.535211,0.535211

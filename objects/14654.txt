@@ -1,12 +1,12 @@
-id=14614
-Cast Iron Fence
+id=14654
+Open Cast Iron Fence Gate
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
 noFlip=0
 sideAccess=0
 heldInHand=0
-blocksWalking=1,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=0
+blocksWalking=0,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=0
 mapChance=0.000000#biomes_0
 heatValue=0
 rValue=0.900000
@@ -17,6 +17,7 @@ homeMarker=0
 floor=0
 floorHugging=1
 wallLayer=1
+frontWall=1
 foodValue=0
 speedMult=1.000000
 heldOffset=0.000000,0.000000
@@ -30,18 +31,9 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=2
-spriteID=112198
-pos=-16.000000,-57.000000
-rot=0.000000
-hFlip=0
-color=1.000000,1.000000,1.000000
-ageRange=-1.000000,-1.000000
-parent=-1
-invisHolding=0,invisWorn=0,behindSlots=1
-invisCont=0
-spriteID=112239
-pos=0.000000,12.000000
+numSprites=1
+spriteID=112250
+pos=-96.000000,-14.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
