@@ -1,12 +1,13 @@
-id=14641
-Cast Iron Bench
+id=14660
+Cast Iron Bench#sitting
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
-permanent=1,minPickupAge=3
-noFlip=0
+permanent=0,minPickupAge=3
+noFlip=1
 sideAccess=0
-heldInHand=0
-blocksWalking=0,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=1
+heldInHand=2
+ridingAnimationIndex=7
+blocksWalking=0,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=0
 mapChance=0.000000#biomes_0
 heatValue=0
 rValue=0.000000
@@ -17,7 +18,7 @@ homeMarker=0
 floor=0
 floorHugging=0
 foodValue=0
-speedMult=1.000000
+speedMult=0.000000
 heldOffset=38.000002,58.000000
 clothing=n
 clothingOffset=-27.000000,72.000000
