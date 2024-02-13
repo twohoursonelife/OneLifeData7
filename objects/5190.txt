@@ -20,7 +20,7 @@ foodValue=0
 speedMult=1.100000
 heldOffset=14.000000,-3.000000
 clothing=h
-clothingOffset=39.000000,-13.000000
+clothingOffset=24.000000,36.000000
 deadlyDistance=0
 useDistance=1
 sounds=101:0.250000,-1:0.0,-1:0.0,-1:0.0
@@ -30,8 +30,8 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=11
-spriteID=100020
-pos=-12.000000,18.000000
+spriteID=112271
+pos=0.000000,-32.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -40,7 +40,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=289
-pos=8.000000,19.000000
+pos=14.000000,-32.000000
 rot=0.000000
 hFlip=0
 color=0.000000,0.000000,0.000000
@@ -49,7 +49,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=289
-pos=8.000000,19.000000
+pos=14.000000,-32.000000
 rot=0.000000
 hFlip=0
 color=0.000000,0.000000,0.000000
@@ -58,7 +58,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=289
-pos=8.000000,18.000000
+pos=14.000000,-33.000000
 rot=0.000000
 hFlip=0
 color=0.000000,0.000000,0.000000
@@ -67,7 +67,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=290
-pos=8.000000,19.000000
+pos=14.000000,-32.000000
 rot=0.000000
 hFlip=0
 color=1.000000,0.422535,0.000000
@@ -76,7 +76,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=290
-pos=7.000000,18.000000
+pos=13.000000,-33.000000
 rot=0.000000
 hFlip=0
 color=1.000000,0.794683,0.366197
@@ -85,7 +85,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=291
-pos=11.000000,82.000000
+pos=17.000000,31.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -94,7 +94,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=292
-pos=10.000000,73.000000
+pos=16.000000,22.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -103,7 +103,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=293
-pos=14.000000,86.000000
+pos=20.000000,35.000000
 rot=0.000000
 hFlip=1
 color=1.000000,1.000000,1.000000
@@ -112,7 +112,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=294
-pos=9.000000,92.000000
+pos=15.000000,41.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -121,7 +121,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=295
-pos=12.000000,76.000000
+pos=18.000000,25.000000
 rot=0.500000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -136,4 +136,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=92
+pixHeight=41
