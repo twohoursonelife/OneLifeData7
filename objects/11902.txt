@@ -1,5 +1,5 @@
 id=11902
-Shelf# +useOnContained
+Shelf# +useOnContained +noClickThrough
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -29,7 +29,6 @@ creationSoundInitialOnly=1
 creationSoundForce=0
 numSlots=12#timeStretch=1.000000
 slotSize=1.000000
-slotStyle=1
 slotsLocked=0
 slotPos=-36.000000,-24.000000,vert=0,parent=-1
 slotPos=10.000000,-24.000000,vert=0,parent=-1
