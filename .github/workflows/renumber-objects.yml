@@ -1,0 +1,24 @@
+name: Renumber objects
+
+on:
+  workflow_dispatch:
+    inputs:
+      start:
+        type: number
+        required: true
+      offset:
+        type: number
+      end:
+        type: number
+
+jobs:
+  renumber:
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - run: node RenumberObjects.js ${{ inputs.start }} ${{ inputs.offset }} ${{ inputs.end }}
