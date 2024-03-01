@@ -31,7 +31,7 @@ slotSize=1.000000
 slotsLocked=0
 numSprites=15
 spriteID=396
-pos=36.000000,27.000000
+pos=42.000000,21.000000
 rot=-0.255000
 hFlip=1
 color=1.000000,1.000000,1.000000
@@ -40,7 +40,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=396
-pos=-1.000000,66.000000
+pos=5.000000,60.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -49,7 +49,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=396
-pos=-42.000000,28.000000
+pos=-36.000000,22.000000
 rot=-0.250000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -58,7 +58,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=396
-pos=-4.000000,-26.000000
+pos=2.000000,-32.000000
 rot=-0.510000
 hFlip=1
 color=1.000000,1.000000,1.000000
@@ -67,7 +67,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=396
-pos=-51.000000,20.000000
+pos=-45.000000,14.000000
 rot=-0.220000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -76,7 +76,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=396
-pos=45.000000,19.000000
+pos=51.000000,13.000000
 rot=-0.275000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -85,7 +85,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=278
-pos=-47.000000,67.000000
+pos=-41.000000,61.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -94,7 +94,7 @@ parent=1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=278
-pos=35.000000,69.000000
+pos=41.000000,63.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -103,7 +103,7 @@ parent=1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=278
-pos=-57.000000,-28.000000
+pos=-51.000000,-34.000000
 rot=0.020000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -112,7 +112,7 @@ parent=3
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=101799
-pos=-28.000000,45.000000
+pos=-22.000000,39.000000
 rot=0.140000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -121,7 +121,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=278
-pos=52.000000,-24.000000
+pos=58.000000,-30.000000
 rot=-0.025000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -130,7 +130,7 @@ parent=3
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=101799
-pos=21.000000,47.000000
+pos=27.000000,41.000000
 rot=0.335000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -139,7 +139,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=101799
-pos=-33.000000,-16.000000
+pos=-27.000000,-22.000000
 rot=0.420000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -148,7 +148,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=101799
-pos=21.000000,-14.000000
+pos=27.000000,-20.000000
 rot=0.555000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -157,7 +157,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=101793
-pos=-3.000000,19.000000
+pos=3.000000,13.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000

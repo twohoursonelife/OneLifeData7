@@ -1,2 +1,4 @@
 
 *.fcz
+objects/nextObjectNumberOffset.txt
+sprites/nextSpriteNumberOffset.txt

@@ -1,9 +1,5 @@
 parentID=2995
-numObjects=7
+numObjects=3
 71
 334
-34
-560
 8712
-11671
-8709

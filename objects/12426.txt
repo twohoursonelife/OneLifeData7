@@ -16,6 +16,7 @@ deathMarker=0
 homeMarker=0
 floor=0
 floorHugging=1
+wallLayer=1
 foodValue=0
 speedMult=1.000000
 heldOffset=0.000000,0.000000
@@ -29,7 +30,6 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=2
 spriteID=101370
 pos=2.000000,10.000000
@@ -40,7 +40,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=1
 invisCont=0
-spriteID=100769
+spriteID=112317
 pos=-2.000000,-60.000000
 rot=0.000000
 hFlip=0
