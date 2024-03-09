@@ -1,5 +1,5 @@
-id=14529
-Linen Top
+id=14718
+Black Linen Top
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3
@@ -34,16 +34,16 @@ spriteID=112337
 pos=2.000000,-16.000000
 rot=0.000000
 hFlip=0
-color=1.000000,0.808371,0.408451
+color=0.100000,0.100000,0.100000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=2,behindSlots=0
 invisCont=0
-spriteID=112114
+spriteID=2689
 pos=3.000000,-31.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=0.100000,0.100000,0.100000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=1,behindSlots=0
