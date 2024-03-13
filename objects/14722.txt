@@ -1,5 +1,5 @@
-id=13418
-Blue Scarf
+id=14722
+Dye-Ready Linen Scarf
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -19,31 +19,22 @@ floorHugging=0
 foodValue=0
 speedMult=1.000000
 heldOffset=9.000000,18.000000
-clothing=h
+clothing=n
 clothingOffset=-12.000000,61.000000
 deadlyDistance=0
 useDistance=1
 sounds=941:0.250000,286:0.101010,-1:0.0,-1:0.0
-creationSoundInitialOnly=1
+creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=2
-spriteID=111493
-pos=8.000000,-31.000000
-rot=0.000000
-hFlip=0
-color=1.000000,1.000000,1.000000
-ageRange=-1.000000,-1.000000
-parent=-1
-invisHolding=0,invisWorn=2,behindSlots=0
-invisCont=0
-spriteID=2689
+numSprites=1
+spriteID=112114
 pos=3.000000,-31.000000
 rot=0.000000
 hFlip=0
-color=0.082353,0.403922,0.811765
+color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=1,behindSlots=0
