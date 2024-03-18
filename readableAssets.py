@@ -24,8 +24,8 @@ def set_output(name, value):
 changed_files = json.loads(input_changes)
 
 
-output = changed_files.join("\r\n")
+output = "\r\n".join(changed_files)
 
 
         
-set_multiline_output("OUTPUT_CHANGES", "TESTING " + output)
+set_multiline_output("OUTPUT_CHANGES", "### TESTING " + output)
