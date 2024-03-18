@@ -25,10 +25,10 @@ jobs:
           python-version: '3.10'
           
       - id: readable_assets
-        run: python readableAssets.py $
+        run: python readableAssets.py
         shell: bash
         env:
-            INPUT_CHANGES: ${{ steps.file_changes_outputs_files }}
+            INPUT_CHANGES: ${{ steps.file_changes.outputs.files }}
         
       - id: comment_pr
         uses: thollander/actions-comment-pull-request@v2.5.0
