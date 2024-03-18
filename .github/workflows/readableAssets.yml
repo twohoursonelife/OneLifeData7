@@ -20,7 +20,7 @@ jobs:
         run: python readableAssets.py $
         shell: bash
         env:
-            INPUT_CHANGES: ${{ steps.file_changes_outputs_files })
+            INPUT_CHANGES: ${{ steps.file_changes_outputs_files }}
         
       - id: comment_pr
         uses: thollander/actions-comment-pull-request@v2.5.0
