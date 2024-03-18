@@ -1,5 +1,6 @@
 import os
 import uuid
+import json
 
 input_changes = os.environ.get("INPUT_CHANGES")
 
@@ -16,5 +17,15 @@ def set_output(name, value):
     with open(os.environ['GITHUB_OUTPUT'], 'a') as fh:
         print(f'{name}={value}', file=fh)
         
+
+
+
+
+changed_files = json.loads(input_changes)
+
+
+output = changed_files.join("\r\n")
+
+
         
-set_output("OUTPUT_CHANGES", "TESTING " + str(input_changes))
+set_multiline_output("OUTPUT_CHANGES", "TESTING " + output)
