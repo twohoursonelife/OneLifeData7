@@ -22,9 +22,23 @@ def set_output(name, value):
 
 
 changed_files = json.loads(input_changes)
+changed_objects, changed_transitions, changed_others = [], [], []
+
+for changed_file in changed_files:
+    if 'objects/' in changed_file:
+        changed_objects.append(changed_file)
+    elif 'transitions/' in changed_file:
+        changed_transitions.append(changed_file)
+    else:
+        changed_others.append(changed_file)
+        
 
 
-output = "\r\n".join(changed_files)
+
+
+changed_everything = changed_objects + changed_transitions + changed_others
+
+output = "\r\n".join(changed_everything)
 
 
         
