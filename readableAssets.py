@@ -28,4 +28,4 @@ output = "\r\n".join(changed_files)
 
 
         
-set_multiline_output("OUTPUT_CHANGES", "### TESTING " + output)
+set_multiline_output("OUTPUT_CHANGES", output)

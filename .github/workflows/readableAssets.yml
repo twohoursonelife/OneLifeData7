@@ -34,4 +34,5 @@ jobs:
         uses: thollander/actions-comment-pull-request@v2.5.0
         with:
             message: |
-              Hello world ! ${{ steps.readable_assets.outputs.OUTPUT_CHANGES }}
+              Changed files: 
+              ${{ steps.readable_assets.outputs.OUTPUT_CHANGES }}
