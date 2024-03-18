@@ -14,7 +14,7 @@ jobs:
           fetch-depth: '0'
     
       - id: file_changes
-        uses: trilom/file-changes-action@v1.2.3
+        uses: trilom/file-changes-action@v1.2.4
         with:
             prNumber: ${{ github.event.number }}
             fileOutput: 'json'
@@ -28,7 +28,7 @@ jobs:
         run: python readableAssets.py
         shell: bash
         env:
-            INPUT_CHANGES: ${{ steps.file_changes.outputs.files_renamed }}
+            INPUT_CHANGES: ${{ steps.file_changes.outputs.files }}
         
       - id: comment_pr
         uses: thollander/actions-comment-pull-request@v2.5.0
