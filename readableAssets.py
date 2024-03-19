@@ -15,9 +15,15 @@ def list_dir(folderpath = ".", file = False, folder = False, silent = True):
         if not silent: print(filename)
     return results
 
+def read_txt(path):
+    with open(path, 'r', encoding='utf-8-sig') as f:
+        text = f.read()
+    return text
+
 input_changes = os.environ.get("INPUT_CHANGES")
 repo_path = os.environ.get("REPO_PATH")
 
+objects_path = Path(repo_path / "objects")
 
 
 def set_multiline_output(name, value):
@@ -41,7 +47,12 @@ changed_objects, changed_transitions, changed_others = [], [], []
 
 for changed_file in changed_files:
     if 'objects/' in changed_file:
-        changed_objects.append(changed_file)
+        # changed_objects.append(changed_file)
+        object_id = changed_file.replace("objects/","").replace(".txt","")
+        if isnumeric(object_id):
+            object_file_content = read_txt(objects_path / f"{object_id}.txt")
+            object_name = object_file_content.split()[1]
+            changed_objects.append(f"{object_id} {object_name}")
     elif 'transitions/' in changed_file:
         changed_transitions.append(changed_file)
     else:
@@ -59,14 +70,15 @@ test_message = "\r\n".join(list_dir(repo_path, file=True, folder=True))
 
 message = f"""
 
-##Test output:
+## Test output:
 {repo_path}
 
-##Test output:
+## Test output:
 {test_message}
 
-##Changed files:
+## Changed files:
 {changed_files_message}
+
 """
 
 
