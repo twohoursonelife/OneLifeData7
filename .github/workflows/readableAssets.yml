@@ -9,9 +9,9 @@ jobs:
     steps:
 
       - name: Checkout PR
-        run: |
-            git fetch origin ${{ github.ref }}
-            git diff FETCH_HEAD^1..FETCH_HEAD
+        uses: actions/checkout@v3
+            with:
+                ref: ${{ github.ref }}
     
       - name: Checkout
         uses: actions/checkout@v3
@@ -35,8 +35,6 @@ jobs:
         env:
             REPO_PATH: ${{ github.workspace }}
             INPUT_CHANGES: ${{ steps.file_changes.outputs.files_added }}
-            BEOFRE: ${{ github.event.before }}
-            AFTER: ${{ github.event.after }}
         
       - id: comment_pr
         uses: thollander/actions-comment-pull-request@v2.5.0
