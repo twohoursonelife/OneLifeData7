@@ -52,23 +52,5 @@ jobs:
         uses: thollander/actions-comment-pull-request@v2.5.0
         with:
             message: |
-                ## Files Changed and Modified
-                ${{ steps.changed-files.outputs.all_changed_and_modified_files }}
-                
-                ## Files Added
-                ${{ steps.changed-files.outputs.added_files }}
-                
-                ## Modified Files
-                ${{ steps.changed-files.outputs.all_modified_files }}
-                
-                ## Files Removed
-                ${{ steps.changed-files.outputs.deleted_files }}
-                
-                ## Files Renamed 
-                ${{ steps.changed-files.outputs.renamed_files }}
-                
-                ## Files Renamed 2
-                ${{ steps.changed-files.outputs.all_old_new_renamed_files }}
-                
-                ## OUTPUT
+                ## Summary
                 ${{ steps.readable_assets.outputs.OUTPUT_CHANGES }}
