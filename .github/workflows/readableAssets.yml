@@ -46,5 +46,4 @@ jobs:
                 ${{ steps.changed-files.outputs.renamed_files }}
                 
                 ## Files Renamed 2
-                ${{ allOldNewRenamedFiles }}
                 ${{ all_old_new_renamed_files }}
