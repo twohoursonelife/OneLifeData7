@@ -28,11 +28,11 @@ jobs:
         run: python readableAssets.py
         shell: bash
         env:
+            REPO_PATH: ${{ github.workspace }}
             INPUT_CHANGES: ${{ steps.file_changes.outputs.files }}
         
       - id: comment_pr
         uses: thollander/actions-comment-pull-request@v2.5.0
         with:
             message: |
-              Changed files: 
               ${{ steps.readable_assets.outputs.OUTPUT_CHANGES }}

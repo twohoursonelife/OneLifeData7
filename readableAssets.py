@@ -1,8 +1,23 @@
 import os
 import uuid
 import json
+from pathlib import Path
+
+
+def list_dir(folderpath = ".", file = False, folder = False, silent = True):
+    results = []
+    for filename in os.listdir(folderpath):
+        fullpath = os.path.join(folderpath, filename)
+        if not file and os.path.isfile(fullpath): continue
+        if not folder and os.path.isdir(fullpath): continue
+        # ext = os.path.splitext(filename)[-1].lower()
+        results.append(filename)
+        if not silent: print(filename)
+    return results
 
 input_changes = os.environ.get("INPUT_CHANGES")
+repo_path = os.environ.get("REPO_PATH")
+
 
 
 def set_multiline_output(name, value):
@@ -38,7 +53,24 @@ for changed_file in changed_files:
 
 changed_everything = changed_objects + changed_transitions + changed_others
 
-output = "\r\n".join(changed_everything)
+
+changed_files_message = "\r\n".join(changed_everything)
+test_message = "\r\n".join(list_dir(repo_path))
+
+message = f"""
+
+##Test output:
+{repo_path}
+
+##Test output:
+{test_message}
+
+##Changed files:
+{changed_files_message}
+"""
+
+
+
 
 
         
