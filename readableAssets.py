@@ -21,9 +21,9 @@ def read_txt(path):
     return text
 
 input_changes = os.environ.get("INPUT_CHANGES")
-repo_path = os.environ.get("REPO_PATH")
+repo_path = Path( os.environ.get("REPO_PATH") )
 
-objects_path = Path(repo_path / "objects")
+objects_path = repo_path / "objects"
 
 
 def set_multiline_output(name, value):
@@ -49,7 +49,7 @@ for changed_file in changed_files:
     if 'objects/' in changed_file:
         # changed_objects.append(changed_file)
         object_id = changed_file.replace("objects/","").replace(".txt","")
-        if isnumeric(object_id):
+        if object_id.isnumeric():
             object_file_content = read_txt(objects_path / f"{object_id}.txt")
             object_name = object_file_content.split()[1]
             changed_objects.append(f"{object_id} {object_name}")
