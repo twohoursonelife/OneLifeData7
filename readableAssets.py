@@ -75,7 +75,7 @@ object_lines, transition_lines, other_lines = [], [], []
 
 for changed_file in changes_all:
     
-    # changed_file = changed_file.replace("\\","")
+    changed_file = changed_file.replace("\\","")
     
     sign = "`o`"
     if changed_file in changes_added:
