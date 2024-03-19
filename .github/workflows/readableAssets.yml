@@ -35,4 +35,9 @@ jobs:
         uses: thollander/actions-comment-pull-request@v2.5.0
         with:
             message: |
+                git diff --diff-filter=AM --name-only 
+                ${{ github.event.before }} 
+                ${{ github.event.after }}
+            
+            
               ${{ steps.readable_assets.outputs.OUTPUT_CHANGES }}

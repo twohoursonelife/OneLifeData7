@@ -47,12 +47,12 @@ changed_objects, changed_transitions, changed_others = [], [], []
 
 for changed_file in changed_files:
     if 'objects/' in changed_file:
-        # changed_objects.append(changed_file)
-        object_id = changed_file.replace("objects/","").replace(".txt","")
-        if object_id.isnumeric():
-            object_file_content = read_txt(objects_path / f"{object_id}.txt")
-            object_name = object_file_content.split()[1]
-            changed_objects.append(f"{object_id} {object_name}")
+        changed_objects.append(changed_file)
+        # object_id = changed_file.replace("objects/","").replace(".txt","")
+        # if object_id.isnumeric():
+        #     object_file_content = read_txt(objects_path / f"{object_id}.txt")
+        #     object_name = object_file_content.split()[1]
+        #     changed_objects.append(f"{object_id} {object_name}")
     elif 'transitions/' in changed_file:
         changed_transitions.append(changed_file)
     else:
