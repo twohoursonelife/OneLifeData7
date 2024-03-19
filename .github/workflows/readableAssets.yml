@@ -8,11 +8,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: Checkout PR
+
+      - name: Checkout Main
         uses: actions/checkout@v3
         with:
-          ref: ${{ github.ref }}
-    
+          ref: 'refs/heads/main'
 
     
       - id: file_changes

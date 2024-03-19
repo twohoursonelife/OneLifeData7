@@ -70,12 +70,6 @@ test_message = "\r\n".join(list_dir(repo_path, file=True, folder=True))
 
 message = f"""
 
-## Test output:
-{repo_path}
-
-## Test output:
-{test_message}
-
 ## Changed files:
 {changed_files_message}
 
