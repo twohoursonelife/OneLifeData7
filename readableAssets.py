@@ -25,9 +25,9 @@ repo = os.environ.get("REPO")
 repo_path = Path( os.environ.get("REPO_PATH") )
 pr_number = os.environ.get("PRNUM")
 
-changes_all = os.environ.get("CHANGES_ALL").splitlines("\n")
-changes_deleted = os.environ.get("CHANGES_DELETED").splitlines("\n")
-changes_added = os.environ.get("CHANGES_ADDED").splitlines("\n")
+changes_all = os.environ.get("CHANGES_ALL").split("\n")
+changes_deleted = os.environ.get("CHANGES_DELETED").split("\n")
+changes_added = os.environ.get("CHANGES_ADDED").split("\n")
 
 renamed_pairs = os.environ.get("CHANGES_RENAME_PAIRS").splitlines()
 
