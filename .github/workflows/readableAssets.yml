@@ -10,8 +10,8 @@ jobs:
 
       - name: Checkout PR
         uses: actions/checkout@v3
-            with:
-                ref: ${{ github.ref }}
+        with:
+          ref: ${{ github.ref }}
     
       - name: Checkout
         uses: actions/checkout@v3
