@@ -55,7 +55,7 @@ def set_output(name, value):
         
 
 def path_to_object_id(p):
-    s = p.replace("objects/","").replace(".txt","").replace("\\","").strip()
+    s = p.replace("objects/","").replace(".txt","").strip()
     if s.isnumeric(): return int(s)
     return -9999
 
@@ -75,6 +75,8 @@ object_lines, transition_lines, other_lines = [], [], []
 
 for changed_file in changes_all:
     
+    changed_file = changed_file.replace("\\","")
+    
     sign = "`o`"
     if changed_file in changes_added:
         sign = "`+`"
@@ -84,9 +86,9 @@ for changed_file in changes_all:
     file_change_hash = 0
     if changed_file in renamed_before:
         index = renamed_before.index(changed_file)
-        file_change_hash = sha256(renamed_after[index].replace("\\","").encode('utf-8')).hexdigest()
+        file_change_hash = sha256(renamed_after[index].encode('utf-8')).hexdigest()
     else:
-        file_change_hash = sha256(changed_file.replace("\\","").encode('utf-8')).hexdigest()
+        file_change_hash = sha256(changed_file.encode('utf-8')).hexdigest()
     
     if 'objects/' in changed_file:
         
@@ -97,7 +99,7 @@ for changed_file in changes_all:
             
     elif 'transitions/' in changed_file:
         
-        filename = changed_file.replace("transitions/","").replace(".txt","").replace("\\","")
+        filename = changed_file.replace("transitions/","").replace(".txt","")
         filename_parts = filename.split("_")
         transition_file_content = read_txt(transitions_path / f"{filename}.txt")
         transition_file_content_parts = transition_file_content.split()
