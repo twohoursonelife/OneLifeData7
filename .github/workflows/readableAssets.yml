@@ -20,7 +20,7 @@ jobs:
         uses: tj-actions/changed-files@v43
         with:
             include_all_old_new_renamed_files: true
-            separator: "<br/>"
+            separator: "\n"
 
             
 
