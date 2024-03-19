@@ -74,4 +74,4 @@ message = f"""
 
 
         
-set_multiline_output("OUTPUT_CHANGES", output)
+set_multiline_output("OUTPUT_CHANGES", message)
