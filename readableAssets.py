@@ -26,6 +26,13 @@ repo_path = Path( os.environ.get("REPO_PATH") )
 pr_number = os.environ.get("PRNUM")
 
 changes_all = os.environ.get("CHANGES_ALL").splitlines()
+changes_deleted = os.environ.get("CHANGES_DELETED").splitlines()
+changes_added = os.environ.get("CHANGES_ADDED").splitlines()
+
+renamed_pairs = os.environ.get("CHANGES_RENAME_PAIRS").splitlines()
+
+renamed_before = [e.split(',')[0] for e in renamed_pairs]
+renamed_after = [e.split(',')[1] for e in renamed_pairs]
 
 var1 = os.environ.get("VAR1")
 var2 = os.environ.get("VAR2")
@@ -67,13 +74,26 @@ def get_object_name_by_id(object_id):
 object_lines, transition_lines, other_lines = [], [], []
 
 for changed_file in changes_all:
+    
+    sign = "."
+    if changed_file in changes_added:
+        sign = "+"
+    elif changed_file in changes_deleted:
+        sign = "-"
+        
+    file_change_hash = 0
+    if changed_file in renamed_before:
+        index = renamed_before.index(changed_file)
+        file_change_hash = sha256(renamed_after[index].replace("\\","").encode('utf-8')).hexdigest()
+    else:
+        file_change_hash = sha256(changed_file.replace("\\","").encode('utf-8')).hexdigest()
+    
     if 'objects/' in changed_file:
         
         object_id = path_to_object_id(changed_file)
         if object_id != -9999:
             object_name = get_object_name_by_id(object_id)
-            hash = sha256(changed_file.replace("\\","").encode('utf-8')).hexdigest()
-            object_lines.append(f"[{object_id}](https://github.com/{repo}/pull/{pr_number}/files#diff-{hash}) {object_name}")
+            object_lines.append(f"{sign} [{object_id}](https://github.com/{repo}/pull/{pr_number}/files#diff-{file_change_hash}) {object_name}")
             
     elif 'transitions/' in changed_file:
         
@@ -92,11 +112,14 @@ for changed_file in changes_all:
         c_name = get_object_name_by_id(c)
         d_name = get_object_name_by_id(d)
         
-        transition_line = f"{a_name} + {b_name} = {c_name} + {d_name}"
+
+        
+        transition_line = f"{sign} [link](https://github.com/{repo}/pull/{pr_number}/files#diff-{file_change_hash}) {a_name} + {b_name} = {c_name} + {d_name}"
         transition_lines.append(transition_line)
         
     else:
-        other_lines.append(changed_file)
+        line = f"{sign} [{changed_file}](https://github.com/{repo}/pull/{pr_number}/files#diff-{file_change_hash})"
+        other_lines.append(line)
         
 
 
