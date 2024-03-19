@@ -62,3 +62,6 @@ jobs:
                 
                 ## Files Renamed 2
                 ${{ steps.changed-files.outputs.all_old_new_renamed_files }}
+                
+                ## OUTPUT
+                ${{ steps.readable_assets.outputs.OUTPUT_CHANGES }}
