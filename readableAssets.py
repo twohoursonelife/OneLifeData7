@@ -23,6 +23,9 @@ def read_txt(path):
 input_changes = os.environ.get("INPUT_CHANGES")
 repo_path = Path( os.environ.get("REPO_PATH") )
 
+before = os.environ.get("BEFORE")
+after = os.environ.get("AFTER")
+
 objects_path = repo_path / "objects"
 
 
@@ -72,6 +75,8 @@ message = f"""
 
 ## Test output:
 {repo_path}
+{before}
+{after}
 
 ## Test output:
 {test_message}
