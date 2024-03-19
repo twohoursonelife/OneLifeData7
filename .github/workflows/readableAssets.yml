@@ -36,7 +36,7 @@ jobs:
         shell: bash
         env:
             REPO_PATH: ${{ github.workspace }}
-            INPUT_CHANGES: ${{ steps.changed-files.outputs.deleted_files }}
+            INPUT_CHANGES: ${{ steps.changed-files.outputs.all_changed_and_modified_files }}
             VAR1: ${{ github.head_ref }}
             VAR2: ${{ github.base_ref }}
 
