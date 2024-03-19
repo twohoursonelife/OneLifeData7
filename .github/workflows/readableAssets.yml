@@ -20,7 +20,7 @@ jobs:
         uses: tj-actions/changed-files@v43
         with:
             include_all_old_new_renamed_files: true
-            separator: '\n'
+            separator: "<br/>"
 
             
 
@@ -32,15 +32,15 @@ jobs:
             message: |
                 ## Files Changed and Modified
                 ${{ steps.changed-files.outputs.all_changed_and_modified_files }}
-                |
+                
                 ## Files Added
                 ${{ steps.changed-files.outputs.added_files }}
-                |
+                
                 ## Modified Files
                 ${{ steps.changed-files.outputs.all_modified_files }}
-                |
+                
                 ## Files Removed
                 ${{ steps.changed-files.outputs.deleted_files }}
-                |
+                
                 ## Files Renamed 
                 ${{ steps.changed-files.outputs.renamed_files }}
