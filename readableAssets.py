@@ -31,8 +31,8 @@ changes_added = os.environ.get("CHANGES_ADDED").split("\n")
 
 renamed_pairs = os.environ.get("CHANGES_RENAME_PAIRS").split("\n")
 
-renamed_before = [e.split(',')[0].replace("\\","") for e in renamed_pairs]
-renamed_after = [e.split(',')[1].replace("\\","") for e in renamed_pairs]
+renamed_before = [e.split(',')[0] for e in renamed_pairs]
+renamed_after = [e.split(',')[1] for e in renamed_pairs]
 
 var1 = os.environ.get("VAR1")
 var2 = os.environ.get("VAR2")
@@ -75,7 +75,7 @@ object_lines, transition_lines, other_lines = [], [], []
 
 for changed_file in changes_all:
     
-    changed_file = changed_file.replace("\\","")
+    # changed_file = changed_file.replace("\\","")
     
     sign = "`o`"
     if changed_file in changes_added:
