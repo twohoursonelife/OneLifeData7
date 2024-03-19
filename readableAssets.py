@@ -69,7 +69,7 @@ for changed_file in changed_files:
         object_id = path_to_object_id(changed_file)
         if object_id != -1:
             object_name = get_object_name_by_id(object_id)
-            hash = sha256(changed_file.encode('utf-8')).hexdigest()
+            hash = sha256(changed_file.replace("\\","").encode('utf-8')).hexdigest()
             changed_objects.append(f"[{object_id}](https://github.com/{repo}/pull/{pr_number}/files#diff-{hash}) {object_name}")
     elif 'transitions/' in changed_file:
         changed_transitions.append(changed_file)
