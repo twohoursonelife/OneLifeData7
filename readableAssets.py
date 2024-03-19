@@ -130,12 +130,21 @@ for changed_file in changes_all:
 changed_everything = object_lines + transition_lines + other_lines
 
 
-changed_files_message = "\r\n".join(changed_everything)
-test_message = "\r\n".join(list_dir(repo_path, file=True, folder=True))
+object_message = "\r\n".join(object_lines)
+transition_message = "\r\n".join(transition_lines)
+other_message = "\r\n".join(other_lines)
+
 
 message = f"""
 
-{changed_files_message}
+## Objects:
+{object_message}
+
+## Transitions:
+{transition_message}
+
+## Others:
+{other_message}
 
 """
 
