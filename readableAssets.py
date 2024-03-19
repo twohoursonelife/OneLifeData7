@@ -25,9 +25,9 @@ repo = os.environ.get("REPO")
 repo_path = Path( os.environ.get("REPO_PATH") )
 pr_number = os.environ.get("PRNUM")
 
-changes_all = os.environ.get("CHANGES_ALL").splitlines()
-changes_deleted = os.environ.get("CHANGES_DELETED").splitlines()
-changes_added = os.environ.get("CHANGES_ADDED").splitlines()
+changes_all = os.environ.get("CHANGES_ALL").splitlines("\n")
+changes_deleted = os.environ.get("CHANGES_DELETED").splitlines("\n")
+changes_added = os.environ.get("CHANGES_ADDED").splitlines("\n")
 
 renamed_pairs = os.environ.get("CHANGES_RENAME_PAIRS").splitlines()
 
@@ -75,9 +75,9 @@ object_lines, transition_lines, other_lines = [], [], []
 
 for changed_file in changes_all:
     
-    sign = "o"
+    sign = "\o"
     if changed_file in changes_added:
-        sign = "+"
+        sign = "\+"
     elif changed_file in changes_deleted:
         sign = "\-"
         
