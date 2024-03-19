@@ -51,8 +51,8 @@ for changed_file in changed_files:
         object_id = changed_file.replace("objects/","").replace(".txt","")
         if object_id.isnumeric():
             object_file_content = read_txt(objects_path / f"{object_id}.txt")
-            object_name = object_file_content.split()[1]
-            changed_objects.append(f"{object_id} {object_name}")
+            object_name = object_file_content.splitlines()[1]
+            changed_objects.append(f"{object_id} {object_name} {changed_file}")
     elif 'transitions/' in changed_file:
         changed_transitions.append(changed_file)
     else:
