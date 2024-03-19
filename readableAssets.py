@@ -51,7 +51,7 @@ changed_objects, changed_transitions, changed_others = [], [], []
 for changed_file in changed_files:
     if 'objects/' in changed_file:
         # changed_objects.append(changed_file)
-        object_id = changed_file.replace("objects/","").replace(".txt","")
+        object_id = changed_file.replace("objects/","").replace(".txt","").strip()
         if object_id.isnumeric():
             object_file_content = read_txt(objects_path / f"{object_id}.txt")
             object_name = object_file_content.splitlines()[1]
