@@ -75,11 +75,11 @@ object_lines, transition_lines, other_lines = [], [], []
 
 for changed_file in changes_all:
     
-    sign = "o"
+    sign = "`o`"
     if changed_file in changes_added:
-        sign = "+"
+        sign = "`+`"
     elif changed_file in changes_deleted:
-        sign = "\-"
+        sign = "`-`"
         
     file_change_hash = 0
     if changed_file in renamed_before:
