@@ -29,10 +29,10 @@ changes_all = os.environ.get("CHANGES_ALL").split("\n")
 changes_deleted = os.environ.get("CHANGES_DELETED").split("\n")
 changes_added = os.environ.get("CHANGES_ADDED").split("\n")
 
-renamed_pairs = os.environ.get("CHANGES_RENAME_PAIRS").splitlines()
+renamed_pairs = os.environ.get("CHANGES_RENAME_PAIRS").split("\n")
 
-renamed_before = [e.split(',')[0] for e in renamed_pairs]
-renamed_after = [e.split(',')[1] for e in renamed_pairs]
+renamed_before = [e.split(',')[0].replace("\\","") for e in renamed_pairs]
+renamed_after = [e.split(',')[1].replace("\\","") for e in renamed_pairs]
 
 var1 = os.environ.get("VAR1")
 var2 = os.environ.get("VAR2")
