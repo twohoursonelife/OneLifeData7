@@ -22,9 +22,17 @@ jobs:
             output_renamed_files_as_deleted_and_added: true
             include_all_old_new_renamed_files: true
             separator: "\n"
+            recover_deleted_files: true
 
             
-
+      - id: readable_assets
+        run: python readableAssets.py
+        shell: bash
+        env:
+            REPO_PATH: ${{ github.workspace }}
+            INPUT_CHANGES: ${{ steps.changed-files.outputs.deleted_files }}
+            VAR1: ${{ github.head_ref }}
+            VAR2: ${{ github.base_ref }}
 
 
       - id: comment_pr

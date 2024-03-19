@@ -44,7 +44,8 @@ def set_output(name, value):
 
 
 
-changed_files = json.loads(input_changes)
+# changed_files = json.loads(input_changes)
+changed_files = input_changes.splitlines()
 changed_objects, changed_transitions, changed_others = [], [], []
 
 for changed_file in changed_files:
