@@ -55,7 +55,7 @@ changed_everything = changed_objects + changed_transitions + changed_others
 
 
 changed_files_message = "\r\n".join(changed_everything)
-test_message = "\r\n".join(list_dir(repo_path))
+test_message = "\r\n".join(list_dir(repo_path, file=True, folder=True))
 
 message = f"""
 
