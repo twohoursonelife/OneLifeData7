@@ -25,14 +25,14 @@ repo = os.environ.get("REPO")
 repo_path = Path( os.environ.get("REPO_PATH") )
 pr_number = os.environ.get("PRNUM")
 
-changes_all = os.environ.get("CHANGES_ALL").split("\n")
-changes_deleted = os.environ.get("CHANGES_DELETED").split("\n")
-changes_added = os.environ.get("CHANGES_ADDED").split("\n")
+changes_all = [e.replace("\\","") for e in os.environ.get("CHANGES_ALL").split("\n")]
+changes_deleted = [e.replace("\\","") for e in os.environ.get("CHANGES_DELETED").split("\n")]
+changes_added = [e.replace("\\","") for e in os.environ.get("CHANGES_ADDED").split("\n")]
 
 renamed_pairs = os.environ.get("CHANGES_RENAME_PAIRS").split("\n")
 
-renamed_before = [e.split(',')[0] for e in renamed_pairs]
-renamed_after = [e.split(',')[1] for e in renamed_pairs]
+renamed_before = [e.split(',')[0].replace("\\","") for e in renamed_pairs]
+renamed_after = [e.split(',')[1].replace("\\","") for e in renamed_pairs]
 
 var1 = os.environ.get("VAR1")
 var2 = os.environ.get("VAR2")
@@ -75,7 +75,7 @@ object_lines, transition_lines, other_lines = [], [], []
 
 for changed_file in changes_all:
     
-    changed_file = changed_file.replace("\\","")
+    # changed_file = changed_file.replace("\\","")
     
     sign = "`o`"
     if changed_file in changes_added:
