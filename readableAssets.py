@@ -22,8 +22,8 @@ def read_txt(path):
 
 input_changes = os.environ.get("INPUT_CHANGES")
 repo_path = Path( os.environ.get("REPO_PATH") )
-a = os.environ.get("HEAD_REF")
-b = os.environ.get("BASE_REF")
+var1 = os.environ.get("VAR1")
+var2 = os.environ.get("VAR2")
 
 objects_path = repo_path / "objects"
 
@@ -72,11 +72,6 @@ test_message = "\r\n".join(list_dir(repo_path, file=True, folder=True))
 
 message = f"""
 
-===
-{a}
-===
-{b}
-===
 
 ## Changed files:
 {changed_files_message}

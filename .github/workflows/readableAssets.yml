@@ -9,33 +9,40 @@ jobs:
     steps:
 
 
-      - name: Checkout Main
-        uses: actions/checkout@v3
+      - id: setup-python
+        uses: actions/setup-python@v4
         with:
-            ref: 'test1'
-          
+            python-version: '3.10'
+            
+
       - id: file_changes
         uses: trilom/file-changes-action@v1.2.4
         with:
             prNumber: ${{ github.event.number }}
             fileOutput: 'json'
+
             
-      - id: setup-python
-        uses: actions/setup-python@v4
-        with:
-            python-version: '3.10'
-          
-      - id: readable_assets
-        run: python readableAssets.py
-        shell: bash
-        env:
-            REPO_PATH: ${{ github.workspace }}
-            INPUT_CHANGES: ${{ steps.file_changes.outputs.files_removed }}
-            HEAD_REF: ${{ github.head_ref }}
-            BASE_REF: ${{ github.base_ref }}
-        
+      - name: test
+        run: |
+          cat $HOME/files.json
+          cat $HOME/files_modified.json
+          cat $HOME/files_added.json
+          cat $HOME/files_removed.json
+          echo '${{ steps.file_changes.outputs.files}}'
+          echo '${{ steps.file_changes.outputs.files_modified}}'
+          echo '${{ steps.file_changes.outputs.files_added}}'
+          echo '${{ steps.file_changes.outputs.files_removed}}'
+
+
       - id: comment_pr
         uses: thollander/actions-comment-pull-request@v2.5.0
         with:
             message: |
-              ${{ steps.readable_assets.outputs.OUTPUT_CHANGES }}
+                ## Files
+                ${{ steps.file_changes.outputs.files}}
+                ## Files Modified
+                ${{ steps.file_changes.outputs.files_modified}}
+                ## Files Added
+                ${{ steps.file_changes.outputs.files_added}}
+                ## Files Removed
+                ${{ steps.file_changes.outputs.files_removed}}
