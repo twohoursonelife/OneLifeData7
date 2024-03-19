@@ -75,9 +75,9 @@ object_lines, transition_lines, other_lines = [], [], []
 
 for changed_file in changes_all:
     
-    sign = "\o"
+    sign = "o"
     if changed_file in changes_added:
-        sign = "\+"
+        sign = "+"
     elif changed_file in changes_deleted:
         sign = "\-"
         
@@ -118,7 +118,7 @@ for changed_file in changes_all:
         transition_lines.append(transition_line)
         
     else:
-        line = f"{sign} [{changed_file}](https://github.com/{repo}/pull/{pr_number}/files#diff-{file_change_hash})"
+        line = f"{sign} [link](https://github.com/{repo}/pull/{pr_number}/files#diff-{file_change_hash}) {changed_file}"
         other_lines.append(line)
         
 
