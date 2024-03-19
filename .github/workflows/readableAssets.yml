@@ -44,9 +44,6 @@ jobs:
                 
                 ## Files Renamed 
                 ${{ steps.changed-files.outputs.renamed_files }}
-                
-                ## Files Renamed
-                ${{ steps.changed-files.all_old_new_renamed_files }}
 
       - id: test
-        run: echo "$(all_old_new_renamed_files)"
+        run: echo $GITHUB_OUTPUT
