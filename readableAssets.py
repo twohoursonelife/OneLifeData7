@@ -62,8 +62,6 @@ def get_object_name_by_id(object_id):
     objects_dict[object_id] = object_name
     return object_name
 
-transitions_dict = {}
-
 
 
 object_lines, transition_lines, other_lines = [], [], []
@@ -81,7 +79,7 @@ for changed_file in changes_all:
         
         filename = changed_file.replace("transitions/","").replace(".txt","").replace("\\","")
         filename_parts = filename.split("_")
-        transition_file_content = read_txt(transitions_path / changed_file)
+        transition_file_content = read_txt(transitions_path / f"{filename}.txt")
         transition_file_content_parts = transition_file_content.split()
         
         a = int(filename_parts[0])
