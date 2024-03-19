@@ -84,8 +84,8 @@ for changed_file in changes_all:
         
         a = int(filename_parts[0])
         b = int(filename_parts[1])
-        c = int(transition_file_content_parts[2])
-        d = int(transition_file_content_parts[3])
+        c = int(transition_file_content_parts[0])
+        d = int(transition_file_content_parts[1])
         
         a_name = get_object_name_by_id(a)
         b_name = get_object_name_by_id(b)
