@@ -21,7 +21,7 @@ def read_txt(path):
         text = f.read()
     return text
 
-input_changes = os.environ.get("INPUT_CHANGES")
+input_changes = os.environ.get("CHANGES_ALL")
 repo_path = Path( os.environ.get("REPO_PATH") )
 repo = os.environ.get("REPO")
 pr_number = os.environ.get("PRNUM")
@@ -57,6 +57,9 @@ def get_object_name_by_id(object_id):
     object_file_content = read_txt(objects_path / f"{object_id}.txt")
     object_name = object_file_content.splitlines()[1]
     return object_name
+
+
+
 
 
 # changed_files = json.loads(input_changes)
