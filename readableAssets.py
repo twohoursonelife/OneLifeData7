@@ -2,6 +2,7 @@ import os
 import uuid
 import json
 from pathlib import Path
+from hashlib import sha256
 
 
 def list_dir(folderpath = ".", file = False, folder = False, silent = True):
@@ -22,6 +23,9 @@ def read_txt(path):
 
 input_changes = os.environ.get("INPUT_CHANGES")
 repo_path = Path( os.environ.get("REPO_PATH") )
+repo = os.environ.get("REPO")
+pr_number = os.environ.get("PRNUM")
+
 var1 = os.environ.get("VAR1")
 var2 = os.environ.get("VAR2")
 
@@ -41,7 +45,18 @@ def set_output(name, value):
         print(f'{name}={value}', file=fh)
         
 
+def path_to_object_id(p):
+    s = p.replace("objects/","").replace(".txt","").replace("\\","").strip()
+    if s.isnumeric(): return int(s)
+    return -1
 
+objects_dict = {}
+
+def get_object_name_by_id(object_id):
+    if object_id in objects_dict.keys(): return objects_dict[object_id]
+    object_file_content = read_txt(objects_path / f"{object_id}.txt")
+    object_name = object_file_content.splitlines()[1]
+    return object_name
 
 
 # changed_files = json.loads(input_changes)
@@ -51,12 +66,11 @@ changed_objects, changed_transitions, changed_others = [], [], []
 for changed_file in changed_files:
     if 'objects/' in changed_file:
         # changed_objects.append(changed_file)
-        object_id = changed_file.replace("objects/","").replace(".txt","").replace("\\","").strip()
-        print( object_id )
-        if object_id.isnumeric():
-            object_file_content = read_txt(objects_path / f"{object_id}.txt")
-            object_name = object_file_content.splitlines()[1]
-            changed_objects.append(f"{object_id} {object_name} {changed_file}")
+        object_id = path_to_object_id(changed_file)
+        if object_id != -1:
+            object_name = get_object_name_by_id(object_id)
+            hash = sha256(changed_file)
+            changed_objects.append(f"[{object_id}](https://github.com/{repo}/pull/{pr_number}/files#diff-{hash}) {object_name}")
     elif 'transitions/' in changed_file:
         changed_transitions.append(changed_file)
     else:

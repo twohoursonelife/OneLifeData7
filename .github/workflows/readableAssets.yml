@@ -37,6 +37,8 @@ jobs:
         env:
             REPO_PATH: ${{ github.workspace }}
             INPUT_CHANGES: ${{ steps.changed-files.outputs.all_changed_and_modified_files }}
+            REPO: ${{ github.repository }}
+            PRNUM: ${{ github.event.number }}
             VAR1: ${{ github.head_ref }}
             VAR2: ${{ github.base_ref }}
 
