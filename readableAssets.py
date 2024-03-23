@@ -1,26 +1,70 @@
 import os
+import sys
 import uuid
 from pathlib import Path
 from hashlib import sha256
 
 
-### util
+### inputs
 
-def list_dir(folderpath = ".", file = False, folder = False, silent = True):
-    results = []
-    for filename in os.listdir(folderpath):
-        fullpath = os.path.join(folderpath, filename)
-        if not file and os.path.isfile(fullpath): continue
-        if not folder and os.path.isdir(fullpath): continue
-        # ext = os.path.splitext(filename)[-1].lower()
-        results.append(filename)
-        if not silent: print(filename)
-    return results
+inAction = os.getenv("GITHUB_ACTIONS") is not None
+
+if inAction:
+    REPO = os.environ.get("REPO")
+    PR_NUM = os.environ.get("PRNUM")
+    COMMIT_A = os.environ.get("COMMIT_A")
+    COMMIT_B = os.environ.get("COMMIT_B")
+else:
+    
+    args = sys.argv
+    
+    helpMsg = f"""
+Parse asset changes to be more readable.
+
+Usage:
+    python {args[0]} <commit_SHA_A> <commit_SHA_B>
+    
+If no commit_SHA is provided, the script defaults to HEAD~ and HEAD.
+If one commit_SHA is provided, the script defaults to commit_SHA~ and commit_SHA.
+
+"""
+    
+    if len(args) > 3:
+        print(helpMsg)
+        sys.exit()    
+
+    elif len(args) == 3:
+        COMMIT_A = args[1]
+        COMMIT_B = args[2]
+    elif len(args) == 2:
+        COMMIT_B = args[1]
+        COMMIT_A = COMMIT_B + "~"
+    else:
+        print(helpMsg)
+        response = input("Input Y to go with the default, diff-ing HEAD~ and HEAD.")
+        if response != "Y": sys.exit()
+        COMMIT_A = "HEAD~"
+        COMMIT_B = "HEAD"
+    
+    print("\n")
+
+
+### util
 
 def read_txt(path):
     with open(path, 'r', encoding='utf-8-sig') as f:
         text = f.read()
     return text
+
+def read_file_even_deleted(path):
+    if not Path(path).is_file():
+        recovered_file_content = run_command(f"git show {COMMIT_A}:{path}")
+        return recovered_file_content
+    return read_txt(path)
+
+def run_command(command):
+    output = os.popen(command).read()
+    return output
 
 def set_multiline_output(name, value):
     with open(os.environ['GITHUB_OUTPUT'], 'a') as fh:
@@ -29,100 +73,144 @@ def set_multiline_output(name, value):
         print(value, file=fh)
         print(delimiter, file=fh)
 
-def set_output(name, value):
-    with open(os.environ['GITHUB_OUTPUT'], 'a') as fh:
-        print(f'{name}={value}', file=fh)
+
+### diff-ing the changes
+
+changes_all, changes_deleted, changes_added, renamed_pairs = [], [], [], []
+
+commands = [
+    f"git diff --name-only --no-renames {COMMIT_A} {COMMIT_B}",
+    f"git diff --diff-filter=D --name-only --no-renames {COMMIT_A} {COMMIT_B}",
+    f"git diff --diff-filter=A --name-only --no-renames {COMMIT_A} {COMMIT_B}",
+    f"git diff --name-status {COMMIT_A} {COMMIT_B}"
+    ]
+
+changes = []
+
+for command in commands:
+    output = run_command(command)
+    output_list = []
+    if output != "":
+        output_list = output.strip().split("\n")
+    changes.append(output_list)
+
+changes_all, changes_deleted, changes_added, renamed_pairs = changes
+
+if renamed_pairs:
+    renamed_pairs = [e.split("\t") for e in renamed_pairs if e[0] == "R"]
+
+renamed_before = [e[1] for e in renamed_pairs]
+renamed_after = [e[2] for e in renamed_pairs]
 
 
-### processing the inputs
+### so we only read each object once
 
-repo = os.environ.get("REPO")
-repo_path = Path( os.environ.get("REPO_PATH") )
-pr_number = os.environ.get("PRNUM")
-
-changes_all = [e.replace("\\","") for e in os.environ.get("CHANGES_ALL").split("\n")]
-changes_deleted = [e.replace("\\","") for e in os.environ.get("CHANGES_DELETED").split("\n")]
-changes_added = [e.replace("\\","") for e in os.environ.get("CHANGES_ADDED").split("\n")]
-
-renamed_pairs = os.environ.get("CHANGES_RENAME_PAIRS")
-
-renamed_before, renamed_after = [], []
-if ',' in renamed_pairs:
-    renamed_pairs = [e.replace("\\","") for e in renamed_pairs.split("\n")]
-    renamed_before = [e.split(',')[0] for e in renamed_pairs]
-    renamed_after = [e.split(',')[1] for e in renamed_pairs]
-
-
-### some functions
-
-def path_to_object_id(p):
-    s = p.replace("objects/","").replace("categories/","").replace(".txt","").strip()
-    if s.isnumeric(): return int(s)
-    return -9999
-
-objects_dict = {} # so we read each object only once
+objects_dict = {} 
 
 def get_object_name_by_id(object_id):
     if object_id <= 0: return str(object_id)
     if object_id in objects_dict.keys(): return objects_dict[object_id]
-    object_path = repo_path / "objects" / f"{object_id}.txt"
-    # if not object_path.is_file():
-    #     object_path = Path("deleted_files") / "objects" / f"{object_id}.txt"
-    #     print( object_path )
-    object_file_content = read_txt( object_path )
-    object_name = object_file_content.splitlines()[1]
+    object_path = f"objects/{object_id}.txt"
+    object_file_content = read_file_even_deleted( object_path ).splitlines()
+    if len(object_file_content) < 2:
+        object_name = str(object_id)
+    else:
+        object_name = object_file_content[1]
     objects_dict[object_id] = object_name
     return object_name
 
+def read_category_as_object_list(content):
+    list_str = content[content.find("\n", content.find("numObjects="))+1:].splitlines()
+    list_int = [int(e.split()[0]) for e in list_str]
+    return list_int
 
-### go through the changed files, summarize each in a line
+
+### go through the changed files, parse object IDs into object names
 
 object_lines, transition_lines, category_lines, other_lines = [], [], [], []
 
 for changed_file in changes_all:
     
-    ### whether the change is an added file, or a deleted one, or a modified one
-    ### note that renamed files are configured to show as deleted of old and added of new
-    sign = "`.`"
+    # whether the change is an added file, or a deleted one, or a modified one
+    # note that renamed files are configured to show as deleted of old and added of new
+    sign = "."
     if changed_file in changes_added:
-        sign = "`+`"
+        sign = "+"
     elif changed_file in changes_deleted:
-        sign = "`-`"
+        sign = "-"
+    if inAction:
+        sign = f"`{sign}`"
     
-    ### the hash is used to link directly to the changed file on github site
-    file_change_hash = 0
+    # the hash is used to link to the changed file on github site
+    file_hash = 0
     if changed_file in renamed_before:
         index = renamed_before.index(changed_file)
-        file_change_hash = sha256(renamed_after[index].encode('utf-8')).hexdigest()
+        file_hash = sha256(renamed_after[index].encode('utf-8')).hexdigest()
     else:
-        file_change_hash = sha256(changed_file.encode('utf-8')).hexdigest()
+        file_hash = sha256(changed_file.encode('utf-8')).hexdigest()
     
     change_processed = False
     
     if 'objects/' in changed_file or 'categories/' in changed_file:
         
-        object_id = path_to_object_id(changed_file)
-        if object_id != -9999:
+        id_str = changed_file.replace("objects/","").replace("categories/","").replace(".txt","").strip()
+        if id_str.isnumeric():
+            
+            object_id = int(id_str)
             object_name = get_object_name_by_id(object_id)
             object_name = object_name.replace("#", "<span>#</span>")
+            
+
+            
+            if inAction:
+                
+                if 'categories/' in changed_file:
+                    category_before_output = run_command(f"git show {COMMIT_A}:{changed_file}")
+                    category_after_output = run_command(f"git show {COMMIT_B}:{changed_file}")
+                    
+                    if category_before_output != "" and category_after_output != "":
+                        category_before = read_category_as_object_list(category_before_output)
+                        category_after = read_category_as_object_list(category_after_output)
+                        
+                        added = list(set(category_after) - set(category_before))
+                        removed = list(set(category_before) - set(category_after))
+                        
+                        category_details = ""
+                        if len(added) > 0:
+                            category_details += "\n".join( [ f"+ {e} {get_object_name_by_id(e)}" for e in added] )
+                        if len(removed) > 0:
+                            category_details += "\n".join( [ f"- {e} {get_object_name_by_id(e)}" for e in removed] )
+                
+                        line = f"""
+{sign} [{object_id}](https://github.com/{REPO}/pull/{PR_NUM}/files#diff-{file_hash}) {object_name}
+<details>
+<summary>Details</summary>
+
+```diff
+{category_details}
+```
+
+</details>
+"""
+                else:
+                    line = f"{sign} [{object_id}](https://github.com/{REPO}/pull/{PR_NUM}/files#diff-{file_hash}) {object_name}"
+                
+            else:
+                line = f"{sign} {object_id} {object_name}"
+                
             if 'objects/' in changed_file:
-                object_lines.append(f"{sign} [{object_id}](https://github.com/{repo}/pull/{pr_number}/files#diff-{file_change_hash}) {object_name}")
+                object_lines.append(line)
             elif 'categories/' in changed_file:
-                category_lines.append(f"{sign} [{object_id}](https://github.com/{repo}/pull/{pr_number}/files#diff-{file_change_hash}) {object_name}")
+                category_lines.append(line)
 
             change_processed = True
             
     elif 'transitions/' in changed_file:
         
-        filename = changed_file.replace("transitions/","").replace(".txt","")
-        filename_parts = filename.split("_")
-        
-        transition_path = repo_path / "transitions" / f"{filename}.txt"
-        # if not transition_path.is_file():
-        #     transition_path = Path("deleted_files") / "transitions" / f"{filename}.txt"
-        #     print( transition_path )
-        transition_file_content = read_txt( transition_path )
+        transition_file_content = read_file_even_deleted( changed_file )
         transition_file_content_parts = transition_file_content.split()
+
+        filename_parts = changed_file.replace("transitions/","").replace(".txt","").split("_")
         
         a = int(filename_parts[0])
         b = int(filename_parts[1])
@@ -162,10 +250,12 @@ for changed_file in changes_all:
         
         if flag != "": flag = f"({flag})"
         
-        transition_details = "\r\n".join( [ f"{e[0]}: {e[1]}" for e in trans_keyValuePairs] )
+        if inAction:
         
-        transition_line = f"""
-{sign} [{a} + {b} = {c} + {d} {flag}](https://github.com/{repo}/pull/{pr_number}/files#diff-{file_change_hash})
+            transition_details = "\n".join( [ f"{e[0]}: {e[1]}" for e in trans_keyValuePairs] )
+        
+            transition_line = f"""
+{sign} [{a} + {b} = {c} + {d} {flag}](https://github.com/{REPO}/pull/{PR_NUM}/files#diff-{file_hash})
 <details>
 <summary><code class="notranslate">{a_name}</code> + <code class="notranslate">{b_name}</code> = <code class="notranslate">{c_name}</code> + <code class="notranslate">{d_name}</code></summary>
 
@@ -175,28 +265,38 @@ for changed_file in changes_all:
 
 </details>
 """
+        else:
+            transition_line = f"{sign} {a} + {b} = {c} + {d} {flag}\n{a_name} + {b_name} = {c_name} + {d_name} {flag}\n\n"
+
         transition_lines.append(transition_line)
         change_processed = True
         
     if not change_processed:
-        line = f"{sign} [link](https://github.com/{repo}/pull/{pr_number}/files#diff-{file_change_hash}) {changed_file}"
+        if inAction:
+            line = f"{sign} [link](https://github.com/{REPO}/pull/{PR_NUM}/files#diff-{file_hash}) {changed_file}"
+        else:
+            line = f"{sign} {changed_file}"
         other_lines.append(line)
-        
+
 
 ### assemble the output message
 
 message = ""
 
 if len(object_lines) > 0:
-    message += "## Objects:\r\n" + "\r\n".join(object_lines) + "\r\n"
+    message += "## Objects:\n\n" + "\n".join(object_lines) + "\n\n"
 
 if len(category_lines) > 0:
-    message += "## Categories:\r\n" + "\r\n".join(category_lines) + "\r\n"
+    message += "## Categories:\n\n" + "\n".join(category_lines) + "\n\n"
 
 if len(transition_lines) > 0:
-    message += "## Transitions:\r\n" + "".join(transition_lines) + "\r\n"
+    message += "## Transitions:\n\n" + "".join(transition_lines) + "\n\n"
 
 if len(other_lines) > 0:
-    message += "## Others:\r\n" + "\r\n".join(other_lines)
+    message += "## Others:\n\n" + "\n".join(other_lines)
         
-set_multiline_output("OUTPUT_MESSAGE", message)
+
+if inAction:
+    set_multiline_output("OUTPUT_MESSAGE", message)
+else:
+    print(message)

@@ -8,20 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: '0'
 
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-
-      - name: Get changed files
-        id: changed-files
-        uses: tj-actions/changed-files@v43
-        with:
-          separator: "\n"
-          old_new_files_separator: "\n"
-          output_renamed_files_as_deleted_and_added: true
-          include_all_old_new_renamed_files: true
-          recover_deleted_files: true
             
       - name: Parse asset changes to be more readable
         id: readable-assets
@@ -30,10 +22,8 @@ jobs:
           REPO: ${{ github.repository }}
           REPO_PATH: ${{ github.workspace }}
           PRNUM: ${{ github.event.number }}
-          CHANGES_ALL: ${{ steps.changed-files.outputs.all_changed_and_modified_files }}
-          CHANGES_DELETED: ${{ steps.changed-files.outputs.deleted_files }}
-          CHANGES_ADDED: ${{ steps.changed-files.outputs.added_files }}
-          CHANGES_RENAME_PAIRS: ${{ steps.changed-files.outputs.all_old_new_renamed_files }}
+          COMMIT_A: ${{ github.event.pull_request.base.sha }}
+          COMMIT_B: ${{ github.event.pull_request.head.sha }}
 
       - name: Comment on PR
         uses: thollander/actions-comment-pull-request@v2
