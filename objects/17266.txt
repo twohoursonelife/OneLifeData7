@@ -31,7 +31,7 @@ slotSize=1.000000
 slotsLocked=0
 numSprites=2
 spriteID=114884
-pos=-3.000000,-29.000000
+pos=-4.000000,-29.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -47,7 +47,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
-invisCont=0
+invisCont=1
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
