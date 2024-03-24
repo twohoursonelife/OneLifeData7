@@ -2,29 +2,34 @@ name: Renumber objects
 
 on:
   workflow_dispatch:
-    inputs:
-      start:
-        type: number
-        required: true
-      offset:
-        type: number
-      end:
-        type: number
 
 jobs:
   renumber:
     runs-on: ubuntu-latest
     steps: 
-      - uses: actions/checkout@v4
+      - name: Checkout merged PR
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
 
       - uses: actions/setup-node@v4
         with:
           node-version: 18
 
-      - run: node RenumberObjects.js ${{ inputs.start }} ${{ inputs.offset }} ${{ inputs.end }}
+      - run: |
+              nextID=$( cat objects/nextObjectNumber.txt )
+              maxID=$(ls -v objects/[0-9]* | tail -1 | sed 's/objects\///' | sed 's/.txt//')
+              start_number=$maxID
+              for fn in objects/[0-9]*.txt; do
+                  id="${fn//[^0-9]/}"
+                  (( id > nextID && id < start_number )) && start_number=$id
+              done
+              node RenumberObjects.js $start_number
+              maxID=$(ls -v objects/[0-9]* | tail -1 | sed 's/objects\///' | sed 's/.txt//')
+              echo -n $((maxID + 1)) > objects/nextObjectNumber.txt
       
-      # - uses: EndBug/add-and-commit@v9
-      #   with:
-      #     message: "Renumber objects"
-      #     default_author: github-actions
+      - uses: EndBug/add-and-commit@v9
+        with:
+          message: "Renumber objects"
+          default_author: github_actions
       
