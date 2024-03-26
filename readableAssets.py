@@ -63,7 +63,11 @@ def read_file_even_deleted(path):
     return read_txt(path)
 
 def run_command(command):
-    output = os.popen(command).read()
+    f = os.popen(command)
+    output = f.read()
+    status = f.close()
+    if status:
+        sys.exit(1)
     return output
 
 def set_multiline_output(name, value):
