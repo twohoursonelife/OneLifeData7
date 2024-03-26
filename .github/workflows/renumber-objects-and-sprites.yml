@@ -1,0 +1,71 @@
+name: Renumber objects and sprites
+
+on:
+  workflow_dispatch:
+
+jobs:
+  renumber:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Checkout merged PR
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Object IDs calculation
+        id: object_ids_calculation
+        run: |
+              nextID=$( cat objects/nextObjectNumber.txt )
+              maxID=$(ls -v objects/[0-9]*.txt | tail -1 | sed 's/objects\///' | sed 's/.txt//')
+              echo $nextID
+              echo $maxID
+              echo "nextID=$nextID" >> "$GITHUB_OUTPUT"
+              echo "maxID=$maxID" >> "$GITHUB_OUTPUT"
+
+      - if: steps.object_ids_calculation.outputs.maxID > steps.object_ids_calculation.outputs.nextID
+        name: Renumbering objects
+        run: |
+              nextID=$( cat objects/nextObjectNumber.txt )
+              maxID=$(ls -v objects/[0-9]*.txt | tail -1 | sed 's/objects\///' | sed 's/.txt//')
+              start_number=$maxID
+              for fn in objects/[0-9]*.txt; do
+                  id="${fn//[^0-9]/}"
+                  (( id > nextID && id < start_number )) && start_number=$id
+              done
+              node RenumberObjects.js $start_number
+              maxID=$(ls -v objects/[0-9]*.txt | tail -1 | sed 's/objects\///' | sed 's/.txt//')
+              echo -n $((maxID + 1)) > objects/nextObjectNumber.txt
+
+      - name: Sprite IDs calculation
+        id: sprite_ids_calculation
+        run: |
+              nextID=$( cat sprites/nextSpriteNumber.txt )
+              maxID=$(ls -v sprites/[0-9]*.txt | tail -1 | sed 's/sprites\///' | sed 's/.txt//')
+              echo $nextID
+              echo $maxID
+              echo "nextID=$nextID" >> "$GITHUB_OUTPUT"
+              echo "maxID=$maxID" >> "$GITHUB_OUTPUT"
+
+      - if: steps.sprite_ids_calculation.outputs.maxID > steps.sprite_ids_calculation.outputs.nextID
+        name: Renumbering sprites
+        run: |
+              nextID=$( cat sprites/nextSpriteNumber.txt )
+              maxID=$(ls -v sprites/[0-9]*.txt | tail -1 | sed 's/sprites\///' | sed 's/.txt//')
+              start_number=$maxID
+              for fn in sprites/[0-9]*.txt; do
+                  id="${fn//[^0-9]/}"
+                  (( id > nextID && id < start_number )) && start_number=$id
+              done
+              node RenumberSprites.js $start_number
+              maxID=$(ls -v sprites/[0-9]*.txt | tail -1 | sed 's/sprites\///' | sed 's/.txt//')
+              echo -n $((maxID + 1)) > sprites/nextSpriteNumber.txt
+
+      - if: ${{ (steps.sprite_ids_calculation.outputs.maxID > steps.sprite_ids_calculation.outputs.nextID) || (steps.object_ids_calculation.outputs.maxID > steps.object_ids_calculation.outputs.nextID) }}
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "Renumber sprites and sprites"
+          default_author: github_actions
