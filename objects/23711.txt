@@ -1,12 +1,12 @@
 id=23711
 Wooden Barrel with Lotus
-containable=1
-containSize=3.000000,vertSlotRot=0.000000
-permanent=0,minPickupAge=14
+containable=0
+containSize=1.000000,vertSlotRot=0.000000
+permanent=1,minPickupAge=14
 noFlip=0
 sideAccess=0
 heldInHand=0
-blocksWalking=0,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=0
+blocksWalking=1,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=0
 mapChance=0.000000#biomes_0
 heatValue=0
 rValue=0.000000
@@ -91,4 +91,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=66
+pixHeight=67
