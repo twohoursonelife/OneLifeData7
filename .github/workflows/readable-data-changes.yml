@@ -1,0 +1,35 @@
+name: Readable data changes
+
+on: 
+  pull_request_target:
+
+jobs:
+  readable-data-changes:
+    runs-on: ubuntu-latest
+    steps:
+
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          fetch-depth: '0'
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Parse asset changes to be more readable
+        id: readable-assets
+        run: python readableAssets.py
+        env:
+          REPO: ${{ github.repository }}
+          REPO_PATH: ${{ github.workspace }}
+          PRNUM: ${{ github.event.number }}
+          COMMIT_A: origin/${{ github.base_ref }}
+          COMMIT_B: HEAD
+
+      - name: Comment on PR
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          message: |
+            ${{ steps.readable-assets.outputs.OUTPUT_MESSAGE }}
