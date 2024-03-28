@@ -1,5 +1,5 @@
-id=14686
-Empty Fountain# boy
+id=17256
+Empty Fountain# elephant
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -66,8 +66,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=114915
-pos=0.000000,80.000000
+spriteID=114917
+pos=0.000000,83.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -82,4 +82,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=104
+pixHeight=108
