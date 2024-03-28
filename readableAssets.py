@@ -169,23 +169,26 @@ for changed_file in changes_all:
             if inAction:
                 
                 if 'categories/' in changed_file:
-                    category_before_output = run_command(f"git show {COMMIT_A}:{changed_file}")
-                    category_after_output = run_command(f"git show {COMMIT_B}:{changed_file}")
                     
-                    if category_before_output != "" and category_after_output != "":
+                    category_before, category_after = [], []
+                    
+                    if changed_file not in changes_added:
+                        category_before_output = run_command(f"git show {COMMIT_A}:{changed_file}")
                         category_before = read_category_as_object_list(category_before_output)
+                    if changed_file not in changes_deleted:
+                        category_after_output = run_command(f"git show {COMMIT_B}:{changed_file}")
                         category_after = read_category_as_object_list(category_after_output)
                         
-                        added = list(set(category_after) - set(category_before))
-                        removed = list(set(category_before) - set(category_after))
-                        
-                        category_details = ""
-                        if len(added) > 0:
-                            category_details += "\n".join( [ f"+ {e} {get_object_name_by_id(e)}" for e in added] )
-                        if len(removed) > 0:
-                            category_details += "\n".join( [ f"- {e} {get_object_name_by_id(e)}" for e in removed] )
-                
-                        line = f"""
+                    added = list(set(category_after) - set(category_before))
+                    removed = list(set(category_before) - set(category_after))
+                    
+                    category_details = ""
+                    if len(added) > 0:
+                        category_details += "\n".join( [ f"+ {e} {get_object_name_by_id(e)}" for e in added] )
+                    if len(removed) > 0:
+                        category_details += "\n".join( [ f"- {e} {get_object_name_by_id(e)}" for e in removed] )
+            
+                    line = f"""
 {sign} [{object_id}](https://github.com/{REPO}/pull/{PR_NUM}/files#diff-{file_hash}) {object_name}
 <details>
 <summary>Details</summary>
