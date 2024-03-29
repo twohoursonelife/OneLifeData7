@@ -53,9 +53,9 @@ for (let i = spriteFileList.length - 1; i >= 0; i--) {
   highestId = Math.max( highestId, Number(id[1]) + offset);
 }
 if (process.argv[3]) {
-  fs.writeFileSync(`objects/nextSpriteNumber.txt`, String(highestId + 1));
+  fs.writeFileSync(`sprites/nextSpriteNumber.txt`, String(highestId + 1));
 } else {
-  fs.writeFileSync(`objects/nextSpriteNumber.txt`, String(sourceNumber));
+  fs.writeFileSync(`sprites/nextSpriteNumber.txt`, String(sourceNumber));
 }
 
 
