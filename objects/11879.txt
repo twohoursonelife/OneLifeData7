@@ -44,6 +44,7 @@ ageRange=-1.000000,-1.000000
 parent=1
 invisHolding=0,invisWorn=0,behindSlots=1
 invisCont=0
+ignoredCont=0
 spriteID=100254
 pos=-3.000000,-26.000000
 rot=0.000000
@@ -53,6 +54,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
+ignoredCont=0
 spriteID=100257
 pos=24.000000,-25.000000
 rot=0.035000
@@ -62,6 +64,7 @@ ageRange=-1.000000,-1.000000
 parent=1
 invisHolding=0,invisWorn=2,behindSlots=0
 invisCont=0
+ignoredCont=0
 spriteID=100256
 pos=8.000000,-18.999996
 rot=0.000000
@@ -71,15 +74,17 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=1,behindSlots=0
 invisCont=0
+ignoredCont=0
 spriteID=110481
 pos=-8.000000,-34.000000
 rot=0.000000
 hFlip=0
-color=0.999000,0.900099,0.900099
+color=1.000000,0.900099,0.900099
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
+ignoredCont=1
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
