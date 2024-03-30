@@ -31,10 +31,10 @@ slotSize=2.000000
 slotStyle=1
 slotsLocked=0
 slotsNoSwap=0
-slotPos=-20.000000,40.000000,vert=0,parent=-1
-slotPos=22.000000,40.000000,vert=0,parent=-1
-slotPos=-20.000000,-13.000000,vert=0,parent=-1
-slotPos=22.000000,-14.000000,vert=0,parent=-1
+slotPos=-20.000000,46.000000,vert=0,parent=-1
+slotPos=22.000000,46.000000,vert=0,parent=-1
+slotPos=-20.000000,-7.000000,vert=0,parent=-1
+slotPos=22.000000,-8.000000,vert=0,parent=-1
 numSprites=2
 spriteID=100471
 pos=1.000000,33.000000
