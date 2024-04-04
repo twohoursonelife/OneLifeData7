@@ -18,6 +18,7 @@ floor=0
 floorHugging=0
 foodValue=0
 speedMult=1.000000
+containOffset=-7,3
 heldOffset=19.000000,9.000000
 clothing=n
 clothingOffset=0.000000,0.000000
@@ -29,17 +30,7 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=2
-spriteID=2638
-pos=0.000000,-35.000000
-rot=0.000000
-hFlip=0
-color=1.000000,1.000000,1.000000
-ageRange=-1.000000,-1.000000
-parent=-1
-invisHolding=0,invisWorn=0,behindSlots=0
-invisCont=0
-ignoredCont=0
+numSprites=1
 spriteID=112269
 pos=2.000000,-31.000000
 rot=0.000000
@@ -49,7 +40,6 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-ignoredCont=1
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
