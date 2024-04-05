@@ -39,15 +39,17 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
+ignoredCont=0
 spriteID=2147
 pos=0.000000,-32.000000
 rot=0.000000
 hFlip=0
-color=0.999000,0.999000,0.999000
+color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=2
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
+ignoredCont=1
 spriteID=2145
 pos=-1.000000,-9.000000
 rot=0.000000
@@ -57,6 +59,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
+ignoredCont=0
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1

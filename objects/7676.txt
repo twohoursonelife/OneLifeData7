@@ -31,7 +31,7 @@ slotSize=0.000000
 slotStyle=1
 slotsLocked=0
 slotsNoSwap=0
-slotPos=-1.000000,-11.000000,vert=0,parent=-1
+slotPos=-1.000000,-5.000000,vert=0,parent=-1
 numSprites=3
 spriteID=1951
 pos=0.000000,-60.000000
