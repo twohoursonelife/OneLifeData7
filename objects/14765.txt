@@ -1,4 +1,4 @@
-id=17283
+id=14765
 Polar Teddy Bear# just sewed
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
@@ -30,7 +30,7 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=1
-spriteID=114884
+spriteID=112409
 pos=-4.000000,-29.000000
 rot=0.000000
 hFlip=0
