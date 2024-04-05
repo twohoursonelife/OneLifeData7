@@ -179,8 +179,8 @@ for changed_file in changes_all:
                         category_after_output = run_command(f"git show {COMMIT_B}:{changed_file}")
                         category_after = read_category_as_object_list(category_after_output)
                         
-                    added = list(set(category_after) - set(category_before))
-                    removed = list(set(category_before) - set(category_after))
+                    added = [e for e in category_after if e not in category_before]
+                    removed = [e for e in category_before if e not in category_after]
                     
                     category_details = ""
                     if len(added) > 0:
