@@ -1,5 +1,5 @@
-id=14684
-Fountain# boy
+id=17253
+Fountain# frog
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -29,7 +29,7 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=11
+numSprites=12
 spriteID=74
 pos=-10.000000,-9.000000
 rot=0.000000
@@ -84,8 +84,8 @@ ageRange=-1.000000,-1.000000
 parent=3
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=114943
-pos=0.000000,82.000000
+spriteID=114944
+pos=1.000000,82.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -94,7 +94,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=112303
-pos=-5.000000,83.000000
+pos=-4.000000,95.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -102,8 +102,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=114914
-pos=-7.000000,73.000000
+spriteID=112303
+pos=10.000000,95.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -111,8 +111,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=114912
-pos=-8.000000,73.000000
+spriteID=114894
+pos=2.000000,79.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -120,8 +120,17 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=114913
-pos=-7.000000,73.000000
+spriteID=114895
+pos=3.000000,79.000000
+rot=0.000000
+hFlip=0
+color=1.000000,1.000000,1.000000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=114905
+pos=3.000000,79.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -137,4 +146,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=104
+pixHeight=103
