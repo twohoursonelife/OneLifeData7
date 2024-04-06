@@ -1,5 +1,5 @@
 id=23719
-Full Wooden Barrel with Water#just built
+Full Wooden Barrel of Water#just sheared
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=14
