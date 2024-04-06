@@ -1,5 +1,5 @@
-id=17279
-@ Cutting-source Hats Pattern
+id=17341
+@ Shears with Hat Ornament Pattern
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
