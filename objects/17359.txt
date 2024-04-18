@@ -1,5 +1,5 @@
-id=12024
-Primitive Hookless Fishing Pole
+id=17359
+Primitive Fishing Pole# just created
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -23,13 +23,13 @@ clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
 useDistance=1
-sounds=-1:0.0,-1:0.0,-1:0.0,-1:0.0
+sounds=74:0.250000,-1:0.0,-1:0.0,-1:0.0
 creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=4
+numSprites=5
 spriteID=403
 pos=-7.000000,-15.000004
 rot=-0.105000
@@ -57,13 +57,22 @@ ageRange=-1.000000,-1.000000
 parent=0
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=2022
+spriteID=2015
+pos=22.000000,-45.000000
+rot=0.000000
+hFlip=0
+color=1.000000,1.000000,1.000000
+ageRange=-1.000000,-1.000000
+parent=4
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=2023
 pos=20.000000,10.999996
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=-1
+parent=0
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 headIndex=-1
