@@ -1,5 +1,5 @@
-id=2091
-Fishing Pole
+id=17358
+Fishing Pole without Hook# just created
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3
@@ -23,13 +23,13 @@ clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
 useDistance=1
-sounds=-1:0.0,-1:0.0,-1:0.0,-1:0.0
+sounds=74:0.250000,-1:0.0,-1:0.0,-1:0.0
 creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=3
+numSprites=2
 spriteID=2011
 pos=8.000000,-19.000000
 rot=0.000000
@@ -39,17 +39,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=2015
-pos=53.000000,-41.000000
-rot=0.000000
-hFlip=0
-color=1.000000,1.000000,1.000000
-ageRange=-1.000000,-1.000000
-parent=2
-invisHolding=0,invisWorn=0,behindSlots=0
-invisCont=0
-spriteID=2023
-pos=51.000000,17.000000
+spriteID=2022
+pos=51.000000,16.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
