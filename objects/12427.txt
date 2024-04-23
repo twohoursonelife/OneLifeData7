@@ -1,5 +1,5 @@
 id=12427
-Ancient Windowed Brick Wall
+Ancient Brick Wall with Window
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -16,6 +16,7 @@ deathMarker=0
 homeMarker=0
 floor=0
 floorHugging=1
+wallLayer=1
 foodValue=0
 speedMult=1.000000
 heldOffset=0.000000,0.000000
@@ -30,7 +31,6 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotStyle=1
 slotsLocked=0
-slotsNoSwap=0
 numSprites=1
 spriteID=111179
 pos=3.000000,11.000000
