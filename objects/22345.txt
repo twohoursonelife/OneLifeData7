@@ -1,5 +1,5 @@
-id=22339
-Dry Bald Cypress Sapling Cutting
+id=22345
+Dry Willow Sapling Cutting
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -30,8 +30,8 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=2
-spriteID=119970
-pos=0.000000,-23.000000
+spriteID=493
+pos=1.000000,-35.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -39,8 +39,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=493
-pos=1.000000,-35.000000
+spriteID=119967
+pos=-2.000000,-23.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
