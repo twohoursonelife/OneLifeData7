@@ -1,5 +1,5 @@
 id=17362
-Shovel# just created
+Shovel#just created
 containable=1
 containSize=1.900000,vertSlotRot=-0.940000
 permanent=0,minPickupAge=3

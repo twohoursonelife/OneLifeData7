@@ -1,5 +1,5 @@
 id=17363
-Steel Hoe# just created
+Steel Hoe#just created
 containable=1
 containSize=1.900000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

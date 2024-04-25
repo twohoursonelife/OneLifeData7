@@ -1,5 +1,5 @@
 id=17365
-Steel Mining Pick# just created
+Steel Mining Pick#just created
 containable=1
 containSize=1.900000,vertSlotRot=-0.955000
 permanent=0,minPickupAge=3

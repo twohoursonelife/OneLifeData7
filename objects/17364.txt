@@ -1,5 +1,5 @@
 id=17364
-Steel Axe# just created
+Steel Axe#just created
 containable=1
 containSize=1.900000,vertSlotRot=-0.415000
 permanent=0,minPickupAge=3
