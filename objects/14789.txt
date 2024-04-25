@@ -1,5 +1,5 @@
 id=14789
-Dark Wooden Wall with Boards#h just placed
+Dark Wooden Wall with Boards#h
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

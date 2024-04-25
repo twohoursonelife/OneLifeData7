@@ -1,5 +1,5 @@
 id=14813
-Ancient Sandstone Wall with Big Stack of Boards#just placed
+Ancient Sandstone Wall with Big Stack of Boards
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=12073
-Ancient Brick Wall with Boards#just placed
+Ancient Brick Wall with Boards
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
