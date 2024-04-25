@@ -1,5 +1,5 @@
-id=8472
-Wooden Wall with Boards#just placed
+id=23804
+Light Wooden Wall with Boards#h just placed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -31,11 +31,11 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=2
-spriteID=100880
-pos=1.000000,5.000000
+spriteID=101403
+pos=1.000000,8.000000
 rot=0.000000
 hFlip=0
-color=1.000000,0.903987,0.380282
+color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
