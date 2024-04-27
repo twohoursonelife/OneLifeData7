@@ -1,5 +1,5 @@
 id=23875
-Wooden Wall with Windowsill#dark +noBackAccess +useOnContained
+Dark Wooden Wall with Windowsill# +noBackAccess +useOnContained
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
