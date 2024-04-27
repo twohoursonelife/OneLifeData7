@@ -1,5 +1,5 @@
 id=23877
-Wooden Wall with Window and Boards#light just removed
+Light Wooden Wall with Window and Boards#just removed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
