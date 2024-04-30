@@ -1,5 +1,5 @@
-id=23870
-Wooden Wall with Windowsill# +noBackAccess +useOnContained
+id=14834
+Dark Wooden Wall with Windowsill# +noBackAccess +useOnContained
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -34,11 +34,11 @@ slotsLocked=0
 slotPos=-19.000000,-22.000000,vert=0,parent=-1
 slotPos=22.000000,-22.000000,vert=0,parent=-1
 numSprites=2
-spriteID=100897
-pos=3.000000,11.000000
+spriteID=100896
+pos=1.000000,13.000000
 rot=0.000000
 hFlip=0
-color=1.000000,0.903987,0.380282
+color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=1

@@ -1,5 +1,5 @@
-id=23865
-@ Potential Wall with Windowsill
+id=14823
+@ Wall with Windowsill
 containable=0
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3
