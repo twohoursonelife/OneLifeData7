@@ -1,5 +1,5 @@
-id=23854
-Ancient Half Brick Wall with Shelf# +useOnContained
+id=14859
+Ancient Half Sandstone Wall with Shelf# +useOnContained
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -33,10 +33,19 @@ slotStyle=1
 slotsLocked=0
 slotPos=-24.000000,40.000000,vert=0,parent=-1
 slotPos=24.000000,40.000000,vert=0,parent=-1
-numSprites=2
-spriteID=111265
-pos=-1.000000,-3.000000
+numSprites=5
+spriteID=110166
+pos=-12.000000,-21.000000
 rot=0.000000
+hFlip=0
+color=1.000000,1.000000,1.000000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=1
+invisCont=0
+spriteID=1136
+pos=-44.000000,9.000000
+rot=0.255000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
@@ -47,6 +56,24 @@ spriteID=100517
 pos=0.000000,25.000000
 rot=0.000000
 hFlip=0
+color=1.000000,1.000000,1.000000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=1
+invisCont=0
+spriteID=1137
+pos=-56.000000,-10.000000
+rot=0.485000
+hFlip=1
+color=1.000000,1.000000,1.000000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=1
+invisCont=0
+spriteID=1136
+pos=58.000000,-33.000000
+rot=0.000000
+hFlip=1
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
