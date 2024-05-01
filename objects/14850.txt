@@ -1,4 +1,4 @@
-id=23850
+id=14850
 @ Potential Half Wall With Shelf
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
