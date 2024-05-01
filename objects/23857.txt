@@ -35,7 +35,7 @@ slotPos=-24.000000,40.000000,vert=0,parent=-1
 slotPos=24.000000,40.000000,vert=0,parent=-1
 numSprites=2
 spriteID=110166
-pos=-13.000000,-20.000000
+pos=-12.000000,-21.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
