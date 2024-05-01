@@ -1,5 +1,5 @@
 id=23941
-Calico Cat ball test #fed
+Calico Cat on Brick Windowsill with Ball #blue sitting wall +noBackAccess
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
