@@ -1,0 +1,9 @@
+parentID=14850
+pattern
+numObjects=6
+7019
+7021
+10025
+12901
+10027
+12905

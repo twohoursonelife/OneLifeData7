@@ -23,18 +23,17 @@ clothing=p
 clothingOffset=-22.000000,60.000000
 deadlyDistance=0
 useDistance=1
-sounds=153:0.250000,286:0.101010,-1:0.0,-1:0.0
+sounds=286:0.101010,286:0.101010,-1:0.0,-1:0.0
 creationSoundInitialOnly=1
 creationSoundForce=0
 numSlots=5#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
+slotPos=-5.000000,0.000000,vert=1,parent=-1
 slotPos=-3.000000,0.000000,vert=1,parent=-1
-slotPos=1.000000,0.000000,vert=1,parent=-1
-slotPos=5.000000,0.000000,vert=1,parent=-1
-slotPos=9.000000,0.000000,vert=1,parent=-1
-slotPos=5.000000,0.000000,vert=1,parent=-1
+slotPos=-1.000000,0.000000,vert=1,parent=-1
+slotPos=-1.000000,0.000000,vert=1,parent=-1
+slotPos=0.000000,0.000000,vert=1,parent=-1
 numSprites=5
 spriteID=100784
 pos=-5.000000,-20.000000
@@ -45,7 +44,6 @@ ageRange=-1.000000,-1.000000
 parent=1
 invisHolding=0,invisWorn=0,behindSlots=1
 invisCont=0
-ignoredCont=0
 spriteID=100254
 pos=-3.000000,-26.000000
 rot=0.000000
@@ -55,7 +53,6 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-ignoredCont=0
 spriteID=100257
 pos=24.000000,-25.000000
 rot=0.035000
@@ -65,7 +62,6 @@ ageRange=-1.000000,-1.000000
 parent=1
 invisHolding=0,invisWorn=2,behindSlots=0
 invisCont=0
-ignoredCont=0
 spriteID=100256
 pos=8.000000,-18.999996
 rot=0.000000
@@ -75,7 +71,6 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=1,behindSlots=0
 invisCont=0
-ignoredCont=0
 spriteID=418
 pos=-13.000000,-20.000000
 rot=-0.235000
