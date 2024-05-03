@@ -1,5 +1,5 @@
 id=23962
-@ Cat Pillow on Windowsill with Ball - sitting blue
+@ Cat on Windowsill with Ball - sitting
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -29,21 +29,12 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=6
+numSprites=5
 spriteID=111135
 pos=-7.000000,-1.000000
 rot=0.000000
 hFlip=0
 color=0.000000,0.000000,0.000000
-ageRange=-1.000000,-1.000000
-parent=-1
-invisHolding=0,invisWorn=0,behindSlots=0
-invisCont=0
-spriteID=110718
-pos=-16.000002,-0.999996
-rot=0.000000
-hFlip=0
-color=0.130926,0.271744,0.845070
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -54,7 +45,7 @@ rot=0.000000
 hFlip=0
 color=0.000000,0.000000,0.000000
 ageRange=-1.000000,-1.000000
-parent=4
+parent=3
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=110645
@@ -63,7 +54,7 @@ rot=0.000000
 hFlip=0
 color=0.211268,0.211268,0.211268
 ageRange=-1.000000,-1.000000
-parent=4
+parent=3
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=110641
