@@ -1,5 +1,5 @@
-id=17275
-Shears with Blue Rose
+id=14865
+Shears with White Rose
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -34,7 +34,7 @@ spriteID=1306
 pos=17.000000,-25.000000
 rot=1.000000
 hFlip=0
-color=0.126761,0.511738,1.000000
+color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
