@@ -1,5 +1,0 @@
-parentID=22351
-probSet
-numObjects=2
-22347 0.500000
-22348 0.500000
