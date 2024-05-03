@@ -1,7 +1,7 @@
 id=22343
 Willow Tree Cutting
 containable=1
-containSize=1.000000,vertSlotRot=-0.500000
+containSize=1.000000,vertSlotRot=0.250000
 permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
@@ -18,7 +18,7 @@ floor=0
 floorHugging=0
 foodValue=0
 speedMult=1.000000
-containOffset=0,-3
+containOffset=1,-8
 heldOffset=-4.000000,-3.000000
 clothing=n
 clothingOffset=0.000000,0.000000
