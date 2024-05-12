@@ -18,6 +18,7 @@ floor=0
 floorHugging=0
 foodValue=5,5
 speedMult=1.000000
+containOffset=-3,-1
 heldOffset=14.000000,16.000000
 clothing=n
 clothingOffset=0.000000,0.000000
@@ -40,7 +41,7 @@ parent=1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=845
-pos=-3.000000,-26.000000
+pos=0.000000,-26.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
