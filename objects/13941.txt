@@ -28,7 +28,6 @@ creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
-slotStyle=2
 slotsLocked=0
 numSprites=1
 spriteID=711
