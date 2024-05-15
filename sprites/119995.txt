@@ -1,0 +1,1 @@
+ChessFigureKnight#dark 0 -3 26
