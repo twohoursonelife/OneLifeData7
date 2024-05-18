@@ -1,5 +1,5 @@
-id=7696
-Ancient Sandstone Wall with Window
+id=24171
+Ancient Sandstone Wall with Windowsill# +noBackAccess +useOnContained
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -27,10 +27,12 @@ useDistance=1
 sounds=78:0.250000,-1:0.0,-1:0.0,-1:0.0
 creationSoundInitialOnly=1
 creationSoundForce=0
-numSlots=0#timeStretch=1.000000
-slotSize=1.000000
+numSlots=1#timeStretch=1.000000
+slotSize=2.000000
+slotStyle=1
 slotsLocked=0
-numSprites=4
+slotPos=1.000000,-34.000000,vert=0,parent=-1
+numSprites=5
 spriteID=121472
 pos=-13.000000,1.000000
 rot=0.000000
@@ -38,7 +40,16 @@ hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
-invisHolding=0,invisWorn=0,behindSlots=0
+invisHolding=0,invisWorn=0,behindSlots=1
+invisCont=0
+spriteID=121482
+pos=0.000000,-44.000000
+rot=0.000000
+hFlip=0
+color=1.000000,1.000000,1.000000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=1
 invisCont=0
 spriteID=1139
 pos=-56.000000,35.000000
@@ -47,7 +58,7 @@ hFlip=1
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
-invisHolding=0,invisWorn=0,behindSlots=0
+invisHolding=0,invisWorn=0,behindSlots=1
 invisCont=0
 spriteID=1139
 pos=-46.000000,55.000000
@@ -56,7 +67,7 @@ hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
-invisHolding=0,invisWorn=0,behindSlots=0
+invisHolding=0,invisWorn=0,behindSlots=1
 invisCont=0
 spriteID=1139
 pos=59.000000,-34.000000
@@ -65,7 +76,7 @@ hFlip=1
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
-invisHolding=0,invisWorn=0,behindSlots=0
+invisHolding=0,invisWorn=0,behindSlots=1
 invisCont=0
 headIndex=-1
 bodyIndex=-1
