@@ -48,8 +48,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=100937
-pos=13.000000,-19.000000
+spriteID=1848
+pos=17.000000,-21.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
