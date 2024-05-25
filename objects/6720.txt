@@ -1,5 +1,5 @@
 id=6720
-Hen #pecking
+Hen#pecking
 containable=0
 containSize=1.000000,vertSlotRot=-0.195000
 permanent=1,minPickupAge=3
@@ -29,7 +29,6 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=6
 spriteID=73
 pos=-4.000000,-19.000000
