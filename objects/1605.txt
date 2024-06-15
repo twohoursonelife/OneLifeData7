@@ -1,7 +1,7 @@
 id=1605
 Stack of Baskets
-containable=0
-containSize=1.000000,vertSlotRot=0.000000
+containable=1
+containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
@@ -17,7 +17,7 @@ homeMarker=0
 floor=0
 floorHugging=0
 foodValue=0
-speedMult=0.500000
+speedMult=1.000000
 heldOffset=18.000000,19.000000
 clothing=n
 clothingOffset=-27.000000,72.000000
@@ -26,13 +26,9 @@ useDistance=1
 sounds=49:0.250000,49:0.250000,-1:0.0,-1:0.0
 creationSoundInitialOnly=0
 creationSoundForce=0
-numSlots=3#timeStretch=1.000000
+numSlots=0#timeStretch=1.000000
 slotSize=1.000000
-slotsLocked=1
-slotsNoSwap=0
-slotPos=-10.000000,-18.000000,vert=1,parent=-1
-slotPos=-1.000000,-18.000000,vert=1,parent=-1
-slotPos=8.000000,-18.000000,vert=1,parent=-1
+slotsLocked=0
 numSprites=5
 spriteID=550
 pos=0.000000,-22.000000

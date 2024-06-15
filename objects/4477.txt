@@ -18,6 +18,7 @@ floor=0
 floorHugging=0
 foodValue=8
 speedMult=1.000000
+containOffset=0,-1
 heldOffset=13.000000,10.000000
 clothing=n
 clothingOffset=0.000000,0.000000

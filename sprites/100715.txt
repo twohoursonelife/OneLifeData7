@@ -1,1 +1,1 @@
-Peppersbox 0 2 -1
+Peppersbox 0 0 0
