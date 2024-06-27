@@ -67,5 +67,5 @@ jobs:
       - if: ${{ (steps.sprite_ids_calculation.outputs.maxID > steps.sprite_ids_calculation.outputs.nextID) || (steps.object_ids_calculation.outputs.maxID > steps.object_ids_calculation.outputs.nextID) }}
         uses: EndBug/add-and-commit@v9
         with:
-          message: "Renumber sprites and sprites"
+          message: "Renumber objects and sprites"
           default_author: github_actions
