@@ -1,0 +1,1 @@
+ChessFigurePawn#dark 0 2 20
