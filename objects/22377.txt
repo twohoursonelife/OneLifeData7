@@ -1,5 +1,5 @@
 id=22377
-Chess Figure King#light
+White King Figure
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

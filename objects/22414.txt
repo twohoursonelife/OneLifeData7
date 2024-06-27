@@ -1,5 +1,5 @@
 id=22414
-King on Work Bench with Chisel#light justCreated
+Carved White King Figure on Work Bench with Chisel
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

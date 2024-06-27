@@ -1,5 +1,5 @@
 id=22380
-Chess Figure Queen#dark
+Black Queen Figure
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3
