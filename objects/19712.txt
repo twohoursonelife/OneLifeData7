@@ -61,11 +61,12 @@ spriteID=117337
 pos=0.000000,-10.000000
 rot=0.000000
 hFlip=0
-color=0.999000,0.999000,0.999000
+color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
+ignoredCont=1
 spriteID=117340
 pos=0.000000,3.000000
 rot=0.000000
@@ -75,6 +76,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
+ignoredCont=1
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
