@@ -822,8 +822,8 @@ ageRange=40.000000,55.000000
 parent=71
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=101283
-pos=-4.000000,157.000000
+spriteID=122506
+pos=-4.000000,148.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -840,8 +840,8 @@ ageRange=0.000000,3.000000
 parent=71
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=101279
-pos=-6.000000,150.000000
+spriteID=122504
+pos=-3.000000,137.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -849,8 +849,8 @@ ageRange=3.000000,7.000000
 parent=71
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=101280
-pos=-2.000000,151.000000
+spriteID=122505
+pos=-3.000000,137.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
