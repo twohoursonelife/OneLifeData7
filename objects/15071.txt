@@ -1,5 +1,5 @@
-id=13937
-@ OLD +contCastIronStove
+id=15071
+@ OLD Tray goes on Table +contTrayOnTable
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

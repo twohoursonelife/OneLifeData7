@@ -1,5 +1,5 @@
-id=13937
-@ OLD +contCastIronStove
+id=15066
+@ CONTAINER Tray +contTray
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
