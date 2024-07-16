@@ -1,5 +1,5 @@
 id=15068
-@ Non-Empty Tray +contWallShelf +contHalfWallShelf
+@ OLD Non-Empty Tray goes on Wall Shelves and Half Wall Shelves +contTrayOnWallShelf
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
