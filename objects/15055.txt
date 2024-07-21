@@ -18,14 +18,14 @@ floor=0
 floorHugging=0
 foodValue=0
 speedMult=1.000000
-containOffset=2,-1
+containOffset=2,0
 heldOffset=39.000000,20.000000
 clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
 useDistance=1
 sounds=482:0.250000,-1:0.0,-1:0.0,-1:0.0
-creationSoundInitialOnly=0
+creationSoundInitialOnly=1
 creationSoundForce=0
 numSlots=3#timeStretch=1.000000
 slotSize=1.000000
