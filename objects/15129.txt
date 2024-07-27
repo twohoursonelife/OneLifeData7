@@ -1,5 +1,5 @@
 id=15129
-Medium Frequency AM Receiver on Wooden Table# speechOut_2
+Medium Frequency AM Receiver on Wooden Table# speechOut_1
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
