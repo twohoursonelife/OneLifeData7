@@ -588,7 +588,7 @@ ageRange=-1.000000,-1.000000
 parent=40
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=122531
+spriteID=114996
 pos=10.000000,130.000000
 rot=0.000000
 hFlip=0
@@ -597,7 +597,7 @@ ageRange=15.000000,55.000000
 parent=61
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=122532
+spriteID=114997
 pos=8.000000,131.000000
 rot=0.000000
 hFlip=0
@@ -606,7 +606,7 @@ ageRange=55.000000,999.000000
 parent=61
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=122519
+spriteID=114984
 pos=10.000000,139.000000
 rot=0.000000
 hFlip=0
@@ -615,7 +615,7 @@ ageRange=0.200000,55.000000
 parent=61
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=122525
+spriteID=114990
 pos=-2.000000,145.000000
 rot=0.000000
 hFlip=0
@@ -624,7 +624,7 @@ ageRange=35.000000,40.000000
 parent=61
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=122528
+spriteID=114993
 pos=11.000000,133.000000
 rot=0.000000
 hFlip=0
@@ -633,7 +633,7 @@ ageRange=25.000000,55.000000
 parent=61
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=122524
+spriteID=114989
 pos=-2.000000,147.000000
 rot=0.000000
 hFlip=0
@@ -705,7 +705,7 @@ ageRange=0.000000,0.200000
 parent=61
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=122529
+spriteID=114994
 pos=9.000000,130.000000
 rot=0.000000
 hFlip=0
@@ -714,7 +714,7 @@ ageRange=0.200000,3.000000
 parent=61
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=122530
+spriteID=114995
 pos=8.000000,130.000000
 rot=0.000000
 hFlip=0
@@ -723,7 +723,7 @@ ageRange=3.000000,15.000000
 parent=61
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=122520
+spriteID=114985
 pos=12.000000,141.000000
 rot=0.000000
 hFlip=0
@@ -732,7 +732,7 @@ ageRange=55.000000,999.000000
 parent=61
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=122526
+spriteID=114991
 pos=-13.000000,146.000000
 rot=0.000000
 hFlip=0
@@ -741,7 +741,7 @@ ageRange=40.000000,55.000000
 parent=61
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=122526
+spriteID=114991
 pos=-13.000000,146.000000
 rot=0.000000
 hFlip=0
@@ -750,7 +750,7 @@ ageRange=55.000000,999.000000
 parent=61
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=122521
+spriteID=114986
 pos=2.000000,155.000000
 rot=0.000000
 hFlip=0
@@ -759,7 +759,7 @@ ageRange=0.000000,3.000000
 parent=61
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=122522
+spriteID=114987
 pos=0.000000,149.000000
 rot=0.000000
 hFlip=0
@@ -768,7 +768,7 @@ ageRange=3.000000,7.000000
 parent=61
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=122523
+spriteID=114988
 pos=-3.000000,146.000000
 rot=0.000000
 hFlip=0
@@ -777,7 +777,7 @@ ageRange=7.000000,25.000000
 parent=61
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=122527
+spriteID=114992
 pos=9.000000,147.000000
 rot=0.000000
 hFlip=0

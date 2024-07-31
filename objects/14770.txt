@@ -75,7 +75,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=122676
+spriteID=115141
 pos=-7.000000,32.000000
 rot=0.000000
 hFlip=0
@@ -84,7 +84,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=122677
+spriteID=115142
 pos=4.000000,7.000000
 rot=0.000000
 hFlip=0

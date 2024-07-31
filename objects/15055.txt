@@ -35,7 +35,7 @@ slotPos=0.000000,-17.000000,vert=0,parent=-1
 slotPos=-19.000000,-24.000000,vert=0,parent=-1
 slotPos=19.000000,-24.000000,vert=0,parent=-1
 numSprites=2
-spriteID=122631
+spriteID=115096
 pos=0.000000,-32.000000
 rot=0.000000
 hFlip=0
@@ -44,7 +44,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=1
 invisCont=0
-spriteID=122632
+spriteID=115097
 pos=0.000000,-41.000000
 rot=0.000000
 hFlip=0

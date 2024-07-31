@@ -31,7 +31,7 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=5
-spriteID=122674
+spriteID=115139
 pos=-13.000000,1.000000
 rot=0.000000
 hFlip=0
