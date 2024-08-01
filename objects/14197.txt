@@ -49,7 +49,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 ignoredCont=1
-spriteID=117329
+spriteID=115170
 pos=0.000000,0.000000
 rot=0.000000
 hFlip=0
