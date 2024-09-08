@@ -1,5 +1,5 @@
 id=15715
-Wire Off# +tapoutTrigger,0,3,3,0
+Wire Off# +tapoutTrigger,2,0,3,3,0
 containable=0
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

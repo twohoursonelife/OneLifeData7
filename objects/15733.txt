@@ -1,5 +1,5 @@
 id=15733
-NOT On# +tapoutTrigger,0,3,0,0
+NOT On# +tapoutTrigger,2,0,3,0,0
 containable=0
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=1,minPickupAge=3

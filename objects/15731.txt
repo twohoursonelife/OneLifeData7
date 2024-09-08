@@ -1,5 +1,5 @@
 id=15731
-OR Dropping# +tapoutTrigger,3,0,3,0
+OR Dropping# +tapoutTrigger,2,3,0,3,0
 containable=0
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=1,minPickupAge=3

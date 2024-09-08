@@ -1,5 +1,5 @@
 id=15738
-AND Rising# +tapoutTrigger,3,0,3,0
+AND Rising# +tapoutTrigger,2,3,0,3,0
 containable=0
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=1,minPickupAge=3
