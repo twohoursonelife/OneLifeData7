@@ -1,0 +1,1 @@
+strawArch 0 84 -65
