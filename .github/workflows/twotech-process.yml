@@ -11,13 +11,13 @@ jobs:
       - name: Checkout twotech
         uses: actions/checkout@v4
         with:
-          repository: "twohoursonelife/twotech"
-          ref: "specific-objects"
+          repository: twohoursonelife/twotech
+          ref: specific-objects
       
       - name: Checkout OneLifeData7
         uses: actions/checkout@v4
         with:
-          path: process/OneLifeData7
+          path: process/OneLifeData7/
 
       - uses: actions/setup-node@v4
         with:
