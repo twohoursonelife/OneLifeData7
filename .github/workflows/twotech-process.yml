@@ -1,0 +1,39 @@
+name: Twotech process specific
+
+on:
+  workflow_dispatch:
+  push: # TODO
+
+jobs:
+  twotech-process:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout twotech
+        uses: actions/checkout@v4
+        with:
+          repository: "twohoursonelife/twotech"
+          ref: "specific-objects"
+      
+      - name: Checkout OneLifeData7
+        uses: actions/checkout@v4
+        with:
+          path: process/OneLifeData7
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Install dependencies
+        run: |
+          cd process  
+          npm clean-install
+          cd ..
+
+        # TODO: get the specific objects to be processed from a PR diff
+      - name: Run twotech process specifc objects
+        run: npm run process-specific-objects 15633,11106,404
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: twotech-view
+          path: public/static/sprites
