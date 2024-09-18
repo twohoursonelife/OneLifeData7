@@ -18,6 +18,7 @@ floor=0
 floorHugging=0
 foodValue=0
 speedMult=1.000000
+containOffset=1,1
 heldOffset=0.000000,0.000000
 clothing=n
 clothingOffset=0.000000,0.000000
@@ -219,8 +220,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=115467
-pos=44.000000,57.000000
+spriteID=115480
+pos=44.000000,63.000000
 rot=0.000000
 hFlip=0
 color=0.915493,0.915493,0.915493
@@ -246,7 +247,7 @@ ageRange=-1.000000,-1.000000
 parent=24
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=115468
+spriteID=115482
 pos=44.000000,53.000000
 rot=0.000000
 hFlip=0
