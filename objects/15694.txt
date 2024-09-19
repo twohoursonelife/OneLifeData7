@@ -1,5 +1,5 @@
 id=15694
-Graduated Cylinder
+Measuring Cylinder
 containable=1
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3
@@ -35,7 +35,7 @@ spriteID=3032
 pos=1.000000,-6.000000
 rot=0.875000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=0.300000,0.300000,0.300000
 ageRange=-1.000000,-1.000000
 parent=2
 invisHolding=0,invisWorn=0,behindSlots=0
