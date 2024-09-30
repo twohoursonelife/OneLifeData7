@@ -1,5 +1,5 @@
-id=15838
-Beaker of Coal Tar
+id=15851
+Beaker of Sodium Hydroxide
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -30,12 +30,12 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=8
+numSprites=9
 spriteID=115545
 pos=0.000000,-25.000000
 rot=0.000000
 hFlip=0
-color=0.000000,0.000000,0.000000
+color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=4
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -76,8 +76,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=115542
-pos=-5.000000,-27.000000
+spriteID=115529
+pos=-4.000000,-22.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -85,8 +85,8 @@ ageRange=-1.000000,-1.000000
 parent=4
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=115543
-pos=0.000000,-27.000000
+spriteID=115516
+pos=2.000000,-22.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -94,8 +94,17 @@ ageRange=-1.000000,-1.000000
 parent=4
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=115544
-pos=5.000000,-27.000000
+spriteID=115530
+pos=-4.000000,-28.000000
+rot=0.000000
+hFlip=0
+color=1.000000,1.000000,1.000000
+ageRange=-1.000000,-1.000000
+parent=4
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=115523
+pos=2.000000,-28.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
