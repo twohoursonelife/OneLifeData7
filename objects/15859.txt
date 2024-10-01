@@ -82,7 +82,7 @@ rot=0.000000
 hFlip=0
 color=0.169014,0.169014,0.169014
 ageRange=-1.000000,-1.000000
-parent=-1
+parent=8
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=3029
