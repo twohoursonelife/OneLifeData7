@@ -1,5 +1,5 @@
 id=15722
-@c On E tapouter
+@ Cable Signal On E tapouter
 containable=0
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

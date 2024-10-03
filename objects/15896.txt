@@ -1,5 +1,5 @@
-id=15710
-Brick Floor with Manhole#E #on #signal +tapoutTrigger,2,0,3,0,0
+id=15896
+test Manhole
 containable=0
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3
@@ -29,7 +29,7 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=4
+numSprites=7
 spriteID=101009
 pos=-1.000000,10.000000
 rot=0.000000
@@ -58,8 +58,35 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=115570
+pos=-16.000000,8.000000
+rot=-0.250000
+hFlip=0
+color=1.000000,0.000000,0.000000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=115570
+pos=0.000000,-6.000000
+rot=-0.500000
+hFlip=0
+color=1.000000,0.000000,0.000000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=115570
 pos=16.000000,8.000000
 rot=0.250000
+hFlip=0
+color=1.000000,0.000000,0.000000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=115570
+pos=0.000000,23.000000
+rot=0.000000
 hFlip=0
 color=0.309859,1.000000,0.000000
 ageRange=-1.000000,-1.000000
