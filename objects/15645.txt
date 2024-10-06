@@ -1,5 +1,5 @@
 id=15645
-Newcomen Stamping Press with Full Boiler 2
+Newcomen Stamping Press with Full Boiler#stator
 containable=0
 containSize=1.000000,vertSlotRot=-0.195000
 permanent=1,minPickupAge=3

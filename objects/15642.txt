@@ -1,5 +1,5 @@
 id=15642
-Firing Newcomen Stamping Press 2
+Firing Newcomen Stamping Press#stator
 containable=0
 containSize=1.000000,vertSlotRot=-0.195000
 permanent=1,minPickupAge=3
