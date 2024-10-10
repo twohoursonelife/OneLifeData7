@@ -1,5 +1,5 @@
 id=15915
-Brick Floor with Manhole#SE #on #high +tapoutTrigger,2,0,5,5,0
+Brick Floor with Manhole#SE #on #high +tapoutTrigger,2,0,5,5,0,1
 containable=0
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3
