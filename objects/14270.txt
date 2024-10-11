@@ -1,5 +1,5 @@
 id=14270
-Copper Sprinkler #NS #waterS spraying +tapoutTrigger,1,1,2,2
+Copper Sprinkler #NS #waterS spraying +tapoutTrigger,0,2,2
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

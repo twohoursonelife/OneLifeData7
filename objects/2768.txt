@@ -1,6 +1,6 @@
 id=2768
 Sugarcane Chunks
-containable=0
+containable=1
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3
 noFlip=0
@@ -18,6 +18,7 @@ floor=0
 floorHugging=0
 foodValue=0
 speedMult=1.000000
+containOffset=2,6
 heldOffset=8.000000,18.000000
 clothing=n
 clothingOffset=0.000000,0.000000
@@ -38,6 +39,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=2552
 pos=0.000000,-27.000000
 rot=0.000000
@@ -46,6 +48,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=2551
 pos=-4.000000,-30.000000
 rot=0.000000
@@ -54,6 +57,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=2549
 pos=0.000000,-34.000000
 rot=0.000000
@@ -62,6 +66,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=2550
 pos=5.000000,-34.000000
 rot=0.000000
@@ -70,6 +75,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1

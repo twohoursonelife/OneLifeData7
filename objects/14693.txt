@@ -1,5 +1,5 @@
 id=14693
-Blowpipe with Detached Cylinder
+Blowpipe With Detached Cylinder
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -74,4 +74,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=6
+pixHeight=7
