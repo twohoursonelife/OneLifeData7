@@ -1,4 +1,4 @@
-id=27639
+id=16028
 Rabbit Toy
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
@@ -31,7 +31,7 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=9
-spriteID=127384
+spriteID=115591
 pos=1.000000,-37.000000
 rot=0.000000
 hFlip=0
@@ -41,7 +41,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=1
 ignoredCont=1
-spriteID=127383
+spriteID=115590
 pos=-8.000000,-37.000000
 rot=0.000000
 hFlip=0
@@ -51,7 +51,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=1
 ignoredCont=1
-spriteID=127379
+spriteID=115586
 pos=-9.000000,-15.000000
 rot=0.000000
 hFlip=0
@@ -61,7 +61,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 ignoredCont=1
-spriteID=127380
+spriteID=115587
 pos=5.000000,-18.000000
 rot=0.000000
 hFlip=0
@@ -71,7 +71,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 ignoredCont=1
-spriteID=127382
+spriteID=115589
 pos=-4.000000,-30.000000
 rot=0.000000
 hFlip=0
@@ -80,7 +80,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=127381
+spriteID=115588
 pos=2.000000,-21.000000
 rot=0.325000
 hFlip=0
@@ -90,7 +90,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 ignoredCont=1
-spriteID=127378
+spriteID=115585
 pos=-4.000000,-9.000000
 rot=0.030000
 hFlip=0
@@ -100,7 +100,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 ignoredCont=1
-spriteID=127391
+spriteID=115598
 pos=-14.000000,-40.000000
 rot=0.000000
 hFlip=0
@@ -110,7 +110,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 ignoredCont=1
-spriteID=127392
+spriteID=115599
 pos=1.000000,-41.000000
 rot=0.000000
 hFlip=0
