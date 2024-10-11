@@ -1,5 +1,5 @@
 id=13230
-Wooden Wall Arch Structure with Boards
+(outdated) Wooden Wall Arch Structure with Boards
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -29,7 +29,6 @@ creationSoundInitialOnly=1
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
-slotStyle=0
 slotsLocked=0
 numSprites=12
 spriteID=939
