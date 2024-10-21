@@ -1,5 +1,5 @@
 id=3659
-Yellow Pigment Bottle# just poured
+Indian Yellow Pigment Bottle# just poured
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
