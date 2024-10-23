@@ -2,7 +2,7 @@ id=21182
 Bowl of Realgar
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
-permanent=1,minPickupAge=3
+permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
 heldInHand=0
