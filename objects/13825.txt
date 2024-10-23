@@ -1,5 +1,5 @@
 id=13825
-Malachite and Cassiterite Mine with Malachite #3
+Mineral Mine with Bauxite #3
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -48,11 +48,11 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=2381
-pos=-5.000000,26.000000
+spriteID=111594
+pos=2.000000,26.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=0.873239,0.651855,0.651855
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
