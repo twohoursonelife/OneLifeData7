@@ -1,1 +1,0 @@
-steelWheelbarrow 0 -15 2

@@ -1,1 +1,0 @@
-sandstoneFloor 0 -1 0

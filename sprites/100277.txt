@@ -1,1 +1,0 @@
-woodenCornerWall 0 -4 -5
