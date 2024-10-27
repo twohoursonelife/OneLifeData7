@@ -1,5 +1,5 @@
 id=15962
-Brick Floor with Manhole#W #on #low +tapoutTrigger,2,0,0,0,4
+Brick Floor with Manhole#W #on #low
 containable=0
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3
@@ -14,6 +14,7 @@ person=0,noSpawn=0
 male=0
 deathMarker=0
 homeMarker=0
+tapoutTrigger=1#2,0,0,0,4
 floor=1
 floorHugging=0
 foodValue=0
