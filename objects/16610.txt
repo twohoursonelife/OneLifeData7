@@ -1,4 +1,4 @@
-id=28073
+id=16610
 Seal Toy#justCreated
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
@@ -31,7 +31,7 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=2
-spriteID=127399
+spriteID=115777
 pos=25.000000,-43.000000
 rot=0.000000
 hFlip=0
@@ -41,7 +41,7 @@ parent=1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 ignoredCont=1
-spriteID=127398
+spriteID=115776
 pos=14.000000,-34.000000
 rot=0.000000
 hFlip=0
