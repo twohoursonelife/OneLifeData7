@@ -1,1 +1,0 @@
-flagStand2Top 0 0 0

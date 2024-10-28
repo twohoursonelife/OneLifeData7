@@ -1,5 +1,5 @@
 id=13834
-Malachite and Cassiterite Mine #3 #justBuilt
+Mineral Mine #3 #justBuilt
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -39,7 +39,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=111790
+spriteID=115662
 pos=4.000000,76.000000
 rot=0.000000
 hFlip=0

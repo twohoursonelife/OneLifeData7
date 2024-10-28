@@ -1,1 +1,0 @@
-heli3rotor 1 0 0

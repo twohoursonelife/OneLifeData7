@@ -1,5 +1,5 @@
 id=13826
-Malachite and Cassiterite Mine with Cassiterite #3
+Mineral Mine with Kaolin #3
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -39,7 +39,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=111790
+spriteID=115662
 pos=4.000000,75.999994
 rot=0.000000
 hFlip=0
@@ -48,8 +48,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=111561
-pos=0.000000,25.000000
+spriteID=115571
+pos=1.000000,24.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
