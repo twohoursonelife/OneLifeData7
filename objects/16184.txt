@@ -1,4 +1,4 @@
-id=21301
+id=16184
 Rock
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
@@ -30,7 +30,7 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=6
-spriteID=120886
+spriteID=115774
 pos=-27.000000,-13.000000
 rot=0.000000
 hFlip=1
@@ -39,7 +39,7 @@ ageRange=-1.000000,-1.000000
 parent=4
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=120883
+spriteID=115771
 pos=-26.000000,-18.000000
 rot=0.000000
 hFlip=1
@@ -48,7 +48,7 @@ ageRange=-1.000000,-1.000000
 parent=4
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=120884
+spriteID=115772
 pos=-23.000000,-17.000000
 rot=0.000000
 hFlip=1
@@ -57,7 +57,7 @@ ageRange=-1.000000,-1.000000
 parent=4
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=120887
+spriteID=115775
 pos=-28.000000,-15.000000
 rot=0.000000
 hFlip=1
@@ -66,7 +66,7 @@ ageRange=-1.000000,-1.000000
 parent=4
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=120880
+spriteID=115768
 pos=-17.000000,-16.000000
 rot=0.000000
 hFlip=1
