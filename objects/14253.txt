@@ -1,5 +1,5 @@
 id=14253
-Copper Sprinkler #EW #waterE spraying +tapoutTrigger,0,1,1
+Copper Sprinkler #EW #waterE spraying
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -14,6 +14,7 @@ person=0,noSpawn=0
 male=0
 deathMarker=0
 homeMarker=0
+tapoutTrigger=1#0,1,1
 floor=0
 floorHugging=0
 foodValue=0

@@ -1,5 +1,5 @@
 id=13874
-Desert Mine with Two Steel Beams #2
+Desert Mine with Two Cast Iron Beams #2
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -48,20 +48,20 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=112013
+spriteID=120655
 pos=80.000000,9.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=0.535211,0.535211,0.535211
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=112013
+spriteID=120655
 pos=90.000000,28.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=0.535211,0.535211,0.535211
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0

@@ -1,1 +1,0 @@
-birchTree 0 7 23

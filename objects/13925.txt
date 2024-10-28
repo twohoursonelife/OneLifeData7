@@ -1,5 +1,5 @@
 id=13925
-Mold with Steel Beam
+Mold with Cast Iron Beam
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -57,11 +57,11 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=111811
+spriteID=120656
 pos=-3.000000,-29.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=0.535211,0.535211,0.535211
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
