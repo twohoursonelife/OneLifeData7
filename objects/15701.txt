@@ -14,7 +14,7 @@ person=0,noSpawn=0
 male=0
 deathMarker=0
 homeMarker=0
-tapoutTrigger=1#0,3,3,1
+tapoutTrigger=1#0,3,3
 floor=0
 floorHugging=0
 foodValue=0
@@ -47,4 +47,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=23
+pixHeight=24

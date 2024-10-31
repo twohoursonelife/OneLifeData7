@@ -14,7 +14,7 @@ person=0,noSpawn=0
 male=0
 deathMarker=0
 homeMarker=0
-tapoutTrigger=1#2,0,0,5,0,1
+tapoutTrigger=1#2,0,0,5,0
 floor=1
 floorHugging=0
 foodValue=0
