@@ -1,1 +1,1 @@
-walkingcatbody 0 0 0
+catTabbyWalkBody 0 0 0

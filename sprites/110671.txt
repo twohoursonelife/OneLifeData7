@@ -1,1 +1,1 @@
-walkingcatt2leg2 0 0 0
+catMaineSitWalkLeftFrontLeg 0 0 0

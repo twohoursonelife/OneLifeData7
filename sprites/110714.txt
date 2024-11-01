@@ -1,1 +1,1 @@
-dead6 0 0 0
+kittenDead 0 0 0

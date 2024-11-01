@@ -1,1 +1,1 @@
-satmixedtail 0 0 0
+catCalicoSatTail 0 0 0

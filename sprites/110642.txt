@@ -1,1 +1,1 @@
-blackcatsatleg 0 0 0
+catBlackSitLeftFrontLeg 0 0 0
