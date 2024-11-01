@@ -40,6 +40,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=1
+ignoredCont=1
 spriteID=115711
 pos=1.378716,-2.949049
 rot=0.000000
