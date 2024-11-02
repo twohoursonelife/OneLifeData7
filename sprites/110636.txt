@@ -1,1 +1,1 @@
-sittingcatleg 0 0 0
+catTabbySitLeftFrontLeg 0 0 0

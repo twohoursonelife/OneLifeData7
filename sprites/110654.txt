@@ -1,1 +1,1 @@
-walkingmixedbody 0 0 0
+catCalicoWalkBody 0 0 0

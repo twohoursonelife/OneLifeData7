@@ -1,1 +1,1 @@
-kittenlegtail 0 0 0
+kittenTail 0 0 0

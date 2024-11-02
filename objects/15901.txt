@@ -14,7 +14,7 @@ person=0,noSpawn=0
 male=0
 deathMarker=0
 homeMarker=0
-tapoutTrigger=1#2,5,0,0,0,1
+tapoutTrigger=1#2,5,0,0,0
 floor=1
 floorHugging=0
 foodValue=0
@@ -24,8 +24,8 @@ clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
 useDistance=1
-sounds=1523:0.250000,-1:0.0,-1:0.0,-1:0.0
-creationSoundInitialOnly=1
+sounds=-1:0.0,-1:0.0,-1:0.0,-1:0.0
+creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000

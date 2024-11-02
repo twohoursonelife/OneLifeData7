@@ -1,1 +1,1 @@
-walkingcatt2 0 0 0
+catMaineWalkBody 0 0 0

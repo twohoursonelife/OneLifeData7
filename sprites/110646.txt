@@ -1,1 +1,1 @@
-blackcatwalkingbackleg 0 0 0
+catBlackStandBackLeg 0 0 0

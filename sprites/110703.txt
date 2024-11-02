@@ -1,1 +1,1 @@
-kittenbody 0 0 0
+kittenBody 0 0 0

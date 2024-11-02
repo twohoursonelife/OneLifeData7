@@ -1,1 +1,1 @@
-walkingmixedleg2 0 0 0
+catCalicoWalkLeftFrontLeg 0 0 0

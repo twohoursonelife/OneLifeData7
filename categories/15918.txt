@@ -1,11 +1,7 @@
 parentID=15918
 pattern
-numObjects=8
+numObjects=4
 15901
 15902
 15903
 15904
-15909
-15910
-15911
-15912
