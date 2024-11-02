@@ -1,5 +1,5 @@
-id=16119
-Rolling Mill#off
+id=16674
+Rolling Mill#toggledOn
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -142,7 +142,7 @@ spriteID=290
 pos=20.000000,107.000000
 rot=0.000000
 hFlip=0
-color=1.000000,0.000000,0.000000
+color=0.000000,0.366197,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
