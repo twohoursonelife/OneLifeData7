@@ -18,7 +18,7 @@ floor=0
 floorHugging=0
 foodValue=0
 speedMult=1.000000
-heldOffset=29.000000,0.000000
+heldOffset=29.000000,24.000000
 clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
@@ -41,7 +41,7 @@ invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=1
 ignoredCont=1
 spriteID=115730
-pos=0.000000,0.000000
+pos=0.000000,-20.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
