@@ -1,1 +1,1 @@
-Cornbox 0 0 0
+CornCrate#1 0 0 0
