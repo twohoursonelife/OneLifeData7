@@ -36,7 +36,7 @@ jobs:
                   id="${fn//[^0-9]/}"
                   (( id > nextID && id < start_number )) && start_number=$id
               done
-              node RenumberObjects.js $start_number
+              node scripts/RenumberObjects.js $start_number
               maxID=$(ls -v objects/[0-9]*.txt | tail -1 | sed 's/objects\///' | sed 's/.txt//')
               echo -n $((maxID + 1)) > objects/nextObjectNumber.txt
 
@@ -60,7 +60,7 @@ jobs:
                   id="${fn//[^0-9]/}"
                   (( id > nextID && id < start_number )) && start_number=$id
               done
-              node RenumberSprites.js $start_number
+              node scripts/RenumberSprites.js $start_number
               maxID=$(ls -v sprites/[0-9]*.txt | tail -1 | sed 's/sprites\///' | sed 's/.txt//')
               echo -n $((maxID + 1)) > sprites/nextSpriteNumber.txt
 
