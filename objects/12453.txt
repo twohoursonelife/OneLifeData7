@@ -29,7 +29,6 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=64
 spriteID=2138
 pos=3.000000,58.000000
@@ -611,7 +610,7 @@ headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
 frontFootIndex=-1
-numUses=100,1.000000
+numUses=60,1.000000
 useVanishIndex=43,44,45,46,47,48,49,50,51,52,53
 useAppearIndex=-1
 pixHeight=161
