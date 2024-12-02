@@ -73,7 +73,7 @@ for (const file of objectFileList) {
   const sprites = fileContent.match(/spriteID=(\d+)?\r?\n/g);
   for (const sprite of sprites) {
     const idMatch = sprite.match(/spriteID=(\d+)?\r?\n/);
-    if (idMatch && Number(idMatch[1]) > startNumber && (endNumber === null || Number(idMatch[1]) <= endNumber)) {
+    if (idMatch && Number(idMatch[1]) >= startNumber && (endNumber === null || Number(idMatch[1]) <= endNumber)) {
       needsReplacing = true;
       fileContent = fileContent.replace(`spriteID=${idMatch[1]}`, `spriteID=${Number(idMatch[1]) + offset}`);
     }

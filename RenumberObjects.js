@@ -85,7 +85,7 @@ for (const file of categoryFileList) {
   const categoryMembers = fileContent.match(/\r?\n\d*/g);
   for (const member of categoryMembers) {
     const idMatch = member.match(/\r?\n(\d+)/);
-    if (idMatch && Number(idMatch[1]) > startNumber && (endNumber === null || Number(idMatch[1]) <= endNumber)) {
+    if (idMatch && Number(idMatch[1]) >= startNumber && (endNumber === null || Number(idMatch[1]) <= endNumber)) {
       needsReplacing = true;
       fileContent = fileContent.replace(`\n${idMatch[1]}`, `\n${Number(idMatch[1]) + offset}`);
     }
