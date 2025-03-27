@@ -1,9 +1,9 @@
-id=8918
-Stack of Marble Blocks
+id=20765
+Pile of Granite Chunks
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=14
-noFlip=1
+noFlip=0
 sideAccess=0
 heldInHand=0
 blocksWalking=0,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=0
@@ -17,8 +17,8 @@ homeMarker=0
 floor=0
 floorHugging=0
 foodValue=0
-speedMult=1.000000
-heldOffset=25.000000,18.000000
+speedMult=0.250000
+heldOffset=13.000000,30.000000
 clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
@@ -30,8 +30,8 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=6
-spriteID=101762
-pos=20.000000,6.000000
+spriteID=121942
+pos=2.000000,-22.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -39,8 +39,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=101762
-pos=-45.000000,0.000000
+spriteID=121942
+pos=40.000000,-20.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -48,8 +48,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=101762
-pos=3.000000,-11.000000
+spriteID=121942
+pos=-23.000000,-23.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -57,8 +57,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=101762
-pos=-29.000000,48.000000
+spriteID=121942
+pos=-1.000000,1.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -66,8 +66,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=101762
-pos=13.000000,36.000000
+spriteID=121942
+pos=21.000000,5.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -75,8 +75,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=101762
-pos=8.000000,91.000000
+spriteID=121942
+pos=15.000000,25.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -89,6 +89,6 @@ bodyIndex=-1
 backFootIndex=-1
 frontFootIndex=-1
 numUses=5,1.000000
-useVanishIndex=0,1,3,4,5
+useVanishIndex=1,2,3,4,5
 useAppearIndex=-1
-pixHeight=124
+pixHeight=55
