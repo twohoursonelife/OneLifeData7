@@ -30,8 +30,8 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=1
-spriteID=121920
-pos=-6.000000,48.000000
+spriteID=121944
+pos=-3.000000,40.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -46,4 +46,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=101
+pixHeight=92
