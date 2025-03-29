@@ -1,5 +1,5 @@
 id=7401
-Chopped Tree With Light Firewood #small,wood2
+Chopped Tree With Light Firewood #small,wood2 +hungryWork4
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
