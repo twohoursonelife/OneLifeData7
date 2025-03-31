@@ -1,5 +1,5 @@
 id=20769
-Lath Wall# +useOnContained
+Lath and Plaster Wall# +useOnContained
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -24,8 +24,8 @@ clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
 useDistance=1
-sounds=505:0.250000,-1:0.0,-1:0.0,-1:0.0
-creationSoundInitialOnly=1
+sounds=349:0.250000,-1:0.0,-1:0.0,-1:0.0
+creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=1#timeStretch=1.000000
 slotSize=0.000000
@@ -43,7 +43,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=1
 invisCont=0
 spriteID=812
-pos=-3.000000,73.000000
+pos=-3.000000,74.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -52,7 +52,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=1
 invisCont=0
 spriteID=121947
-pos=-1.000000,17.000000
+pos=-1.000000,18.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -67,4 +67,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=78
+pixHeight=79
