@@ -1,7 +1,7 @@
 id=7257
 Copper Pipe
 containable=1
-containSize=2.000000,vertSlotRot=-0.250000
+containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
 noFlip=1
 sideAccess=0
@@ -28,7 +28,6 @@ creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
-slotStyle=0
 slotsLocked=0
 numSprites=1
 spriteID=100612
