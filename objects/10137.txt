@@ -1,5 +1,5 @@
 id=10137
-Wooden Wall Structure with Straw
+Wooden Wall Frame with Straw
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

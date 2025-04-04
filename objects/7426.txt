@@ -1,5 +1,5 @@
 id=7426
-Chopped Tree With Dark Firewood #big,log2,wood1 justchopped
+Chopped Tree With Dark Firewood #big,log2,wood1 justchopped +hungryWork4
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
