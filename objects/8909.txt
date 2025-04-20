@@ -1,7 +1,7 @@
 id=8909
 Marble Block
 containable=1
-containSize=2.000000,vertSlotRot=0.000000
+containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=14
 noFlip=1
 sideAccess=0
