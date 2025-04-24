@@ -1,5 +1,5 @@
 id=4814
-Hyposulfite of Soda Bottle# +contLabDish
+Hyposulfite of Soda Bottle
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

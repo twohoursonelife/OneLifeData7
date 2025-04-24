@@ -1,5 +1,5 @@
 id=4802
-Bowl of Lye Solution# +contLabDish
+Bowl of Lye Solution
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
