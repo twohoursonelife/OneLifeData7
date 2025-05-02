@@ -1,4 +1,4 @@
-id=8901
+id=20868
 Marble Floor
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
@@ -30,7 +30,7 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=1
-spriteID=122037
+spriteID=122044
 pos=1.000000,9.000000
 rot=0.000000
 hFlip=0
