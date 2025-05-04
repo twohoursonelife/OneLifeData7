@@ -1,5 +1,5 @@
-id=20878
-Lab Table with Sulfur
+id=20904
+Sulfur Trioxide Reaction
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -18,19 +18,19 @@ floor=0
 floorHugging=0
 foodValue=0
 speedMult=1.000000
-containOffset=2,-1
+containOffset=1,1
 heldOffset=0.000000,0.000000
 clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
 useDistance=1
-sounds=65:0.250000,-1:0.0,-1:0.0,-1:0.0
-creationSoundInitialOnly=0
+sounds=108:0.250000,-1:0.0,-1:0.0,-1:0.0
+creationSoundInitialOnly=1
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=22
+numSprites=24
 spriteID=3053
 pos=-7.000000,-5.000000
 rot=0.000000
@@ -80,9 +80,9 @@ spriteID=115437
 pos=-30.000000,85.000000
 rot=0.000000
 hFlip=0
-color=0.846570,0.859155,0.229915
+color=0.985352,1.000000,0.267606
 ageRange=-1.000000,-1.000000
-parent=-1
+parent=8
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=3029
@@ -161,7 +161,7 @@ spriteID=115485
 pos=15.000000,62.000000
 rot=0.000000
 hFlip=0
-color=0.000000,0.144416,0.183099
+color=0.000000,0.144338,0.183000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -227,6 +227,24 @@ hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=115566
+pos=-30.000000,73.000000
+rot=0.000000
+hFlip=0
+color=0.464789,0.525094,1.000000
+ageRange=-1.000000,-1.000000
+parent=21
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=115568
+pos=-30.000000,74.000000
+rot=0.000000
+hFlip=0
+color=0.464789,0.525094,1.000000
+ageRange=-1.000000,-1.000000
+parent=21
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spritesAdditiveBlend=6,8,10,12,14,15,17
