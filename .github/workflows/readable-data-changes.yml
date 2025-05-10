@@ -40,6 +40,5 @@ jobs:
         with:
           comment-id: ${{ steps.fc.outputs.comment-id }}
           issue-number: ${{ github.event.pull_request.number }}
-          body: |
-            ${{ steps.readable-assets.outputs.OUTPUT_MESSAGE }}
+          body-path: readable_assets_output.md
           edit-mode: replace

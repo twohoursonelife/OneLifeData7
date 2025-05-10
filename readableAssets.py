@@ -76,6 +76,10 @@ def set_multiline_output(name, value):
         print(f'{name}<<{delimiter}', file=fh)
         print(value, file=fh)
         print(delimiter, file=fh)
+        
+def set_file_output(filename, output):
+    with open(filename, "w") as f:
+        f.write(output)
 
 
 ### diff-ing the changes
@@ -304,6 +308,6 @@ if len(other_lines) > 0:
         
 
 if inAction:
-    set_multiline_output("OUTPUT_MESSAGE", message)
+    set_file_output("readable_assets_output.md", message)
 else:
     print(message)
