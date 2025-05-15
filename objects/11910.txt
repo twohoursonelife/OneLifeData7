@@ -24,12 +24,11 @@ clothingOffset=-27.000000,72.000000
 deadlyDistance=0
 useDistance=1
 sounds=411:0.250000,-1:0.0,-1:0.0,-1:0.0
-creationSoundInitialOnly=1
+creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=3
 spriteID=801
 pos=6.000000,-33.000000
