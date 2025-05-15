@@ -1,5 +1,5 @@
-id=6630
-Black Short Trousers with Work Belt
+id=22115
+Purple Short Trousers with Work Belt
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -35,7 +35,7 @@ spriteID=2711
 pos=0.000000,-34.000000
 rot=0.000000
 hFlip=0
-color=0.100000,0.100000,0.100000
+color=0.439917,0.203832,0.596000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=1
