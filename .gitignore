@@ -2,3 +2,4 @@
 *.fcz
 objects/nextObjectNumberOffset.txt
 sprites/nextSpriteNumberOffset.txt
+readable_assets_output.md
