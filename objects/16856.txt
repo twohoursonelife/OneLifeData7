@@ -1,4 +1,4 @@
-id=18002
+id=16856
 Fruiting Cactus
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
@@ -30,17 +30,17 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=2
-spriteID=117004
-pos=-1.000000,222.000000
-rot=-0.125000
+spriteID=116016
+pos=64.000000,53.000000
+rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=101682
-pos=3.000000,88.000000
+spriteID=101683
+pos=2.000000,23.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -55,4 +55,4 @@ frontFootIndex=-1
 numUses=0,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=233
+pixHeight=72

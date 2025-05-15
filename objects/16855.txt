@@ -1,4 +1,4 @@
-id=18003
+id=16855
 Flowering Cactus
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
@@ -39,7 +39,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=117003
+spriteID=116015
 pos=63.000000,53.000000
 rot=0.000000
 hFlip=0
@@ -48,7 +48,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=117003
+spriteID=116015
 pos=65.000000,11.000000
 rot=0.250000
 hFlip=0
@@ -57,7 +57,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=117003
+spriteID=116015
 pos=-32.000000,59.000000
 rot=0.000000
 hFlip=1
@@ -66,7 +66,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=117003
+spriteID=116015
 pos=14.000000,70.000000
 rot=0.000000
 hFlip=1
@@ -75,7 +75,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=117003
+spriteID=116015
 pos=-37.000000,40.000000
 rot=-0.250000
 hFlip=1
@@ -84,7 +84,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=117003
+spriteID=116015
 pos=53.000000,52.000000
 rot=0.000000
 hFlip=1
@@ -93,7 +93,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=117003
+spriteID=116015
 pos=65.000000,44.000000
 rot=0.125000
 hFlip=0
