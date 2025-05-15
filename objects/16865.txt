@@ -1,5 +1,5 @@
-id=22095
-Purple Bowler Hat with Blue Rose
+id=16865
+Purple Bowler Hat with Yellow Rose
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -43,7 +43,7 @@ spriteID=1306
 pos=4.000000,-25.000000
 rot=0.000000
 hFlip=0
-color=0.126761,0.511738,1.000000
+color=1.000000,0.702128,0.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0

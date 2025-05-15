@@ -1,4 +1,4 @@
-id=22103
+id=16867
 Purple Top Hat
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
