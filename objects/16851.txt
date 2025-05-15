@@ -1,4 +1,4 @@
-id=17002
+id=16851
 Gold Nugget On Flat Rock
 containable=0
 containSize=1.000000,vertSlotRot=0.000000

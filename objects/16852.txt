@@ -1,4 +1,4 @@
-id=17003
+id=16852
 Gold Flakes on Flat Rock
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
