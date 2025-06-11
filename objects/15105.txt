@@ -1,5 +1,5 @@
 id=15105
-Pile of Copper Wire
+Pile of Copper Wires
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
