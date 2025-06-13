@@ -1,7 +1,7 @@
 id=2209
 Crude Piston on Flat Rock
-containable=0
-containSize=1.000000,vertSlotRot=0.000000
+containable=1
+containSize=3.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
@@ -18,6 +18,7 @@ floor=0
 floorHugging=0
 foodValue=0
 speedMult=1.000000
+containOffset=-10,20
 heldOffset=15.000000,20.000000
 clothing=n
 clothingOffset=-27.000000,72.000000
@@ -29,7 +30,7 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=2
+numSprites=3
 spriteID=547
 pos=5.000000,-36.000000
 rot=0.000000
@@ -38,6 +39,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=1
 spriteID=2165
 pos=-1.000000,-29.000000
 rot=0.000000
@@ -46,6 +48,16 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=1
+spriteID=123523
+pos=-30.000000,11.000000
+rot=-0.100000
+hFlip=0
+color=1.000000,1.000000,1.000000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
@@ -53,4 +65,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=16
+pixHeight=27
