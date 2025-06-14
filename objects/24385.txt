@@ -67,8 +67,8 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=101416
-pos=-5.000001,-17.999996
-rot=0.550000
+pos=-11.000001,-22.999996
+rot=0.515000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
@@ -76,9 +76,9 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=101416
-pos=-3.000000,-17.999996
-rot=-0.025000
-hFlip=0
+pos=0.000000,-25.999996
+rot=0.110000
+hFlip=1
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1

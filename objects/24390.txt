@@ -50,7 +50,7 @@ invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2221
 pos=9.000000,-34.000000
-rot=-0.645000
+rot=-0.650000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
@@ -67,7 +67,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2221
-pos=7.000000,-26.000011
+pos=5.000000,-29.000011
 rot=0.120000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -76,8 +76,8 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=2221
-pos=-3.000000,-17.999996
-rot=-0.625000
+pos=-1.000000,-18.999996
+rot=-0.600000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
