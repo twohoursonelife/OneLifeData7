@@ -1,5 +1,5 @@
-id=7675
-Stack of Thin Steel Rods
+id=24418
+Stack Piston Blanks#JustCooled
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -23,14 +23,14 @@ clothing=n
 clothingOffset=-27.000000,72.000000
 deadlyDistance=0
 useDistance=1
-sounds=405:0.250000,405:0.250000,-1:0.0,-1:0.0
-creationSoundInitialOnly=1
+sounds=-1:0.0,-1:0.0,-1:0.0,-1:0.0
+creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=6
-spriteID=2376
+spriteID=2201
 pos=-1.000000,-32.000000
 rot=0.000000
 hFlip=0
@@ -39,8 +39,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=2376
-pos=24.000000,-32.000004
+spriteID=2201
+pos=17.000000,-32.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -48,8 +48,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=2376
-pos=-24.000000,-32.000000
+spriteID=2201
+pos=-20.000000,-32.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -57,8 +57,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=2376
-pos=-10.000000,-28.000000
+spriteID=2201
+pos=-13.000000,-17.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -66,8 +66,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=2376
-pos=9.000000,-28.000004
+spriteID=2201
+pos=5.000000,-16.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -75,8 +75,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=2376
-pos=-1.000000,-24.000000
+spriteID=2201
+pos=-6.000000,-1.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -91,4 +91,4 @@ frontFootIndex=-1
 numUses=5,1.000000
 useVanishIndex=1,2,3,4,5
 useAppearIndex=-1
-pixHeight=0
+pixHeight=14

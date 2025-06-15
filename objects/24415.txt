@@ -1,9 +1,9 @@
-id=7675
-Stack of Thin Steel Rods
+id=24415
+Pile of Steel Pipes#JustCooled
 containable=0
-containSize=1.000000,vertSlotRot=0.000000
+containSize=1.000000,vertSlotRot=-0.250000
 permanent=1,minPickupAge=3
-noFlip=0
+noFlip=1
 sideAccess=0
 heldInHand=0
 blocksWalking=0,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=0
@@ -18,20 +18,20 @@ floor=0
 floorHugging=0
 foodValue=0
 speedMult=1.000000
-heldOffset=15.000000,17.000000
+heldOffset=0.000000,0.000000
 clothing=n
 clothingOffset=-27.000000,72.000000
 deadlyDistance=0
 useDistance=1
-sounds=405:0.250000,405:0.250000,-1:0.0,-1:0.0
-creationSoundInitialOnly=1
+sounds=-1:0.0,-1:0.0,-1:0.0,-1:0.0
+creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=6
-spriteID=2376
-pos=-1.000000,-32.000000
+spriteID=100470
+pos=0.000000,0.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -39,8 +39,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=2376
-pos=24.000000,-32.000004
+spriteID=100470
+pos=41.000000,-4.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -48,8 +48,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=2376
-pos=-24.000000,-32.000000
+spriteID=100470
+pos=-29.000000,-5.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -57,8 +57,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=2376
-pos=-10.000000,-28.000000
+spriteID=100470
+pos=24.000000,7.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -66,8 +66,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=2376
-pos=9.000000,-28.000004
+spriteID=100470
+pos=-14.000000,5.999996
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -75,8 +75,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=2376
-pos=-1.000000,-24.000000
+spriteID=100470
+pos=6.000000,16.999996
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
