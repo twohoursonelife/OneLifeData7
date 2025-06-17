@@ -2,7 +2,7 @@ id=22221
 Crock With Vinegar
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
-permanent=0,minPickupAge=3
+permanent=1,minPickupAge=3
 noFlip=1
 sideAccess=0
 heldInHand=0
@@ -29,14 +29,23 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=2
+numSprites=3
+spriteID=2101
+pos=10.000000,-37.000000
+rot=0.000000
+hFlip=0
+color=1.000000,1.000000,1.000000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=1437
 pos=-2.000000,7.000000
 rot=0.000000
 hFlip=0
 color=0.873239,0.873239,0.873239
 ageRange=-1.000000,-1.000000
-parent=1
+parent=2
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=1508
