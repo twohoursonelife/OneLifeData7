@@ -1,5 +1,5 @@
-id=19231
-Open Dark Wooden Door# flipped installed
+id=19247
+Open Dark Wooden Door with Rose Wreath# flipped installed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
