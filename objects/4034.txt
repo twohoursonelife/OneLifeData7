@@ -1,5 +1,5 @@
 id=4034
-Stack of Steel Piston Blanks# just cooled
+Stack of Steel Piston Blanks#justCooled
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

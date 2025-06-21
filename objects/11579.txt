@@ -1,5 +1,5 @@
 id=11579
-Bronze Ingot in Wooden Tongs #just cooled
+Bronze Ingot in Wooden Tongs#justCooled
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
