@@ -1,4 +1,4 @@
-id=24421
+id=4190
 Hot Steel Blade Blank
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
@@ -31,7 +31,7 @@ slotSize=1.000000
 slotsLocked=0
 numSprites=3
 spriteID=785
-pos=4.000002,-35.000000
+pos=1.000000,-36.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -40,7 +40,7 @@ parent=2
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=806
-pos=4.000002,-32.000000
+pos=1.000000,-33.000000
 rot=0.000000
 hFlip=0
 color=1.000000,0.360000,0.000000
@@ -49,7 +49,7 @@ parent=2
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=806
-pos=4.000002,-32.000000
+pos=1.000000,-33.000000
 rot=0.000000
 hFlip=0
 color=1.000000,0.398592,0.140845
