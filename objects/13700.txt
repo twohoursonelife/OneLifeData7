@@ -1,7 +1,7 @@
 id=13700
-Stack of Sheet Metal
-containable=0
-containSize=1.000000,vertSlotRot=0.000000
+(outdated) Stack of Sheet Metal
+containable=1
+containSize=3.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
