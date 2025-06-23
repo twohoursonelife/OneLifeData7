@@ -194,7 +194,7 @@ parent=9
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=101722
-pos=-54.999996,26.000004
+pos=-53.999996,25.000004
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -203,7 +203,7 @@ parent=9
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=1106
-pos=-86.999996,-5.000000
+pos=-85.999996,-6.000000
 rot=-0.125000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -311,7 +311,7 @@ parent=16
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=110019
-pos=25.000004,54.000000
+pos=24.000004,54.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000

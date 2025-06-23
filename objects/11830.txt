@@ -29,13 +29,12 @@ creationSoundForce=0
 numSlots=6#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
-slotPos=-21.000000,57.000000,vert=0,parent=21
-slotPos=-21.000000,57.000000,vert=0,parent=21
-slotPos=-21.000000,57.000000,vert=0,parent=21
-slotPos=-21.000000,57.000000,vert=0,parent=21
-slotPos=-21.000000,57.000000,vert=0,parent=21
-slotPos=-21.000000,57.000000,vert=0,parent=21
+slotPos=-22.000000,56.000000,vert=0,parent=21
+slotPos=-22.000000,56.000000,vert=0,parent=21
+slotPos=-22.000000,56.000000,vert=0,parent=21
+slotPos=-22.000000,56.000000,vert=0,parent=21
+slotPos=-22.000000,56.000000,vert=0,parent=21
+slotPos=-22.000000,56.000000,vert=0,parent=21
 numSprites=22
 spriteID=110205
 pos=-80.000000,34.000013
@@ -200,7 +199,7 @@ parent=16
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=101722
-pos=2.000000,67.000004
+pos=1.000000,66.000004
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -227,7 +226,7 @@ parent=19
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=110890
-pos=-22.999998,60.000000
+pos=-23.999998,59.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
