@@ -236,7 +236,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=101722
-pos=-54.000004,25.000000
+pos=-55.000004,24.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
