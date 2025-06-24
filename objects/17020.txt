@@ -1,4 +1,4 @@
-id=21142
+id=17020
 Split Big Rocks
 containable=0
 containSize=1.000000,vertSlotRot=0.000000

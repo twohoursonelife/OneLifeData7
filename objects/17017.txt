@@ -1,4 +1,4 @@
-id=21139
+id=17017
 Fur Cloak
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
@@ -30,7 +30,7 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=2
-spriteID=122113
+spriteID=116030
 pos=-6.000000,-35.000000
 rot=0.000000
 hFlip=0
