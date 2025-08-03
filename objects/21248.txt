@@ -1,5 +1,5 @@
-id=16054
-Paint Brush with Paint #orange
+id=21248
+Paint Brush with Glue
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -43,7 +43,7 @@ spriteID=100821
 pos=11.000000,-18.000000
 rot=0.000000
 hFlip=0
-color=0.855000,0.405297,0.063270
+color=0.929577,0.881449,0.811743
 ageRange=-1.000000,-1.000000
 parent=0
 invisHolding=0,invisWorn=0,behindSlots=0

@@ -1,7 +1,7 @@
 id=11985
 Paint Brush with Mixed Paint
-containable=1
-containSize=1.000000,vertSlotRot=-0.360000
+containable=0
+containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
@@ -29,7 +29,6 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=2
 spriteID=100818
 pos=4.000000,-30.000000
