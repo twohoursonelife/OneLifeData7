@@ -1,5 +1,5 @@
 id=8385
-Stone Block with Writing# &written
+(outdated) Stone Block with Writing# &written
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=14
