@@ -47,7 +47,7 @@ color=0.700000,0.700000,0.700000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
-invisCont=1
+invisCont=0
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
