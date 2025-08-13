@@ -1,5 +1,5 @@
-id=11110
-@ OLD (DO NOT ADD TO THIS CATEGORY) Basket goes on Table +contBasketOnTable
+id=21322
+@ OLD Basket of Things goes on Table +contOtherBasketsOnTable
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
