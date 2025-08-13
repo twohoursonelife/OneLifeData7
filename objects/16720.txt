@@ -34,7 +34,7 @@ spriteID=112340
 pos=-13.000000,-32.000000
 rot=0.000000
 hFlip=0
-color=0.000000,0.521127,0.190835
+color=0.439917,0.203832,0.596000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=2,behindSlots=0
@@ -43,7 +43,7 @@ spriteID=112341
 pos=16.000000,-33.000000
 rot=0.000000
 hFlip=0
-color=0.000000,0.521127,0.190835
+color=0.439917,0.203832,0.596000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=2,behindSlots=0
