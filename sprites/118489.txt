@@ -1,0 +1,1 @@
+dogHouseWithoutRoof 0 5 -30
