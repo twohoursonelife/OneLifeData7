@@ -1,5 +1,5 @@
 id=12420
-Sheepskin Coat #justremoved
+(outdated) Sheepskin Coat #justremoved
 containable=1
 containSize=2.000000,vertSlotRot=-0.500000
 permanent=0,minPickupAge=3

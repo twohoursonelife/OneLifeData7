@@ -1,5 +1,5 @@
 id=12405
-Yellow Long Dress #justremoved
+(outdated) Yellow Long Dress #justremoved
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3
