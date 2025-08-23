@@ -1,7 +1,7 @@
 id=7936
 Paint Brush with Paint #green
-containable=1
-containSize=1.000000,vertSlotRot=-0.360000
+containable=0
+containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
