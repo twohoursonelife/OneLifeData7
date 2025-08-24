@@ -1,5 +1,5 @@
 id=16835
-Ashes with Bowl of Raw Shellac 
+(outdated) Ashes with Bowl of Raw Shellac 
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
