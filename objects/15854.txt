@@ -1,5 +1,5 @@
 id=15854
-Lab Table with Coal Tar
+(outdated) Lab Table with Coal Tar
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

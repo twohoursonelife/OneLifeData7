@@ -1,5 +1,5 @@
 id=15857
-Lab Table with Acid-washed Middle Oil
+(outdated) Lab Table with Acid-washed Middle Oil
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
