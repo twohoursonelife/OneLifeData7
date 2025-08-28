@@ -2,7 +2,7 @@ id=15660
 Rotor and Stator
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
-permanent=0,minPickupAge=3
+permanent=0,minPickupAge=15
 noFlip=0
 sideAccess=0
 heldInHand=0
@@ -17,7 +17,7 @@ homeMarker=0
 floor=0
 floorHugging=0
 foodValue=0
-speedMult=1.000000
+speedMult=0.500000
 heldOffset=34.000000,13.000000
 clothing=n
 clothingOffset=-27.000000,72.000000
