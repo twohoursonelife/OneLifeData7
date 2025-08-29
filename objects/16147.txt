@@ -1,5 +1,5 @@
 id=16147
-Rolling Mill Under Construction#1 justDismantled
+Rolling Mill Under Construction#3 justDismantled
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -29,7 +29,7 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=19
+numSprites=20
 spriteID=3339
 pos=-22.000000,-34.000000
 rot=0.000000
@@ -188,6 +188,15 @@ pos=48.000000,-6.000000
 rot=0.000000
 hFlip=0
 color=0.760563,0.760563,0.760563
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=2175
+pos=1.000000,-20.000000
+rot=0.000000
+hFlip=0
+color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
