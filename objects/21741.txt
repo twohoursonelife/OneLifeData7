@@ -1,5 +1,5 @@
 id=21741
-Brick Mold
+Brick Mixture in Mold
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -17,7 +17,7 @@ homeMarker=0
 floor=0
 floorHugging=0
 foodValue=0
-speedMult=1.000000
+speedMult=0.500000
 heldOffset=38.000000,22.000000
 clothing=n
 clothingOffset=0.000000,0.000000
@@ -43,7 +43,7 @@ spriteID=122391
 pos=-27.000000,-18.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=1.000000,0.739734,0.549296
 ageRange=-1.000000,-1.000000
 parent=0
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -52,7 +52,7 @@ spriteID=122392
 pos=2.000000,-18.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=1.000000,0.739734,0.549296
 ageRange=-1.000000,-1.000000
 parent=0
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -61,7 +61,7 @@ spriteID=122393
 pos=29.000000,-19.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=1.000000,0.739734,0.549296
 ageRange=-1.000000,-1.000000
 parent=0
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -70,7 +70,7 @@ spriteID=122394
 pos=-26.000000,-30.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=1.000000,0.739734,0.549296
 ageRange=-1.000000,-1.000000
 parent=0
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -79,7 +79,7 @@ spriteID=122395
 pos=0.000000,-28.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=1.000000,0.739734,0.549296
 ageRange=-1.000000,-1.000000
 parent=0
 invisHolding=0,invisWorn=0,behindSlots=0
@@ -88,7 +88,7 @@ spriteID=122396
 pos=28.000000,-28.000000
 rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=1.000000,0.739734,0.549296
 ageRange=-1.000000,-1.000000
 parent=0
 invisHolding=0,invisWorn=0,behindSlots=0
