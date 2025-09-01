@@ -1,5 +1,5 @@
 id=21807
-Lab Table with Copper Sulfate, Alum and Niter#noPestle
+Lab Table with Copper(II) Sulfate, Alum and Niter#noPestle
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

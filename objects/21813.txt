@@ -1,5 +1,5 @@
 id=21813
-Lab Table with Copper Sulfate, Potassium Alum and Potassium Nitrate
+Lab Table with Copper(II) Sulfate, Potassium Alum and Potassium Nitrate
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
