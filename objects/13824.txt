@@ -1,5 +1,5 @@
 id=13824
-Mine with Two Cast Iron Beams #2
+Mine with Two Steel Beams #2
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -31,7 +31,7 @@ slotSize=1.000000
 slotsLocked=0
 numSprites=4
 spriteID=110852
-pos=1.000000,70.000002
+pos=1.000000,70.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -39,8 +39,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=100186
-pos=4.000000,75.999994
+spriteID=122448
+pos=4.000000,76.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -48,20 +48,20 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=115656
+spriteID=112013
 pos=80.000000,9.000000
 rot=0.000000
 hFlip=0
-color=0.535211,0.535211,0.535211
+color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=115656
-pos=90.000000,28.000000
+spriteID=112013
+pos=92.000000,28.000000
 rot=0.000000
 hFlip=0
-color=0.535211,0.535211,0.535211
+color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0

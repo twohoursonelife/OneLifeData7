@@ -1,5 +1,5 @@
 id=11698
-Mine with Lit Explosive #2 #exhausted
+Mine with Lit Fuse #2 #exhausted
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -23,13 +23,13 @@ clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
 useDistance=1
-sounds=108:0.250000,-1:0.0,-1:0.0,-1:0.0
+sounds=2053:0.250000,-1:0.0,-1:0.0,-1:0.0
 creationSoundInitialOnly=0
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=7
+numSprites=6
 spriteID=110852
 pos=1.000000,70.000000
 rot=0.000000
@@ -48,27 +48,18 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=101765
-pos=7.000000,28.000002
-rot=-0.250000
+spriteID=122431
+pos=1.000000,66.000000
+rot=0.000000
 hFlip=0
-color=1.000000,1.000000,1.000000
+color=0.000000,0.000000,0.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=291
-pos=-23.000000,98.000000
-rot=0.000000
-hFlip=0
-color=1.000000,1.000000,1.000000
-ageRange=-1.000000,-1.000000
-parent=-1
-invisHolding=0,invisWorn=0,behindSlots=0
-invisCont=0
-spriteID=291
-pos=-20.000000,80.000000
-rot=0.000000
+spriteID=477
+pos=-11.000000,21.000000
+rot=-0.125000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
@@ -76,7 +67,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=268
-pos=-21.000000,40.000000
+pos=-4.000000,8.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -85,7 +76,7 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=269
-pos=-22.000000,41.000002
+pos=-5.000000,7.000002
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
