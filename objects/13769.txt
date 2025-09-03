@@ -1,5 +1,5 @@
 id=13769
-Tundra Mine with Native Copper #2 #exploratory
+Tundra Mine with Native Copper #3 #exploratory
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
