@@ -1,5 +1,5 @@
 id=13813
-Random Mine Results# upgrade 3 - exploratory
+Random Mine Results# tier3 exploratory
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

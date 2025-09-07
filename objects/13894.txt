@@ -1,5 +1,5 @@
 id=13894
-Random Mine Results# #4 - mineralDeposit
+Random Mine Results# tier4 mineral
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
