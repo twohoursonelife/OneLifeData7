@@ -1,5 +1,5 @@
 id=10211
-Rocky Hill#explosive lit
+Rocky Hill#dynamite lit
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -39,9 +39,18 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=101765
-pos=-4.000000,35.000000
-rot=-0.240000
+spriteID=122446
+pos=2.000000,25.000000
+rot=0.000000
+hFlip=0
+color=1.000000,1.000000,1.000000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=268
+pos=46.000000,16.000001
+rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
@@ -49,17 +58,8 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=269
-pos=-35.000000,49.000001
+pos=45.000000,15.000001
 rot=0.000000
-hFlip=0
-color=1.000000,1.000000,1.000000
-ageRange=-1.000000,-1.000000
-parent=3
-invisHolding=0,invisWorn=0,behindSlots=0
-invisCont=0
-spriteID=268
-pos=-34.000000,49.000001
-rot=-0.050000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000

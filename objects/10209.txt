@@ -1,5 +1,5 @@
 id=10209
-Rocky Hill#explosive
+Rocky Hill#dynamite
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -39,9 +39,9 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=101765
-pos=-3.999999,35.000000
-rot=-0.240000
+spriteID=122446
+pos=2.000001,25.000000
+rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
