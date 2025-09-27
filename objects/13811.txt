@@ -1,5 +1,5 @@
 id=13811
-Mine with Iron #2 #exploratory
+Mine with Iron #3 #exploratory
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

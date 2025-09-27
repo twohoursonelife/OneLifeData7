@@ -1,5 +1,5 @@
 id=12415
-Indigo Button-down Shirt #justremoved
+(outdated) Indigo Button-down Shirt #justremoved
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

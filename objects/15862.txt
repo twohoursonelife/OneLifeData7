@@ -1,5 +1,5 @@
 id=15862
-Lab Table with Crystallizing Naphthalene
+(outdated) Lab Table with Crystallizing Naphthalene
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

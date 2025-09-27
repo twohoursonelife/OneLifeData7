@@ -1,5 +1,5 @@
 id=15849
-Lab Table with Slaked Lime
+Lab Table with Calcium Hydroxide
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -30,7 +30,7 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=27
+numSprites=29
 spriteID=3053
 pos=-7.000000,-5.000000
 rot=0.000000
@@ -166,8 +166,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=115534
-pos=12.000000,61.000000
+spriteID=115518
+pos=12.000000,65.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -175,8 +175,17 @@ ageRange=-1.000000,-1.000000
 parent=14
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=115527
-pos=12.000000,55.000000
+spriteID=115516
+pos=17.000000,65.000000
+rot=0.000000
+hFlip=0
+color=1.000000,1.000000,1.000000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=122436
+pos=11.000000,56.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -184,8 +193,8 @@ ageRange=-1.000000,-1.000000
 parent=14
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=115524
-pos=15.000000,55.000000
+spriteID=115530
+pos=14.000000,57.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -193,8 +202,8 @@ ageRange=-1.000000,-1.000000
 parent=14
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=115528
-pos=19.000000,55.000000
+spriteID=115523
+pos=19.000000,57.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -202,13 +211,22 @@ ageRange=-1.000000,-1.000000
 parent=14
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=115520
+spriteID=122438
+pos=22.000000,56.000000
+rot=0.000000
+hFlip=0
+color=1.000000,1.000000,1.000000
+ageRange=-1.000000,-1.000000
+parent=14
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=115557
 pos=24.000000,55.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=14
+parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=3032
@@ -217,7 +235,7 @@ rot=0.875000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=22
+parent=24
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=115433
@@ -226,7 +244,7 @@ rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=22
+parent=24
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=115430
@@ -244,7 +262,7 @@ rot=0.000000
 hFlip=0
 color=0.915493,0.915493,0.915493
 ageRange=-1.000000,-1.000000
-parent=25
+parent=27
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=115429
@@ -253,7 +271,7 @@ rot=0.000000
 hFlip=0
 color=0.915493,0.915493,0.915493
 ageRange=-1.000000,-1.000000
-parent=25
+parent=27
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=115482
@@ -274,7 +292,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spritesAdditiveBlend=5,7,9,12,14,20,22
+spritesAdditiveBlend=5,7,9,12,14,22,24
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1

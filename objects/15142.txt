@@ -1,5 +1,5 @@
 id=15142
-Black Powder Bottle with Funnel# inserted
+Gunpowder Bottle with Funnel# inserted
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

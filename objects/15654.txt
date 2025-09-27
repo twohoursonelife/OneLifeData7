@@ -2,7 +2,7 @@ id=15654
 Stator Core
 containable=1
 containSize=3.000000,vertSlotRot=0.000000
-permanent=0,minPickupAge=3
+permanent=0,minPickupAge=15
 noFlip=0
 sideAccess=0
 heldInHand=0

@@ -2,7 +2,7 @@ id=12265
 Yellow Ballgown on Hanger
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
-permanent=0,minPickupAge=3
+permanent=1,minPickupAge=3
 noFlip=0
 sideAccess=0
 heldInHand=0
@@ -18,6 +18,7 @@ floor=0
 floorHugging=0
 foodValue=0
 speedMult=1.000000
+containOffset=-7,12
 heldOffset=17.000000,18.000000
 clothing=n
 clothingOffset=-1.000000,44.000000
@@ -29,10 +30,9 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=6
 spriteID=111083
-pos=1.000001,18.999999
+pos=-1.999999,31.000001
 rot=1.000000
 hFlip=1
 color=1.000000,1.000000,1.000000
@@ -40,9 +40,8 @@ ageRange=-1.000000,-1.000000
 parent=5
 invisHolding=0,invisWorn=2,behindSlots=0
 invisCont=0
-ignoredCont=0
 spriteID=111122
-pos=-3.999998,-46.000000
+pos=-6.999998,-32.999998
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -50,9 +49,8 @@ ageRange=-1.000000,-1.000000
 parent=2
 invisHolding=0,invisWorn=2,behindSlots=0
 invisCont=0
-ignoredCont=0
 spriteID=111115
-pos=-1.000000,2.999998
+pos=-4.000000,15.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -60,7 +58,6 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=2,behindSlots=0
 invisCont=0
-ignoredCont=0
 spriteID=111080
 pos=12.000000,-24.000000
 rot=0.000000
@@ -73,16 +70,15 @@ invisCont=1
 ignoredCont=1
 spriteID=2689
 pos=3.000000,-31.000000
-rot=0.005000
+rot=0.000000
 hFlip=0
 color=1.000000,0.944455,0.211268
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=1,behindSlots=0
 invisCont=1
-ignoredCont=0
 spriteID=111082
-pos=-1.000000,25.000000
+pos=-4.000000,37.000002
 rot=0.000000
 hFlip=1
 color=1.000000,1.000000,1.000000
@@ -90,7 +86,6 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=2,behindSlots=0
 invisCont=0
-ignoredCont=0
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
@@ -98,4 +93,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=34
+pixHeight=46

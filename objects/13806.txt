@@ -1,5 +1,5 @@
 id=13806
-Mine with Stanchion Kit #2 #exhausted
+Mine with Stanchion Kit #2
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -39,7 +39,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=100186
+spriteID=122448
 pos=4.000000,75.999994
 rot=0.000000
 hFlip=0
