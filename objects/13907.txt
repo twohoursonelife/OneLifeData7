@@ -30,7 +30,7 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=6
-spriteID=122446
+spriteID=116353
 pos=-1.000000,-33.000000
 rot=0.000000
 hFlip=0
@@ -39,7 +39,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=122446
+spriteID=116353
 pos=-25.000000,-35.000000
 rot=0.000000
 hFlip=0
@@ -48,7 +48,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=122446
+spriteID=116353
 pos=10.000000,-35.000000
 rot=0.000000
 hFlip=0
@@ -57,7 +57,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=122446
+spriteID=116353
 pos=-16.000000,-26.000004
 rot=0.000000
 hFlip=0
@@ -66,7 +66,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=122446
+spriteID=116353
 pos=5.000000,-25.000000
 rot=0.000000
 hFlip=0
@@ -75,7 +75,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=122446
+spriteID=116353
 pos=-7.000000,-15.999996
 rot=0.000000
 hFlip=0
