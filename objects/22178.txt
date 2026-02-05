@@ -3,7 +3,7 @@ Bed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
-noFlip=0
+noFlip=1
 sideAccess=0
 heldInHand=0
 blocksWalking=0,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=0
@@ -23,8 +23,8 @@ clothing=n
 clothingOffset=0.000000,0.000000
 deadlyDistance=0
 useDistance=0
-sounds=-1:0.0,-1:0.0,-1:0.0,-1:0.0
-creationSoundInitialOnly=0
+sounds=286:0.101010,-1:0.0,-1:0.0,-1:0.0
+creationSoundInitialOnly=1
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
@@ -37,7 +37,7 @@ hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
-invisHolding=0,invisWorn=0,behindSlots=0
+invisHolding=0,invisWorn=0,behindSlots=1
 invisCont=0
 spriteID=122678
 pos=1.000000,45.000000
@@ -46,7 +46,7 @@ hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
-invisHolding=0,invisWorn=0,behindSlots=0
+invisHolding=0,invisWorn=0,behindSlots=1
 invisCont=0
 spriteID=122677
 pos=0.000000,101.000000
@@ -55,7 +55,7 @@ hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
-invisHolding=0,invisWorn=0,behindSlots=0
+invisHolding=0,invisWorn=0,behindSlots=1
 invisCont=0
 spriteID=122670
 pos=0.000000,41.000000
