@@ -39,8 +39,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=122669
-pos=0.000000,45.000000
+spriteID=122678
+pos=1.000000,45.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -48,8 +48,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spriteID=122668
-pos=0.000000,102.000000
+spriteID=122677
+pos=0.000000,101.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
