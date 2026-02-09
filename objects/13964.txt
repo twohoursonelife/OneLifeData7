@@ -1,5 +1,5 @@
 id=13964
-Bowl of Broken Egg
+Bowl of Raw Egg
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -29,14 +29,23 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=3
+numSprites=4
 spriteID=525
 pos=0.000000,-25.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=2
+parent=3
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=122706
+pos=-7.000000,-30.000000
+rot=0.000000
+hFlip=0
+color=1.000000,1.000000,1.000000
+ageRange=-1.000000,-1.000000
+parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=100092
