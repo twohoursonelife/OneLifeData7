@@ -1,12 +1,12 @@
-id=14608
-Cast Iron Fence#half
+id=22199
+Cast Iron Fence Gate#half +blocksMoving +autoDefaultTrans
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
 noFlip=0
 sideAccess=0
 heldInHand=0
-blocksWalking=1,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=0
+blocksWalking=0,leftBlockingRadius=0,rightBlockingRadius=0,drawBehindPlayer=0
 mapChance=0.000000#biomes_0
 heatValue=0
 rValue=0.900000
@@ -40,8 +40,8 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=1
 invisCont=0
-spriteID=112201
-pos=0.000000,-16.000000
+spriteID=122704
+pos=0.000000,1.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
