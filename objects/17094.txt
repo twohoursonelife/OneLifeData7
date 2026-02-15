@@ -1,7 +1,7 @@
 id=17094
 Medium Painting#3 &written
-containable=0
-containSize=1.000000,vertSlotRot=0.000000
+containable=1
+containSize=3.000000,vertSlotRot=-0.250000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
 noFlip=1
 sideAccess=0

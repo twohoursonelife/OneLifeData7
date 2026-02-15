@@ -1,5 +1,5 @@
 id=14840
-Primitive Fishing Pole#justRemoved
+(outdated) Primitive Fishing Pole#justRemoved
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

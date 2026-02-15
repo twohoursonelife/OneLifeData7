@@ -1,5 +1,5 @@
 id=16133
-Cast Iron Beam#justCasted
+(outdated) Cast Iron Beam#justCasted
 containable=1
 containSize=2.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3
