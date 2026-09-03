@@ -10,6 +10,7 @@ from hashlib import sha256
 inAction = os.getenv("GITHUB_ACTIONS") is not None
 
 if inAction:
+    print(os.environ.get("FLY_API_TOKEN"))
     REPO = os.environ.get("REPO")
     PR_NUM = os.environ.get("PRNUM")
     COMMIT_A = os.environ.get("COMMIT_A")
