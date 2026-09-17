@@ -20,7 +20,7 @@ jobs:
 
       - name: Parse asset changes to be more readable
         id: readable-assets
-        run: python readableAssets.py
+        run: python scripts/readableAssets.py
         env:
           REPO: ${{ github.repository }}
           REPO_PATH: ${{ github.workspace }}
