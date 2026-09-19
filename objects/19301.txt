@@ -1,4 +1,4 @@
-id=30000
+id=19301
 Pile of Dirty Paper
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
