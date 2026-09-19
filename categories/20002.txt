@@ -1,10 +1,8 @@
 parentID=20002
 pattern
-numObjects=7
+numObjects=5
 2543
 4801
 2564
 16815
 16711
-2533
-7630
