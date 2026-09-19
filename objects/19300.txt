@@ -1,4 +1,4 @@
-id=30001
+id=19300
 Stack of Mason Jars
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
