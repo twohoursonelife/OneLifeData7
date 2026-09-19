@@ -1,5 +1,5 @@
 id=17565
-Tundra Copper Mine #4 #explosion
+(outdated) Tundra Copper Mine #4 #explosion
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -64,4 +64,4 @@ frontFootIndex=-1
 numUses=0,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=152
+pixHeight=153

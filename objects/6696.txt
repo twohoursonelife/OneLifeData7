@@ -1,5 +1,5 @@
 id=6696
-Bear Town Bottom#green
+(outdated) Bear Town Bottom#green
 containable=1
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -29,7 +29,6 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=2
 spriteID=100344
 pos=-1.000000,-5.000000

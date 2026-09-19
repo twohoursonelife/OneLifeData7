@@ -1,3 +1,5 @@
 parentID=15066
-numObjects=1
-15054
+contSet
+numObjects=2
+15054 1.000000
+15055 1.000000

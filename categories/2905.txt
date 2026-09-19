@@ -1,6 +1,6 @@
 parentID=2905
 pattern
-numObjects=17
+numObjects=13
 2949
 2950
 2951
@@ -14,7 +14,3 @@ numObjects=17
 12242
 12221
 12259
-12309
-12329
-12339
-12350

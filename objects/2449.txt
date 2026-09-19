@@ -18,6 +18,7 @@ floor=0
 floorHugging=0
 foodValue=0
 speedMult=1.000000
+containOffset=-2.000000,2.000000
 heldOffset=12.000000,11.000000
 clothing=n
 clothingOffset=0.000000,0.000000
@@ -38,6 +39,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=2352
 pos=-6.000000,-26.000000
 rot=0.000000
@@ -46,6 +48,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=2352
 pos=5.000000,-28.000000
 rot=0.000000
@@ -54,6 +57,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=2352
 pos=-12.000000,-28.000000
 rot=0.000000
@@ -62,6 +66,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=2352
 pos=10.000000,-27.000000
 rot=0.000000
@@ -70,6 +75,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=2352
 pos=-5.000000,-33.000000
 rot=0.000000
@@ -78,6 +84,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=2352
 pos=2.000000,-30.000000
 rot=0.000000
@@ -86,6 +93,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=2352
 pos=-10.000000,-33.000000
 rot=0.000000
@@ -94,6 +102,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=2352
 pos=6.000000,-33.000000
 rot=0.000000
@@ -102,6 +111,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=2352
 pos=1.000000,-36.000000
 rot=0.000000
@@ -110,6 +120,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=2352
 pos=-5.000000,-35.000000
 rot=0.000000
@@ -118,6 +129,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 spriteID=2352
 pos=12.000000,-35.000000
 rot=0.000000
@@ -126,6 +138,7 @@ color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1

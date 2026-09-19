@@ -1,5 +1,5 @@
 id=12183
-Yellow Silk Shirt on Hanger
+Yellow Shirt With Straps on Hanger
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -18,7 +18,7 @@ floor=0
 floorHugging=0
 foodValue=0
 speedMult=1.000000
-containOffset=-1,-5
+containOffset=-1.000000,-5.000000
 heldOffset=17.000000,18.000000
 clothing=n
 clothingOffset=-0.999999,47.000000
@@ -30,7 +30,6 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=5
 spriteID=111083
 pos=4.000001,13.999999
@@ -41,7 +40,6 @@ ageRange=-1.000000,-1.000000
 parent=4
 invisHolding=0,invisWorn=2,behindSlots=0
 invisCont=0
-ignoredCont=0
 spriteID=111057
 pos=3.000000,-6.000000
 rot=0.000000
@@ -51,7 +49,6 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=2,behindSlots=0
 invisCont=0
-ignoredCont=0
 spriteID=111080
 pos=12.000000,-24.000000
 rot=0.000000
@@ -71,7 +68,6 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=1,behindSlots=0
 invisCont=1
-ignoredCont=0
 spriteID=111082
 pos=2.000000,20.000000
 rot=0.000000
@@ -81,7 +77,6 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=2,behindSlots=0
 invisCont=0
-ignoredCont=0
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
@@ -89,4 +84,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=34
+pixHeight=29
