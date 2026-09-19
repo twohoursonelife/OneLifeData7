@@ -1,5 +1,5 @@
 id=13891
-Running Copper Mine #4
+Running Niter Mine #4
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

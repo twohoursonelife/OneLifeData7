@@ -1,5 +1,5 @@
 id=13915
-Running Tundra Copper Mine #4
+(outdated) Running Tundra Copper Mine #4
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=17087
-Sticky Notice Board# +useOnContained +clickToRead
+Sticky Notice Board# +useOnContained +clickToRead +noClickThrough
 containable=0
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=1,minPickupAge=3

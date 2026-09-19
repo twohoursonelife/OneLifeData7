@@ -1,5 +1,5 @@
 id=4199
-Box of Scrap Steel with Belt and Iron# just smashed
+(outdated) Box of Scrap Steel with Belt and Iron# just smashed
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3

@@ -1,5 +1,5 @@
 id=14121
-@ Pots that go on Table +contTable +contWallShelf +contHalfWallShelf +contTray +contEmptyTray
+@ Pots that go on Table +contTable +contWallShelf +contHalfWallShelf +contTray
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3

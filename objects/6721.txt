@@ -1,5 +1,5 @@
 id=6721
-Head Wrap
+Head-Carrying Ring
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -18,23 +18,32 @@ floor=0
 floorHugging=0
 foodValue=0
 speedMult=1.000000
-heldOffset=9.000000,18.000000
+heldOffset=14.000000,18.000000
 clothing=h
-clothingOffset=-13.000000,65.000000
+clothingOffset=-10.000000,65.000000
 deadlyDistance=0
 useDistance=1
 sounds=286:0.101010,286:0.101010,-1:0.0,-1:0.0
-creationSoundInitialOnly=0
+creationSoundInitialOnly=1
 creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=1
-spriteID=100359
-pos=8.000000,-31.000000
+numSprites=2
+spriteID=116625
+pos=6.000000,-27.000000
 rot=0.000000
 hFlip=0
-color=1.000000,0.820660,0.634000
+color=1.000000,0.900180,0.690000
+ageRange=-1.000000,-1.000000
+parent=1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=116624
+pos=9.000000,-32.999996
+rot=0.000000
+hFlip=0
+color=1.000000,0.900180,0.690000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0

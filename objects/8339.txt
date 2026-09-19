@@ -1,7 +1,7 @@
 id=8339
 Black Blacksmith Apron#with hammer
-containable=1
-containSize=2.000000,vertSlotRot=-0.500000
+containable=0
+containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
 noFlip=0
 sideAccess=0
@@ -29,7 +29,6 @@ creationSoundForce=0
 numSlots=1#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 slotPos=5.000000,-11.000000,vert=1,parent=0
 numSprites=4
 spriteID=101016

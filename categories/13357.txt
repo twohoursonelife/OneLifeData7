@@ -1,4 +1,5 @@
 parentID=13357
+contSet
 numObjects=2
-8259
-8125
+8259 1.000000
+8125 0.000000

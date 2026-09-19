@@ -1,5 +1,5 @@
 id=12208
-Pile of Thin Iron Rods
+(outdated) Pile of Thin Iron Rods
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -29,7 +29,6 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-slotsNoSwap=0
 numSprites=6
 spriteID=111095
 pos=0.000000,-35.000000
