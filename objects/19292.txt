@@ -1,5 +1,5 @@
-id=37673
-North-South Blueprint with Cast Iron Panel
+id=19292
+East-West Blueprint with Cast Iron Panel
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -30,7 +30,7 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=2
-spriteID=435
+spriteID=444
 pos=0.000000,-50.000000
 rot=0.000000
 hFlip=0
@@ -56,4 +56,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=146
+pixHeight=80

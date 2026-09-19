@@ -1,4 +1,4 @@
-id=37671
+id=19294
 East-West Blueprint with Two Cast Iron Panels
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
