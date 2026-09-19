@@ -1,4 +1,4 @@
-id=23047
+id=19291
 @ Ridable Not Cage Immune
 containable=1
 containSize=2.000000,vertSlotRot=0.000000
