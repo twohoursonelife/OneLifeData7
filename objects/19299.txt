@@ -1,4 +1,4 @@
-id=20002
+id=19299
 @ Items With Paper Added
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
