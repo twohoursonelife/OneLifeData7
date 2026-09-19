@@ -1,5 +1,5 @@
 id=6759
-Steel Material on Work Bench
+(outdated) Steel Material on Work Bench
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -82,4 +82,4 @@ frontFootIndex=-1
 numUses=0,0.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=58
+pixHeight=67

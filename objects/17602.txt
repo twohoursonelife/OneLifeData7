@@ -1,5 +1,5 @@
 id=17602
-Desert Copper Mine #4 #noEngine
+(outdated) Desert Copper Mine #4 #noEngine
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
