@@ -1,9 +1,8 @@
 parentID=10254
 pattern
-numObjects=6
+numObjects=5
 10251
 10249
 10247
 10245
 10240
-10237

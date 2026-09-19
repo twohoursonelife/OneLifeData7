@@ -1,5 +1,5 @@
 id=16736
-Pair of Purple Slippers
+(outdated) Pair of Purple Slippers
 containable=1
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=0,minPickupAge=3

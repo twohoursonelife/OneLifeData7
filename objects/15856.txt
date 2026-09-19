@@ -1,5 +1,5 @@
 id=15856
-(outdated) Lab Table with Middle Oil
+Lab Table with Coal Tar Pitch
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -18,7 +18,7 @@ floor=0
 floorHugging=0
 foodValue=0
 speedMult=1.000000
-containOffset=1,1
+containOffset=1.000000,1.000000
 heldOffset=0.000000,0.000000
 clothing=n
 clothingOffset=0.000000,0.000000

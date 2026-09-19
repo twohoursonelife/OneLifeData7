@@ -8,19 +8,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: ${{ github.event.pull_request.head.ref }}
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           fetch-depth: '0'
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
-          python-version: '3.10'
+          python-version: '3.14'
 
       - name: Parse asset changes to be more readable
         id: readable-assets
-        run: python readableAssets.py
+        run: python scripts/readableAssets.py
         env:
           REPO: ${{ github.repository }}
           REPO_PATH: ${{ github.workspace }}
@@ -29,14 +29,14 @@ jobs:
           COMMIT_B: HEAD
 
       - name: Find comment
-        uses: peter-evans/find-comment@v3
+        uses: peter-evans/find-comment@v4
         id: fc
         with:
           issue-number: ${{ github.event.pull_request.number }}
           comment-author: 'github-actions[bot]'
 
       - name: Create or update comment
-        uses: peter-evans/create-or-update-comment@v4
+        uses: peter-evans/create-or-update-comment@v5
         with:
           comment-id: ${{ steps.fc.outputs.comment-id }}
           issue-number: ${{ github.event.pull_request.number }}

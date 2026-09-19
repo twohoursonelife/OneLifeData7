@@ -1,5 +1,5 @@
 id=7505
-Small Arrow E Sign with Chisel
+(outdated) Small Arrow E Sign with Chisel
 containable=0
 containSize=1.000000,vertSlotRot=-0.250000
 permanent=1,minPickupAge=3

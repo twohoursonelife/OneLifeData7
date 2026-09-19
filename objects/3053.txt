@@ -1,5 +1,5 @@
 id=3053
-Baby Bone Pile# origGrave justDied
+Baby Bone Pile# origGrave justDied fromDeath
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -26,7 +26,7 @@ useDistance=1
 sounds=1381:0.250000,-1:0.0,-1:0.0,-1:0.0
 creationSoundInitialOnly=0
 creationSoundForce=0
-numSlots=15#timeStretch=1.000000
+numSlots=16#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 slotPos=-30.000000,-30.999996,vert=0,parent=-1
@@ -44,6 +44,7 @@ slotPos=37.000000,-22.999996,vert=0,parent=-1
 slotPos=41.000000,-26.999996,vert=0,parent=-1
 slotPos=43.000000,-31.999996,vert=0,parent=-1
 slotPos=43.000000,-34.999996,vert=0,parent=-1
+slotPos=45.000000,-39.999996,vert=0,parent=-1
 numSprites=7
 spriteID=71
 pos=-18.000000,-45.000000
