@@ -1,5 +1,5 @@
 id=14051
-Corner Brick Half Wall Blueprint
+Corner Marking with Bricks#half #blue
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=1,minPickupAge=3
@@ -30,17 +30,17 @@ numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
 numSprites=4
-spriteID=434
-pos=0.000000,-50.000000
+spriteID=200002
+pos=0.000000,0.000000
 rot=0.000000
 hFlip=0
-color=0.000000,0.280000,1.000000
+color=0.600000,0.740000,1.00000
 ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=101024
-pos=-25.000000,-50.000000
+pos=0.000000,-32.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -49,24 +49,24 @@ parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=101024
-pos=0.000000,-50.000000
+pos=27.000000,-32.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=-1
+parent=1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=101024
-pos=25.000000,-50.000000
+pos=-25.000000,-32.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=-1
+parent=1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
-spritesAdditiveBlend=0
+spritesDrawnBehind=0
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1
@@ -74,4 +74,4 @@ frontFootIndex=-1
 numUses=1,1.000000
 useVanishIndex=-1
 useAppearIndex=-1
-pixHeight=146
+pixHeight=58
