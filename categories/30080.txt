@@ -1,0 +1,5 @@
+parentID=30080
+pattern
+numObjects=2
+30082
+30081
