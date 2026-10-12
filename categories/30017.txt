@@ -1,0 +1,11 @@
+parentID=30017
+pattern
+numObjects=8
+292
+292
+292
+292
+292
+292
+235
+659
