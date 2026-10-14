@@ -1,5 +1,5 @@
 id=30063
-Mortar and Pestle with wet Lime Sand
+Mortar and Pestle with Lime Sand in Water
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
@@ -30,18 +30,27 @@ creationSoundForce=0
 numSlots=0#timeStretch=1.000000
 slotSize=1.000000
 slotsLocked=0
-numSprites=4
+numSprites=5
 spriteID=115480
 pos=0.000000,-23.000000
 rot=0.000000
 hFlip=0
 color=0.915493,0.915493,0.915493
 ageRange=-1.000000,-1.000000
-parent=3
+parent=4
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=111905
-pos=0.000000,-28.000000
+pos=0.000000,-27.000000
+rot=0.000000
+hFlip=0
+color=0.500000,0.640845,1.000000
+ageRange=-1.000000,-1.000000
+parent=-1
+invisHolding=0,invisWorn=0,behindSlots=0
+invisCont=0
+spriteID=111899
+pos=-1.000000,-28.000000
 rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
@@ -55,7 +64,7 @@ rot=0.000000
 hFlip=0
 color=1.000000,1.000000,1.000000
 ageRange=-1.000000,-1.000000
-parent=3
+parent=4
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
 spriteID=115482
@@ -67,6 +76,7 @@ ageRange=-1.000000,-1.000000
 parent=-1
 invisHolding=0,invisWorn=0,behindSlots=0
 invisCont=0
+spritesAdditiveBlend=2
 headIndex=-1
 bodyIndex=-1
 backFootIndex=-1

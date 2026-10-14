@@ -1,5 +1,5 @@
 id=30064
-Mortar and Pestle with wet Chalk Powder
+Mortar and Pestle with Chalk Slurry
 containable=0
 containSize=1.000000,vertSlotRot=0.000000
 permanent=0,minPickupAge=3
